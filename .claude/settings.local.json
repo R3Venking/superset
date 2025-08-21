@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash",
+      "Bash(grep -B1 'msgstr \"\"\"\"\"\"\"\"$' messages.po)"
+    ],
+    "deny": []
+  }
+}

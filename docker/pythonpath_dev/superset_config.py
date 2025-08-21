@@ -120,6 +120,10 @@ if os.getenv("CYPRESS_CONFIG") == "true":
 
     sys.path.pop(0)
 
+LANGUAGES = {
+    'en': {'flag': 'us', 'name': 'English'},
+    'zh': {'flag': 'cn', 'name': 'Chinese'},
+}
 #
 # Optionally import superset_config_docker.py (which will have been included on
 # the PYTHONPATH) in order to allow for local settings to be overridden

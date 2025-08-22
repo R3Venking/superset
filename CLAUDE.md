@@ -172,7 +172,47 @@ docker-compose up
 
 ## 配置文件
 
-- `superset/config.py` - 主应用程序配置
+### 配置文件层级关系
+Superset 使用多层配置文件系统，后加载的配置会覆盖前面的：
+
+1. **superset/config.py** - 默认配置
+   - Superset 自带的默认配置文件
+   - 包含所有默认设置，不建议直接修改
+   - 设置示例：`BABEL_DEFAULT_LOCALE = "en"`
+
+2. **docker/pythonpath_dev/superset_config.py** - Docker 开发环境配置
+   - Docker Compose 环境专用配置
+   - 通过 `PYTHONPATH` 环境变量加载
+   - **会覆盖默认配置**
+   - 修改此文件来自定义 Docker 环境设置
+
+3. **superset_config.py** - 自定义配置（可选）
+   - 可放在 PYTHONPATH 任意位置
+   - 生产环境常用
+   - 通过 `SUPERSET_CONFIG_PATH` 环境变量指定
+
+### Docker 环境配置加载顺序
+```bash
+# docker/.env 中设置
+PYTHONPATH=/app/pythonpath:/app/docker/pythonpath_dev
+
+# 实际加载顺序
+1. superset/config.py (基础)
+2. docker/pythonpath_dev/superset_config.py (覆盖)
+3. superset_config_docker.py (如果存在，最高优先级)
+```
+
+### 常用配置示例
+```python
+# 语言设置（在 docker/pythonpath_dev/superset_config.py 中）
+BABEL_DEFAULT_LOCALE = 'zh'  # 默认中文
+LANGUAGES = {
+    'en': {'flag': 'us', 'name': 'English'},
+    'zh': {'flag': 'cn', 'name': 'Chinese'},
+}
+```
+
+### 其他配置文件
 - `superset-frontend/webpack.config.js` - 前端构建配置
 - `pyproject.toml` - Python 包配置、代码检查规则（支持 ruff）
 - `superset-frontend/package.json` - JavaScript 依赖和脚本
@@ -219,6 +259,147 @@ Superset 使用 gettext/po 文件进行国际化：
    - 在容器中验证文件是否正确部署
 
 ### 开发建议
-2. **分批处理**：将翻译工作分成多个批次，便于管理和验证
-3. **自动化脚本**：创建可重用的 Python 脚本处理重复性工作
-4. **版本控制**：提交翻译更改到 Git，便于追踪和回滚
+1. **分批处理**：将翻译工作分成多个批次，便于管理和验证
+2. **自动化脚本**：创建可重用的 Python 脚本处理重复性工作
+3. **版本控制**：提交翻译更改到 Git，便于追踪和回滚
+
+## Docker Compose 文件对比
+
+Superset 提供了三个不同的 Docker Compose 配置文件，适用于不同场景：
+
+### 1. docker-compose.yml（开发环境）
+**特点**：
+- 挂载源代码目录：`./superset:/app/superset` 和 `./superset-frontend:/app/superset-frontend`
+- 支持热重载，代码改动立即生效
+- 构建目标：`target: dev`（包含开发工具）
+- 启用开发模式：`DEV_MODE: "true"`
+
+**使用场景**：
+- 日常开发新功能
+- 调试和测试
+- 前后端同时开发
+
+**启动命令**：
+```bash
+docker-compose up
+```
+
+### 2. docker-compose-non-dev.yml（准生产环境）
+**特点**：
+- 不挂载源代码（代码打包在镜像中）
+- 仅挂载配置文件：`./docker:/app/docker`
+- 构建目标：`target: dev`（但不启用开发模式）
+- 无热重载功能
+
+**使用场景**：
+- 测试生产配置
+- CI/CD 环境
+- 演示环境
+- 验证部署流程
+
+**启动命令**：
+```bash
+docker-compose -f docker-compose-non-dev.yml up
+```
+
+### 3. docker-compose-image-tag.yml（生产部署）
+**特点**：
+- 使用预构建的官方镜像：`apachesuperset.docker.scarf.sh/apache/superset:${TAG}`
+- 不需要本地构建
+- 仅挂载配置和数据持久化目录
+- 启动速度快
+
+**使用场景**：
+- 生产环境部署
+- 快速搭建演示环境
+- 使用官方发布版本
+
+**启动命令**：
+```bash
+TAG=3.0.0 docker-compose -f docker-compose-image-tag.yml up
+```
+
+### 文件对比表
+
+| 特性 | docker-compose.yml | docker-compose-non-dev.yml | docker-compose-image-tag.yml |
+|-----|-------------------|------------------------|---------------------------|
+| **源码挂载** | ✅ 支持 | ❌ 不支持 | ❌ 不支持 |
+| **热重载** | ✅ 支持 | ❌ 不支持 | ❌ 不支持 |
+| **镜像来源** | 本地构建 | 本地构建 | 官方镜像 |
+| **构建目标** | dev | dev | N/A |
+| **启动速度** | 慢 | 慢 | 快 |
+| **适用场景** | 开发调试 | 测试演示 | 生产部署 |
+
+## 部署流程和关键命令
+
+### 开发到生产的部署流程
+
+1. **本地开发**：使用 `docker-compose.yml` 进行开发
+2. **构建镜像**：
+   ```bash
+   # 生产环境使用 lean target（体积更小）
+   docker build -t mycompany/superset:v1.0 --target lean .
+   
+   # 测试环境可以使用 dev target
+   docker build -t mycompany/superset:v1.0 --target dev .
+   ```
+3. **推送镜像**：
+   ```bash
+   docker push mycompany/superset:v1.0
+   ```
+4. **服务器部署**：使用 `docker-compose-image-tag.yml` 或自定义配置
+
+### 数据库初始化命令
+
+部署 Superset 时必须执行的两个关键命令：
+
+#### 1. superset db upgrade
+**作用**：
+- 执行数据库迁移，创建/更新表结构
+- 基于 Flask-Migrate（Alembic）管理迁移
+- 从 `superset/migrations/versions/` 按顺序执行迁移脚本
+
+**执行内容**：
+- 创建核心表：dashboards, slices, datasources, users 等
+- 添加字段、索引、约束
+- 数据转换和版本升级
+
+#### 2. superset init
+**作用**：
+- 初始化权限系统和安全配置
+- 位于 `superset/cli/main.py:65-68`
+
+### Docker 中的执行流程
+
+在 `docker/docker-init.sh` 中自动执行：
+
+```bash
+# 1. 数据库迁移
+superset db upgrade
+
+# 2. 创建管理员用户
+superset fab create-admin \
+    --username admin \
+    --password admin \
+    --email admin@superset.com
+
+# 3. 初始化权限
+superset init
+
+# 4. 加载示例数据（可选）
+superset load_examples
+```
+
+### 手动执行方式
+
+```bash
+# 使用 docker-compose 执行
+docker-compose run --rm superset superset db upgrade
+docker-compose run --rm superset superset init
+docker-compose run --rm superset superset fab create-admin
+
+# 或使用 superset-init 服务一次性完成
+docker-compose up superset-init
+```
+
+**注意**：这些命令仅在首次部署或版本升级时需要执行。

@@ -120,6 +120,9 @@ if os.getenv("CYPRESS_CONFIG") == "true":
 
     sys.path.pop(0)
 
+# 设置默认语言为中文
+BABEL_DEFAULT_LOCALE = 'zh'
+
 LANGUAGES = {
     'en': {'flag': 'us', 'name': 'English'},
     'zh': {'flag': 'cn', 'name': 'Chinese'},

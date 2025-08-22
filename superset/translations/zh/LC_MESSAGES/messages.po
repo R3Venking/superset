@@ -96,11 +96,9 @@ msgid ""
 "in the GeoJSON"
 msgstr "如果您不想覆盖GeoJSON中指定的颜色，请将不透明度设置为0"
 
-#, fuzzy
 msgid " a dashboard OR "
 msgstr "一个已存在的看板或者"
 
-#, fuzzy
 msgid " a new one"
 msgstr "另存为新的"
 
@@ -130,15 +128,12 @@ msgstr ""
 "标准，则需要定义表达式和类型，以便将字符串转换为日期或时间戳。注意：当前不支持时区。如果时间以epoch格式存储，请输入 `epoch_s` or"
 " `epoch_ms` 。如果没有指定任何模式，我们可以通过额外的参数在每个数据库/列名级别上使用可选的默认值。"
 
-#, fuzzy
 msgid " to add calculated columns"
 msgstr "添加计算列"
 
-#, fuzzy
 msgid " to add metrics"
 msgstr "添加指标"
 
-#, fuzzy
 msgid " to edit or add columns and metrics."
 msgstr "编辑或增加列与指标"
 
@@ -154,17 +149,14 @@ msgstr " 来可视化您的数据。"
 msgid "!= (Is not equal)"
 msgstr "不等于（!=）"
 
-#, fuzzy, python-format
 msgid "% calculation"
 msgstr "% 计算"
 
-#, fuzzy, python-format
 msgid "% of parent"
-msgstr "父类"
+msgstr "% 父级占比"
 
-#, fuzzy, python-format
 msgid "% of total"
-msgstr "显示总计"
+msgstr "% 总计占比"
 
 #, python-format
 msgid "%(dialect)s cannot be used as a data source for security reasons."
@@ -191,19 +183,19 @@ msgstr "%(name)s.pdf"
 msgid "%(object)s does not exist in this database."
 msgstr "数据库中不存在 %(object)s 。"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%(other)s charts will appear here"
 msgstr " %(other)s 图表将出现在此处"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%(other)s dashboards will appear here"
 msgstr " %(other)s 看板将出现在此处"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%(other)s recents will appear here"
 msgstr " %(other)s 最近访问的将出现在此处"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%(other)s saved queries will appear here"
 msgstr "%(other)s 保存的请求将出现在此处"
 
@@ -233,7 +225,7 @@ msgstr ""
 "%(subtitle)s\n"
 "这可能由以下因素触发：%(issue)s"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%(suggestion)s instead of \"%(undefinedParameter)s?\""
 msgid_plural ""
 "%(firstSuggestions)s or %(lastSuggestion)s instead of "
@@ -258,7 +250,7 @@ msgstr ""
 msgid "%s Error"
 msgstr "%s 异常"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%s PASSWORD"
 msgstr "%s 密码"
 
@@ -313,7 +305,7 @@ msgstr ""
 msgid "%s operator(s)"
 msgstr "%s 运算符"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%s option"
 msgid_plural "%s options"
 msgstr[0] "%s 个选项"
@@ -322,11 +314,11 @@ msgstr[0] "%s 个选项"
 msgid "%s option(s)"
 msgstr "%s 个选项"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%s recipients"
-msgstr "最近"
+msgstr "%s 个收件人"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%s row"
 msgid_plural "%s rows"
 msgstr[0] "%s 行"
@@ -335,7 +327,7 @@ msgstr[0] "%s 行"
 msgid "%s saved metric(s)"
 msgstr "%s 保存的指标"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%s updated"
 msgstr "上次更新 %s"
 
@@ -409,7 +401,7 @@ msgstr "0个被选中"
 msgid "1 calendar day frequency"
 msgstr "1个日历日的频率"
 
-#, fuzzy
+
 msgid "1 day"
 msgstr "天"
 
@@ -419,7 +411,7 @@ msgstr "1天之前"
 msgid "1 hour"
 msgstr "1小时"
 
-#, fuzzy
+
 msgid "1 hourly frequency"
 msgstr "每小时一次的频率"
 
@@ -429,7 +421,7 @@ msgstr "1分钟"
 msgid "1 minutely frequency"
 msgstr "每分钟一次的频率"
 
-#, fuzzy
+
 msgid "1 month ago"
 msgstr "月"
 
@@ -439,40 +431,40 @@ msgstr "每月一次的频率"
 msgid "1 month start frequency"
 msgstr "每月月初的频率"
 
-#, fuzzy
+
 msgid "1 week"
 msgstr "1周"
 
 msgid "1 week ago"
 msgstr "1周之前"
 
-#, fuzzy
+
 msgid "1 week starting Monday (freq=W-MON)"
 msgstr "周一为一周开始"
 
-#, fuzzy
+
 msgid "1 week starting Sunday (freq=W-SUN)"
 msgstr "周日为一周开始"
 
-#, fuzzy
+
 msgid "1 year"
 msgstr "年"
 
 msgid "1 year ago"
 msgstr "1年之前"
 
-#, fuzzy
+
 msgid "1 year end frequency"
 msgstr "每年年末的频率"
 
-#, fuzzy
+
 msgid "1 year start frequency"
 msgstr "每年年初的频率"
 
 msgid "10 minute"
 msgstr "10分钟"
 
-#, fuzzy
+
 msgid "104 weeks"
 msgstr "周"
 
@@ -482,7 +474,7 @@ msgstr "104周之前"
 msgid "15 minute"
 msgstr "15分钟"
 
-#, fuzzy
+
 msgid "156 weeks"
 msgstr "156周"
 
@@ -504,7 +496,7 @@ msgstr "1分钟"
 msgid "1T"
 msgstr "1分钟"
 
-#, fuzzy
+
 msgid "2 years"
 msgstr "2年"
 
@@ -517,7 +509,7 @@ msgstr "2/98百分位"
 msgid "22"
 msgstr "22"
 
-#, fuzzy
+
 msgid "28 days"
 msgstr "28天"
 
@@ -530,7 +522,7 @@ msgstr "2D"
 msgid "3 letter code of the country"
 msgstr "国家3字码"
 
-#, fuzzy
+
 msgid "3 years"
 msgstr "3年"
 
@@ -540,7 +532,7 @@ msgstr "3年前"
 msgid "30 days"
 msgstr "30天"
 
-#, fuzzy
+
 msgid "30 days ago"
 msgstr "30天之前"
 
@@ -571,18 +563,18 @@ msgstr "5分钟"
 msgid "5 second"
 msgstr "5秒"
 
-#, fuzzy
+
 msgid "5 seconds"
 msgstr "5秒"
 
-#, fuzzy
+
 msgid "52 weeks"
 msgstr "52周"
 
 msgid "52 weeks ago"
 msgstr "52周之前"
 
-#, fuzzy
+
 msgid "52 weeks starting Monday (freq=52W-MON)"
 msgstr "以周一开始的52周"
 
@@ -595,7 +587,7 @@ msgstr "60天"
 msgid "7 calendar day frequency"
 msgstr "7个日历日的频率"
 
-#, fuzzy
+
 msgid "7 days"
 msgstr "7天"
 
@@ -620,19 +612,19 @@ msgstr "小于等于（<=）"
 msgid "<enter SQL expression here>"
 msgstr "输入SQL表达式"
 
-#, fuzzy
+
 msgid "<new column>"
 msgstr "新列"
 
-#, fuzzy
+
 msgid "<new metric>"
 msgstr "新指标"
 
-#, fuzzy
+
 msgid "<new spatial>"
 msgstr "新空间"
 
-#, fuzzy
+
 msgid "<no type>"
 msgstr "无类型"
 
@@ -648,11 +640,11 @@ msgstr "大于等于（>=）"
 msgid "A Big Number"
 msgstr "大数字"
 
-#, fuzzy
+
 msgid "Select column names from a dropdown list that should be parsed as dates."
 msgstr "从下拉列表中选择要作为日期处理的列名称。"
 
-#, fuzzy
+
 msgid "A comma-separated list of schemas that files are allowed to upload to."
 msgstr "允许以逗号分割的CSV文件上传"
 
@@ -687,7 +679,7 @@ msgid ""
 msgstr ""
 "可以嵌入此仪表板的域名列表。将此字段留空将允许从任何域嵌入。"
 
-#, fuzzy
+
 msgid "A list of tags that have been applied to this chart."
 msgstr "已应用于此图表的标签列表。"
 
@@ -706,15 +698,15 @@ msgstr ""
 msgid "A metric to use for color"
 msgstr "用于颜色的指标"
 
-#, fuzzy
+
 msgid "A new chart and dashboard will be created."
 msgstr "将会创建一个新图表和看板"
 
-#, fuzzy
+
 msgid "A new chart will be created."
 msgstr "将会创建一个新图表"
 
-#, fuzzy
+
 msgid "A new dashboard will be created."
 msgstr "将会创建一个新看板"
 
@@ -730,7 +722,7 @@ msgstr "为看板生成一个可读的 URL"
 msgid "A reference to the [Time] configuration, taking granularity into account"
 msgstr "对 [时间] 配置的引用，会将粒度考虑在内"
 
-#, fuzzy, python-format
+#, python-format
 msgid "A report named \"%(name)s\" already exists"
 msgstr "报告 %(name)s 已存在"
 
@@ -789,7 +781,7 @@ msgstr "八月"
 msgid "AXIS TITLE MARGIN"
 msgstr "轴标题边距"
 
-#, fuzzy
+
 msgid "AXIS TITLE POSITION"
 msgstr "轴标题的位置"
 
@@ -799,7 +791,7 @@ msgstr "关于"
 msgid "Access"
 msgstr "访问"
 
-#, fuzzy
+
 msgid "Access token"
 msgstr "上一个"
 
@@ -815,22 +807,22 @@ msgstr "操作"
 msgid "Active"
 msgstr "激活"
 
-#, fuzzy
+
 msgid "Actual Values"
 msgstr "空值"
 
-#, fuzzy
+
 msgid "Actual range for comparison"
 msgstr "比较范围"
 
 msgid "Actual time range"
 msgstr "实际时间范围"
 
-#, fuzzy
+
 msgid "Actual value"
 msgstr "空值"
 
-#, fuzzy
+
 msgid "Actual values"
 msgstr "空值"
 
@@ -843,11 +835,11 @@ msgstr "新增"
 msgid "Add Alert"
 msgstr "新增告警"
 
-#, fuzzy
+
 msgid "Add BCC Recipients"
 msgstr "最近"
 
-#, fuzzy
+
 msgid "Add CC Recipients"
 msgstr "最近"
 
@@ -875,7 +867,7 @@ msgstr "新增指标"
 msgid "Add Report"
 msgstr "新增报告"
 
-#, fuzzy
+
 msgid "Add Rule"
 msgstr "新增规则"
 
@@ -885,7 +877,7 @@ msgstr "新增标签"
 msgid "Add a Plugin"
 msgstr "新增插件"
 
-#, fuzzy
+
 msgid "Add a dataset"
 msgstr "新增数据集"
 
@@ -898,14 +890,14 @@ msgstr "添加一个选项卡以创建 SQL 查询"
 msgid "Add additional custom parameters"
 msgstr "新增其他自定义参数"
 
-#, fuzzy
+
 msgid "Add an annotation layer"
 msgstr "新增注释层"
 
 msgid "Add an item"
 msgstr "新增一行"
 
-#, fuzzy
+
 msgid "Add and edit filters"
 msgstr "范围过滤"
 
@@ -915,7 +907,7 @@ msgstr "新增注释"
 msgid "Add annotation layer"
 msgstr "新增注释层"
 
-#, fuzzy
+
 msgid "Add another notification method"
 msgstr "新增通知方法"
 
@@ -928,25 +920,25 @@ msgstr "在\"编辑数据源\"弹窗中为数据集添加计算的时间列"
 msgid "Add color for positive/negative change"
 msgstr "为正/负变化添加颜色"
 
-#, fuzzy
+
 msgid "Add cross-filter"
 msgstr "增加过滤条件"
 
 msgid "Add custom scoping"
 msgstr "添加自定义作用域"
 
-#, fuzzy
+
 msgid "Add dataset columns here to group the pivot table columns."
 msgstr "必须是分组列"
 
 msgid "Add delivery method"
 msgstr "新增通知方法"
 
-#, fuzzy
+
 msgid "Add description of your tag"
 msgstr "为您的查询写一段描述"
 
-#, fuzzy
+
 msgid "Add extra connection information."
 msgstr "增加额外的连接信息"
 
@@ -995,25 +987,25 @@ msgstr "添加sheet页"
 msgid "Add tag to entities"
 msgstr "给对象添加标签"
 
-#, fuzzy
+
 msgid "Add the name of the chart"
 msgstr "给图表添加名称"
 
-#, fuzzy
+
 msgid "Add the name of the dashboard"
 msgstr "给看板添加名称"
 
 msgid "Add to dashboard"
 msgstr "添加到看板"
 
-#, fuzzy
+
 msgid "Add/Edit Filters"
 msgstr "增加过滤条件"
 
 msgid "Added"
 msgstr "已添加"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Added to 1 dashboard"
 msgid_plural "Added to %s dashboards"
 msgstr[0] "添加到看板"
@@ -1036,7 +1028,7 @@ msgstr "图例额外的内边距。"
 msgid "Additional parameters"
 msgstr "额外参数"
 
-#, fuzzy
+
 msgid "Additional settings."
 msgstr "额外的设置"
 
@@ -1076,26 +1068,26 @@ msgstr "高级选项"
 msgid "Advanced Analytics"
 msgstr "高级分析"
 
-#, fuzzy
+
 msgid "Advanced Data type"
 msgstr "高级数据类型"
 
 msgid "Advanced analytics"
 msgstr "高级分析"
 
-#, fuzzy
+
 msgid "Advanced analytics Query A"
 msgstr "高级分析查询A"
 
-#, fuzzy
+
 msgid "Advanced analytics Query B"
 msgstr "高级分析查询B"
 
-#, fuzzy
+
 msgid "Advanced analytics post processing"
 msgstr "高级分析"
 
-#, fuzzy
+
 msgid "Advanced data type"
 msgstr "高级数据类型"
 
@@ -1130,14 +1122,14 @@ msgid ""
 msgstr ""
 "在网格单元边界内聚合数据，并将聚合值映射到动态色阶"
 
-#, fuzzy
+
 msgid "Aggregation"
 msgstr "合计"
 
 msgid "Aggregation function"
 msgstr "聚合功能"
 
-#, fuzzy
+
 msgid "Alert"
 msgstr "警报"
 
@@ -1147,7 +1139,7 @@ msgstr "告警已触发，在宽限期内"
 msgid "Alert condition"
 msgstr "告警条件"
 
-#, fuzzy
+
 msgid "Alert contents"
 msgstr "标签内容"
 
@@ -1163,7 +1155,7 @@ msgstr "在宽限期内触发告警。"
 msgid "Alert found an error while executing a query."
 msgstr "告警在执行查询时发现错误。"
 
-#, fuzzy
+
 msgid "Alert is active"
 msgstr "激活邮件报告"
 
@@ -1179,14 +1171,14 @@ msgstr "告警查询返回非数字值。"
 msgid "Alert query returned more than one column."
 msgstr "告警查询返回多个列。"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Alert query returned more than one column. %(num_cols)s columns returned"
 msgstr "告警查询返回多个列。%(num_cols)s 列被返回"
 
 msgid "Alert query returned more than one row."
 msgstr "告警查询返回了多行。"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Alert query returned more than one row. %(num_rows)s rows returned"
 msgstr "告警查询返回了多行。%(num_rows)s 行被返回"
 
@@ -1275,7 +1267,7 @@ msgid ""
 "their changes won't persist for the next time they open the chart."
 msgstr "允许最终用户通过拖放列标题来重新排列它们。请注意，他们所做的更改不会在下次打开图表时保留。"
 
-#, fuzzy
+
 msgid "Allow file uploads to database"
 msgstr "允许上传文件到数据库"
 
@@ -1317,15 +1309,15 @@ msgstr "也称为框须图，该可视化比较了一个相关指标在多个组
 msgid "Altered"
 msgstr "已更改"
 
-#, fuzzy
+
 msgid "Always filter main datetime column"
 msgstr "主日期列"
 
-#, fuzzy
+
 msgid "An Error Occurred"
 msgstr "发生了一个错误"
 
-#, fuzzy, python-format
+#, python-format
 msgid "An alert named \"%(name)s\" already exists"
 msgstr "数据集 %(name)s 已存在"
 
@@ -1348,7 +1340,7 @@ msgstr "发生了一个错误"
 msgid "An error occurred saving dataset"
 msgstr "保存数据集时发生错误"
 
-#, fuzzy
+
 msgid "An error occurred when running alert query"
 msgstr "精简日志时出错 "
 
@@ -1434,7 +1426,7 @@ msgstr "获取数据集时出错：%s"
 msgid "An error occurred while fetching function names."
 msgstr "获取函数名称时出错。"
 
-#, fuzzy, python-format
+#, python-format
 msgid "An error occurred while fetching owners values: %s"
 msgstr "获取图表所有者时出错 %s"
 
@@ -1461,18 +1453,18 @@ msgstr "获取用户信息出错：%s"
 msgid "An error occurred while importing %s: %s"
 msgstr "导入时出错 %s: %s"
 
-#, fuzzy
+
 msgid "An error occurred while loading dashboard information."
 msgstr "获取看板时出错"
 
 msgid "An error occurred while loading the SQL"
 msgstr "创建数据源时发生错误"
 
-#, fuzzy
+
 msgid "An error occurred while opening Explore"
 msgstr "精简日志时出错 "
 
-#, fuzzy
+
 msgid "An error occurred while parsing the key."
 msgstr "更新值时出错。"
 
@@ -1503,11 +1495,11 @@ msgstr "在后端存储查询时出错。为避免丢失更改，请使用 \"保
 msgid "An error occurred while updating the value."
 msgstr "更新值时出错。"
 
-#, fuzzy
+
 msgid "An error occurred while upserting the value."
 msgstr "更新值时出错。"
 
-#, fuzzy
+
 msgid "An unexpected error occurred"
 msgstr "发生了一个错误"
 
@@ -1526,7 +1518,7 @@ msgstr "动画"
 msgid "Annotation"
 msgstr "注释"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Annotation Layer %s"
 msgstr "注释层 %s"
 
@@ -1594,7 +1586,7 @@ msgstr "注释层"
 msgid "Annotation layers are still loading."
 msgstr "注释层仍在加载。"
 
-#, fuzzy
+
 msgid "Annotation layers could not be deleted."
 msgstr "注释层仍在加载。"
 
@@ -1604,18 +1596,18 @@ msgstr "注释不存在。"
 msgid "Annotation parameters are invalid."
 msgstr "注释层仍在加载。"
 
-#, fuzzy
+
 msgid "Annotation source"
 msgstr "注释来源"
 
 msgid "Annotation source type"
 msgstr "注释数据源类型"
 
-#, fuzzy
+
 msgid "Annotation template created"
 msgstr "注释无法创建。"
 
-#, fuzzy
+
 msgid "Annotation template updated"
 msgstr "注释已更新。"
 
@@ -1647,21 +1639,21 @@ msgid ""
 "Learn about how to connect a database driver "
 msgstr "可以添加任何允许通过SQL AlChemy URI进行连接的数据库。了解如何连接数据库驱动程序"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Applied cross-filters (%d)"
 msgstr "应用的交叉筛选器 (%d)"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Applied filters (%d)"
 msgstr "应用的过滤器 (%d)"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Applied filters (%s)"
-msgstr "应用的过滤器 (%d)"
-
-#, fuzzy, python-format
-msgid "Applied filters: %s"
 msgstr "应用的过滤器 (%s)"
+
+#, python-format
+msgid "Applied filters: %s"
+msgstr "应用的过滤器: %s"
 
 msgid ""
 "Applied rolling window did not return any data. Please make sure the "
@@ -1671,7 +1663,7 @@ msgstr "应用的滚动窗口（rolling window）未返回任何数据。请确�
 msgid "Apply"
 msgstr "应用"
 
-#, fuzzy
+
 msgid "Apply conditional color formatting to metric"
 msgstr "将条件颜色格式应用于指标"
 
@@ -1681,7 +1673,7 @@ msgstr "将条件颜色格式应用于指标"
 msgid "Apply conditional color formatting to numeric columns"
 msgstr "将条件颜色格式应用于数字列"
 
-#, fuzzy
+
 msgid "Apply filters"
 msgstr "应用过滤器"
 
@@ -1697,11 +1689,11 @@ msgstr "应用于特定面板"
 msgid "April"
 msgstr "四月"
 
-#, fuzzy
+
 msgid "Arc"
 msgstr "圆弧"
 
-#, fuzzy
+
 msgid "Are you sure you intend to overwrite the following values?"
 msgstr "您确实要删除选定的查询吗？"
 
@@ -1711,7 +1703,7 @@ msgstr "您确定要取消吗？"
 msgid "Are you sure you want to delete"
 msgstr "确定要删除吗"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Are you sure you want to delete %s?"
 msgstr "确定要删除 %s 吗？"
 
@@ -1737,18 +1729,18 @@ msgstr "确实要删除选定的图层吗？"
 msgid "Are you sure you want to delete the selected queries?"
 msgstr "您确实要删除选定的查询吗？"
 
-#, fuzzy
+
 msgid "Are you sure you want to delete the selected rules?"
 msgstr "确实要删除选定的图层吗？"
 
-#, fuzzy
+
 msgid "Are you sure you want to delete the selected tags?"
 msgstr "确实要删除选定的 %s 吗？"
 
 msgid "Are you sure you want to delete the selected templates?"
 msgstr "确实要删除选定的模板吗？"
 
-#, fuzzy
+
 msgid "Are you sure you want to overwrite this dataset?"
 msgstr "确实要删除选定的数据集吗？"
 
@@ -1758,7 +1750,7 @@ msgstr "您确定要继续执行吗？"
 msgid "Are you sure you want to save and apply changes?"
 msgstr "确实要保存并应用更改吗？"
 
-#, fuzzy
+
 msgid "Area"
 msgstr "文本区域"
 
@@ -1771,7 +1763,7 @@ msgstr "面积图"
 msgid "Area chart opacity"
 msgstr "面积图不透明度"
 
-#, fuzzy
+
 msgid ""
 "Area charts are similar to line charts in that they represent variables "
 "with the same scale, but area charts stack the metrics on top of each "
@@ -1781,11 +1773,11 @@ msgstr "时间序列面积图与折线图相似，因为它们表示具有相同
 msgid "Arrow"
 msgstr "箭头"
 
-#, fuzzy
+
 msgid "Assign a set of parameters as"
 msgstr "数据集参数无效。"
 
-#, fuzzy
+
 msgid "Assist"
 msgstr "关联"
 
@@ -1804,11 +1796,11 @@ msgstr "八月"
 msgid "Authorization needed"
 msgstr "需要授权"
 
-#, fuzzy
+
 msgid "Auto"
 msgstr "自动"
 
-#, fuzzy
+
 msgid "Auto Zoom"
 msgstr "数据缩放"
 
@@ -1827,26 +1819,26 @@ msgstr "自动配色"
 msgid "Available sorting modes:"
 msgstr "可用分类模式:"
 
-#, fuzzy
+
 msgid "Average"
 msgstr "平均值"
 
-#, fuzzy
+
 msgid "Average value"
 msgstr "平均值"
 
 msgid "Axis"
 msgstr "坐标轴"
 
-#, fuzzy
+
 msgid "Axis Bounds"
 msgstr "Y 轴界限"
 
-#, fuzzy
+
 msgid "Axis Format"
 msgstr "Y 轴格式化"
 
-#, fuzzy
+
 msgid "Axis Title"
 msgstr "轴标题"
 
@@ -1856,7 +1848,7 @@ msgstr "轴线升序"
 msgid "Axis descending"
 msgstr "轴线降序"
 
-#, fuzzy
+
 msgid "BCC recipients"
 msgstr "最近"
 
@@ -1872,11 +1864,11 @@ msgstr "返回到列表"
 msgid "Backend"
 msgstr "后端"
 
-#, fuzzy
+
 msgid "Backward values"
 msgstr "向后数值"
 
-#, fuzzy
+
 msgid "Bad formula."
 msgstr "错误的公式"
 
@@ -1889,22 +1881,22 @@ msgstr "柱"
 msgid "Bar Chart"
 msgstr "柱状图"
 
-#, fuzzy
+
 msgid "Bar Chart (legacy)"
 msgstr "柱状图（传统）"
 
-#, fuzzy
+
 msgid "Bar Charts are used to show metrics as a series of bars."
 msgstr "柱状图用于将指标以一系列柱状显示。"
 
 msgid "Bar Values"
 msgstr "柱状图的值"
 
-#, fuzzy
+
 msgid "Bar orientation"
 msgstr "方向"
 
-#, fuzzy
+
 msgid "Base"
 msgstr "基础"
 
@@ -1952,7 +1944,7 @@ msgstr "带时间段对比的大数字"
 msgid "Big Number with Trendline"
 msgstr "带趋势线的数字"
 
-#, fuzzy
+
 msgid "Bins"
 msgstr "处于"
 
@@ -1962,21 +1954,21 @@ msgstr "底端"
 msgid "Bottom Margin"
 msgstr "底部边距"
 
-#, fuzzy
+
 msgid "Bottom left"
 msgstr "底左"
 
 msgid "Bottom margin, in pixels, allowing for more room for axis labels"
 msgstr "底部边距，以像素为单位，为轴标签留出更多空间"
 
-#, fuzzy
+
 msgid "Bottom right"
 msgstr "底右"
 
 msgid "Bottom to Top"
 msgstr "自下而上"
 
-#, fuzzy
+
 msgid ""
 "Bounds for numerical X axis. Not applicable for temporal or categorical "
 "axes. When left empty, the bounds are dynamically defined based on the "
@@ -1990,14 +1982,14 @@ msgid ""
 "only expand the axis range. It won't narrow the data's extent."
 msgstr "Y轴的边界。当空时，边界是根据数据的最小/最大值动态定义的。请注意，此功能只会扩展轴范围。它不会缩小数据范围。"
 
-#, fuzzy
+
 msgid ""
 "Bounds for the axis. When left empty, the bounds are dynamically defined "
 "based on the min/max of the data. Note that this feature will only expand"
 " the axis range. It won't narrow the data's extent."
 msgstr "Y轴的边界。当空时，边界是根据数据的最小/最大值动态定义的。请注意，此功能只会扩展轴范围。它不会缩小数据范围。"
 
-#, fuzzy
+
 msgid ""
 "Bounds for the primary Y-axis. When left empty, the bounds are "
 "dynamically defined based on the min/max of the data. Note that this "
@@ -2005,7 +1997,7 @@ msgid ""
 "extent."
 msgstr "Y轴的边界。当空时，边界是根据数据的最小/最大值动态定义的。请注意，此功能只会扩展轴范围。它不会缩小数据范围。"
 
-#, fuzzy
+
 msgid ""
 "Bounds for the secondary Y-axis. Only works when Independent Y-axis\n"
 "                bounds are enabled. When left empty, the bounds are "
@@ -2032,14 +2024,14 @@ msgstr ""
 msgid "Bubble Chart"
 msgstr "气泡图"
 
-#, fuzzy
+
 msgid "Bubble Chart (legacy)"
 msgstr "气泡图（传统）"
 
 msgid "Bubble Color"
 msgstr "气泡颜色"
 
-#, fuzzy
+
 msgid "Bubble Opacity"
 msgstr "气泡透明度"
 
@@ -2049,14 +2041,14 @@ msgstr "气泡大小"
 msgid "Bubble size"
 msgstr "气泡尺寸"
 
-#, fuzzy
+
 msgid "Bubble size number format"
 msgstr "气泡尺寸数字格式"
 
 msgid "Bucket break points"
 msgstr "桶分割点"
 
-#, fuzzy
+
 msgid "Build"
 msgstr "重构"
 
@@ -2094,11 +2086,11 @@ msgstr "使用度量值作为排序关键字"
 msgid "CANCEL"
 msgstr "取消"
 
-#, fuzzy
+
 msgid "CC recipients"
 msgstr "最近"
 
-#, fuzzy
+
 msgid "CREATE DATASET"
 msgstr "创建数据集"
 
@@ -2111,7 +2103,7 @@ msgstr "允许 CREATE VIEW AS"
 msgid "CREATE VIEW statement"
 msgstr "CREATE VIEW 语句"
 
-#, fuzzy
+
 msgid "CRON Schedule"
 msgstr "CRON定时任务"
 
@@ -2121,7 +2113,7 @@ msgstr "CRON表达式"
 msgid "CSS"
 msgstr "CSS"
 
-#, fuzzy
+
 msgid "CSS Styles"
 msgstr "CSS 样式"
 
@@ -2140,11 +2132,11 @@ msgstr "CSS模板未找到"
 msgid "CSS templates"
 msgstr "CSS 模板"
 
-#, fuzzy
+
 msgid "CSS templates could not be deleted."
 msgstr "CSS模板不能被删除"
 
-#, fuzzy
+
 msgid "CSV Upload"
 msgstr "允许CSV上传"
 
@@ -2185,7 +2177,7 @@ msgstr "缓存超时（秒）"
 msgid "Cache timeout"
 msgstr "缓存时间"
 
-#, fuzzy
+
 msgid "Cached"
 msgstr "已缓存"
 
@@ -2196,7 +2188,7 @@ msgstr "缓存于%s"
 msgid "Cached value not found"
 msgstr "缓存的值未找到"
 
-#, fuzzy
+
 msgid "Calculate contribution per series or row"
 msgstr "计算每个系列或总计的贡献"
 
@@ -2222,7 +2214,7 @@ msgstr "时间热力图"
 msgid "Can not move top level tab into nested tabs"
 msgstr "无法将顶级选项卡移动到嵌套选项卡中"
 
-#, fuzzy
+
 msgid "Can select multiple values"
 msgstr "允许选择多个值"
 
@@ -2251,14 +2243,14 @@ msgstr "无法加载筛选器"
 msgid "Cannot parse time string [%(human_readable)s]"
 msgstr "无法解析时间字符串[%(human_readable)s]"
 
-#, fuzzy
+
 msgid "Catalog"
 msgstr "标签"
 
 msgid "Categorical"
 msgstr "分类"
 
-#, fuzzy
+
 msgid "Categorical Color"
 msgstr "分类颜色"
 
@@ -2268,19 +2260,19 @@ msgstr "要在x轴上分组的类别。"
 msgid "Category"
 msgstr "分类"
 
-#, fuzzy
+
 msgid "Category Name"
 msgstr "分类名称"
 
-#, fuzzy
+
 msgid "Category and Percentage"
 msgstr "分类和比例"
 
-#, fuzzy
+
 msgid "Category and Value"
 msgstr "分类和值"
 
-#, fuzzy
+
 msgid "Category name"
 msgstr "分类名称"
 
@@ -2302,11 +2294,11 @@ msgstr "单元尺寸"
 msgid "Cell content"
 msgstr "单元格内容"
 
-#, fuzzy
+
 msgid "Cell limit"
 msgstr "单元格限制"
 
-#, fuzzy
+
 msgid "Centroid (Longitude and Latitude): "
 msgstr "中心点（经度/纬度）"
 
@@ -2338,14 +2330,14 @@ msgstr "更改行的顺序。"
 msgid "Changed By"
 msgstr "修改人"
 
-#, fuzzy
+
 msgid "Changed by"
 msgstr "修改人"
 
 msgid "Changes saved."
 msgstr "修改已保存"
 
-#, fuzzy
+
 msgid "Changing one or more of these dashboards is forbidden"
 msgstr "一个或多个看板的修改被禁止"
 
@@ -2374,14 +2366,14 @@ msgstr "没有权限更新此数据集"
 msgid "Changing this dataset is forbidden."
 msgstr "禁止更改此数据集。"
 
-#, fuzzy
+
 msgid "Changing this datasource is forbidden"
 msgstr "没有权限更新此数据集"
 
 msgid "Changing this report is forbidden"
 msgstr "禁止更改此报告"
 
-#, fuzzy
+
 msgid "Character to interpret as decimal point"
 msgstr "将字符解释为小数点的字符。"
 
@@ -2395,7 +2387,7 @@ msgstr "图表 %(id)s 没有找到"
 msgid "Chart Cache Timeout"
 msgstr "表缓存超时"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Chart Data: %s"
 msgstr "上次更新 %s"
 
@@ -2405,31 +2397,31 @@ msgstr "图表 ID"
 msgid "Chart Options"
 msgstr "图表选项"
 
-#, fuzzy
+
 msgid "Chart Orientation"
 msgstr "方向"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Chart Owner: %s"
 msgid_plural "Chart Owners: %s"
 msgstr[0] "图表所有者：%s"
 
-#, fuzzy
+
 msgid "Chart Source"
 msgstr "数据源"
 
 msgid "Chart Title"
 msgstr "图表标题"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Chart [%s] has been overwritten"
 msgstr "图表 [%s] 已经覆盖"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Chart [%s] has been saved"
 msgstr "图表 [%s] 已经保存"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Chart [%s] was added to dashboard [%s]"
 msgstr "图表 [%s] 已经添加到看板 [%s]"
 
@@ -2460,51 +2452,51 @@ msgstr "图表没有找到"
 msgid "Chart has no query context saved. Please save the chart again."
 msgstr "图表未保存任何查询上下文。请重新保存图表。"
 
-#, fuzzy
+
 msgid "Chart height"
 msgstr "图表高度"
 
-#, fuzzy
+
 msgid "Chart imported"
 msgstr "图表已导入"
 
-#, fuzzy
+
 msgid "Chart last modified"
 msgstr "最后修改"
 
-#, fuzzy
+
 msgid "Chart last modified by"
 msgstr "上次修改人 %s"
 
 msgid "Chart name"
 msgstr "图表名称"
 
-#, fuzzy
+
 msgid "Chart not found"
 msgstr "图表 %(id)s 没有找到"
 
 msgid "Chart options"
 msgstr "图表选项"
 
-#, fuzzy
+
 msgid "Chart owners"
 msgstr "图表所有者：%s"
 
 msgid "Chart parameters are invalid."
 msgstr "图表参数无效。"
 
-#, fuzzy
+
 msgid "Chart properties updated"
 msgstr "编辑图表属性"
 
-#, fuzzy
+
 msgid "Chart title"
 msgstr "图表标题"
 
 msgid "Chart type requires a dataset"
 msgstr "图表类型需要数据集"
 
-#, fuzzy
+
 msgid "Chart width"
 msgstr "图表宽度"
 
@@ -2555,7 +2547,7 @@ msgstr "选择数据库"
 msgid "Choose a dataset"
 msgstr "选择数据源"
 
-#, fuzzy
+
 msgid "Choose a delimiter"
 msgstr "选择数据源"
 
@@ -2574,55 +2566,55 @@ msgstr "选择一个源和一个目标"
 msgid "Choose a target"
 msgstr "选择一个目标"
 
-#, fuzzy
+
 msgid "Choose already exists"
 msgstr "标签已存在"
 
 msgid "Choose chart type"
 msgstr "选择图表类型"
 
-#, fuzzy
+
 msgid "Choose columns to be parsed as dates"
 msgstr "应作为日期解析的列的逗号分隔列表。"
 
-#, fuzzy
+
 msgid "Choose columns to read"
 msgstr "要读取的列"
 
-#, fuzzy
+
 msgid "Choose index column"
 msgstr "索引字段"
 
-#, fuzzy
+
 msgid "Choose notification method and recipients."
 msgstr "新增通知方法"
 
 msgid "Choose one of the available databases from the panel on the left."
 msgstr "从左侧的面板中选择一个可用的数据库"
 
-#, fuzzy
+
 msgid "Choose one of the available databases on the left panel."
 msgstr "从左侧的面板中选择一个可用的数据库"
 
-#, fuzzy
+
 msgid "Choose sheet name"
 msgstr "Sheet名称"
 
 msgid "Choose the annotation layer type"
 msgstr "选择注释层类型"
 
-#, fuzzy
+
 msgid "Choose the format for legend values"
 msgstr "选择图例值的格式"
 
-#, fuzzy
+
 msgid "Choose the position of the legend"
 msgstr "选择图例的位置"
 
 msgid "Choose the source of your annotations"
 msgstr "选择您的注释来源"
 
-#, fuzzy
+
 msgid ""
 "Choose values that should be treated as null. Warning: Hive database "
 "supports only a single value"
@@ -2674,11 +2666,11 @@ msgstr "清除"
 msgid "Clear all"
 msgstr "清除所有"
 
-#, fuzzy
+
 msgid "Clear all data"
 msgstr "清除所有"
 
-#, fuzzy
+
 msgid "Clear form"
 msgstr "清除表单"
 
@@ -2715,11 +2707,11 @@ msgstr "点击取消排序"
 msgid "Click to edit"
 msgstr "点击编辑"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Click to edit %s."
 msgstr "点击编辑 %s。"
 
-#, fuzzy
+
 msgid "Click to edit chart."
 msgstr "点击编辑图表。"
 
@@ -2735,11 +2727,11 @@ msgstr "点击强制刷新"
 msgid "Click to see difference"
 msgstr "点击查看差异"
 
-#, fuzzy
+
 msgid "Click to sort ascending"
 msgstr "按照升序进行排序"
 
-#, fuzzy
+
 msgid "Click to sort descending"
 msgstr "降序"
 
@@ -2764,15 +2756,15 @@ msgstr "代码"
 msgid "Collapse all"
 msgstr "全部折叠"
 
-#, fuzzy
+
 msgid "Collapse data panel"
 msgstr "折叠数据面板"
 
-#, fuzzy
+
 msgid "Collapse row"
 msgstr "折叠行"
 
-#, fuzzy
+
 msgid "Collapse tab content"
 msgstr "折叠选项卡内容"
 
@@ -2794,18 +2786,18 @@ msgstr "配色方案"
 msgid "Color Steps"
 msgstr "色阶"
 
-#, fuzzy
+
 msgid "Color bounds"
 msgstr "色彩界限"
 
-#, fuzzy
+
 msgid "Color by"
 msgstr "颜色"
 
 msgid "Color metric"
 msgstr "颜色指标"
 
-#, fuzzy
+
 msgid "Color of the target location"
 msgstr "目标位置的颜色"
 
@@ -2817,7 +2809,7 @@ msgid ""
 "cell against the other cells in the selected range: "
 msgstr "颜色将基于给定单元格相对于所选范围内其他单元格的标准化（0% 到 100%）值进行着色："
 
-#, fuzzy
+
 msgid "Color: "
 msgstr "颜色"
 
@@ -2833,15 +2825,15 @@ msgid ""
 "results."
 msgstr "列\"%(column)s\"不是数字或不在查询结果中"
 
-#, fuzzy
+
 msgid "Column Configuration"
 msgstr "列配置"
 
-#, fuzzy
+
 msgid "Column Data Types"
 msgstr "列数据类型"
 
-#, fuzzy
+
 msgid "Column Formatting"
 msgstr "列格式"
 
@@ -2856,22 +2848,22 @@ msgstr "包含纬度数据的列"
 msgid "Column containing longitude data"
 msgstr "包含经度数据的列"
 
-#, fuzzy
+
 msgid "Column data types"
 msgstr "列数据类型"
 
-#, fuzzy
+
 msgid "Column datatype"
 msgstr "列数据类型"
 
-#, fuzzy
+
 msgid "Column header tooltip"
 msgstr "列标题提示"
 
 msgid "Column is required"
 msgstr "列是必填项"
 
-#, fuzzy
+
 msgid "Column name"
 msgstr "列名"
 
@@ -2886,28 +2878,28 @@ msgstr "聚合引用的列未定义：%(column)s"
 msgid "Column select"
 msgstr "选择列"
 
-#, fuzzy
+
 msgid ""
 "Column to use as the index of the dataframe. If None is given, Index "
 "label is used."
 msgstr "字段作为数据文件的行标签使用。如果没有索引字段，则留空。"
 
-#, fuzzy
+
 msgid "Columnar Upload"
 msgstr "列式存储文件"
 
 msgid "Columns"
 msgstr "列"
 
-#, fuzzy
+
 msgid "Columns To Be Parsed as Dates"
 msgstr "应作为日期解析的列的逗号分隔列表。"
 
-#, fuzzy
+
 msgid "Columns To Read"
 msgstr "要读取的列"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Columns missing in dataset: %(invalid_columns)s"
 msgstr "数据源中缺少列：%(invalid_columns)s"
 
@@ -2918,7 +2910,7 @@ msgstr "数据源中缺少列：%(invalid_columns)s"
 msgid "Columns subtotal position"
 msgstr "列的小计位置"
 
-#, fuzzy
+
 msgid "Columns to calculate distribution across."
 msgstr "计算分布的列。如果留空，则默认为临时列。"
 
@@ -2985,7 +2977,7 @@ msgstr "比较"
 msgid "Comparison Period Lag"
 msgstr "滞后比较"
 
-#, fuzzy
+
 msgid "Comparison font size"
 msgstr "比较前缀"
 
@@ -3001,7 +2993,7 @@ msgstr "计算对总数的贡献值"
 msgid "Condition"
 msgstr "条件"
 
-#, fuzzy
+
 msgid "Conditional Formatting"
 msgstr "条件格式设置"
 
@@ -3020,7 +3012,7 @@ msgstr "配置"
 msgid "Configure Advanced Time Range "
 msgstr "配置进阶时间范围"
 
-#, fuzzy
+
 msgid "Configure Time Range: Current..."
 msgstr "配置时间范围：最近..."
 
@@ -3045,7 +3037,7 @@ msgstr "配置此仪表板，以便将其嵌入到外部网络应用程序中。
 msgid "Configure your how you overlay is displayed here."
 msgstr "配置如何在这里显示您的标注。"
 
-#, fuzzy
+
 msgid "Confirm overwrite"
 msgstr "确认保存"
 
@@ -3079,29 +3071,29 @@ msgstr "连接"
 msgid "Connection failed, please check your connection settings"
 msgstr "连接失败，请检查您的连接配置"
 
-#, fuzzy
+
 msgid "Connection failed, please check your connection settings."
 msgstr "连接失败，请检查您的连接配置"
 
 msgid "Connection looks good!"
 msgstr "连接测试成功！"
 
-#, fuzzy
+
 msgid "Content format"
 msgstr "日期格式化"
 
-#, fuzzy
+
 msgid "Content type"
 msgstr "每阶类型"
 
-#, fuzzy
+
 msgid "Continue"
 msgstr "连续式"
 
 msgid "Continuous"
 msgstr "连续式"
 
-#, fuzzy
+
 msgid "Contours"
 msgstr "等高线"
 
@@ -3111,7 +3103,7 @@ msgstr "贡献"
 msgid "Contribution Mode"
 msgstr "贡献模式"
 
-#, fuzzy
+
 msgid "Control"
 msgstr "控件"
 
@@ -3149,7 +3141,7 @@ msgstr "%s 的副本"
 msgid "Copy partition query to clipboard"
 msgstr "将分区查询复制到剪贴板"
 
-#, fuzzy
+
 msgid "Copy permalink to clipboard"
 msgstr "将查询链接复制到剪贴板"
 
@@ -3159,14 +3151,14 @@ msgstr "复制查询URL"
 msgid "Copy query link to your clipboard"
 msgstr "将查询链接复制到剪贴板"
 
-#, fuzzy
+
 msgid "Copy the identifier of the account you are trying to connect to."
 msgstr "将尝试连接的账号复制到这里"
 
 msgid "Copy the name of the HTTP Path of your cluster."
 msgstr "复制集群的 HTTP 路径名称。"
 
-#, fuzzy
+
 msgid "Copy the name of the database you are trying to connect to."
 msgstr "将尝试连接的数据库名复制到这里"
 
@@ -3182,7 +3174,7 @@ msgstr "相关性"
 msgid "Cost estimate"
 msgstr "成本估算"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Could not connect to database: \"%(database)s\""
 msgstr "不能连接到数据库\"%(database)s\""
 
@@ -3205,11 +3197,11 @@ msgstr "无法加载数据库驱动程序：{}"
 msgid "Could not resolve hostname: \"%(host)s\"."
 msgstr "无法解析主机名：\"%(host)s\"。"
 
-#, fuzzy
+
 msgid "Count"
 msgstr "计数"
 
-#, fuzzy
+
 msgid "Count Unique Values"
 msgstr "计算唯一值"
 
@@ -3240,11 +3232,11 @@ msgstr "国家地图"
 msgid "Create"
 msgstr "创建"
 
-#, fuzzy
+
 msgid "Create Chart"
 msgstr "创建图表"
 
-#, fuzzy
+
 msgid "Create a dataset"
 msgstr "创建数据集 "
 
@@ -3256,22 +3248,22 @@ msgstr "创建一个数据集以开始将您的数据可视化为图表，或者
 msgid "Create a new chart"
 msgstr "创建新图表"
 
-#, fuzzy
+
 msgid "Create chart"
 msgstr "创建图表"
 
 msgid "Create chart with dataset"
 msgstr "使用数据集创建图表"
 
-#, fuzzy
+
 msgid "Create dataframe index"
 msgstr "Dataframe索引"
 
-#, fuzzy
+
 msgid "Create dataset"
 msgstr "创建数据集"
 
-#, fuzzy
+
 msgid "Create dataset and create chart"
 msgstr "创建数据集和图表"
 
@@ -3287,14 +3279,14 @@ msgstr "已创建"
 msgid "Created by"
 msgstr "创建人"
 
-#, fuzzy
+
 msgid "Created by me"
 msgstr "我创建的"
 
 msgid "Created on"
 msgstr "创建日期"
 
-#, fuzzy
+
 msgid "Creating SSH Tunnel failed for an unknown reason"
 msgstr "创建SSH隧道失败，原因未知"
 
@@ -3304,26 +3296,26 @@ msgstr "创建数据源，并弹出一个新的选项卡"
 msgid "Creator"
 msgstr "作者"
 
-#, fuzzy
+
 msgid "Crimson"
 msgstr "血红色"
 
 msgid "Cross-filter will be applied to all of the charts that use this dataset."
 msgstr "交叉过滤器将应用于使用此数据集的所有图表。"
 
-#, fuzzy
+
 msgid "Cross-filtering is not enabled for this dashboard."
 msgstr "此看板中没有启用交叉筛选。"
 
-#, fuzzy
+
 msgid "Cross-filtering is not enabled in this dashboard"
 msgstr "此看板中没有启用交叉筛选。"
 
-#, fuzzy
+
 msgid "Cross-filtering scoping"
 msgstr "交叉筛选作用域"
 
-#, fuzzy
+
 msgid "Cross-filters"
 msgstr "交叉筛选"
 
@@ -3333,7 +3325,7 @@ msgstr "累计"
 msgid "Currency"
 msgstr "货币"
 
-#, fuzzy
+
 msgid "Currency format"
 msgstr "货币格式"
 
@@ -3343,27 +3335,27 @@ msgstr "货币前缀或后缀"
 msgid "Currency symbol"
 msgstr "货币符号"
 
-#, fuzzy
+
 msgid "Current"
 msgstr "货币"
 
-#, fuzzy
+
 msgid "Current day"
 msgstr "货币"
 
-#, fuzzy
+
 msgid "Current month"
 msgstr "货币符号"
 
-#, fuzzy
+
 msgid "Current quarter"
 msgstr "运行查询"
 
-#, fuzzy
+
 msgid "Current week"
 msgstr "运行查询"
 
-#, fuzzy
+
 msgid "Current year"
 msgstr "货币"
 
@@ -3374,7 +3366,7 @@ msgstr "当前渲染为：%s"
 msgid "Custom"
 msgstr "自定义"
 
-#, fuzzy
+
 msgid "Custom Conditional Formatting"
 msgstr "条件格式设置"
 
@@ -3393,15 +3385,15 @@ msgstr "此数据集无法启用自定义SQL即席查询、"
 msgid "Custom SQL fields cannot contain sub-queries."
 msgstr "自定义 SQL 字段不能包含子查询。"
 
-#, fuzzy
+
 msgid "Custom color palettes"
 msgstr "自动补全"
 
-#, fuzzy
+
 msgid "Custom date"
 msgstr "自定义"
 
-#, fuzzy
+
 msgid "Custom interval"
 msgstr "间隔"
 
@@ -3440,7 +3432,7 @@ msgstr "D3 格式"
 msgid "D3 format syntax: https://github.com/d3/d3-format"
 msgstr "D3格式语法: https://github.com/d3/d3-time-format"
 
-#, fuzzy
+
 msgid ""
 "D3 number format for numbers between -1.0 and 1.0, useful when you want "
 "to have different significant digits for small and large numbers"
@@ -3452,7 +3444,7 @@ msgstr "D3时间格式的时间列"
 msgid "D3 time format syntax: https://github.com/d3/d3-time-format"
 msgstr "D3时间插件格式语法: https://github.com/d3/d3-time-format"
 
-#, fuzzy
+
 msgid "DATETIME"
 msgstr "日期/时间"
 
@@ -3475,7 +3467,7 @@ msgstr "允许DML"
 msgid "Daily seasonality"
 msgstr "日度季节性"
 
-#, fuzzy
+
 msgid "Dark"
 msgstr "暗色"
 
@@ -3488,7 +3480,7 @@ msgstr "黑暗模式"
 msgid "Dashboard"
 msgstr "看板"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Dashboard [%s] just got created and chart [%s] was added to it"
 msgstr "看板 [%s] 刚刚被创建，并且图表 [%s] 已被添加到其中"
 
@@ -3504,7 +3496,7 @@ msgstr "看板无法更新。"
 msgid "Dashboard does not exist"
 msgstr "看板不存在"
 
-#, fuzzy
+
 msgid "Dashboard imported"
 msgstr "看板已导入"
 
@@ -3514,7 +3506,7 @@ msgstr "看板参数无效。"
 msgid "Dashboard properties"
 msgstr "看板属性"
 
-#, fuzzy
+
 msgid "Dashboard properties updated"
 msgstr "看板属性"
 
@@ -3530,32 +3522,32 @@ msgstr ""
 "仪表板时间范围过滤器适用于每个图表过滤器部分中定义的时间列。\n"
 "          将时间列添加到图表过滤器中，使此仪表板过滤器影响这些图表。"
 
-#, fuzzy
+
 msgid "Dashboard title"
 msgstr "看板"
 
-#, fuzzy
+
 msgid "Dashboard usage"
 msgstr "看板"
 
 msgid "Dashboards"
 msgstr "看板"
 
-#, fuzzy
+
 msgid "Dashboards could not be created."
 msgstr "看板无法被创建"
 
 msgid "Dashboards do not exist"
 msgstr "看板不存在"
 
-#, fuzzy
+
 msgid "Dashed"
 msgstr "虚线"
 
 msgid "Data"
 msgstr "数据"
 
-#, fuzzy
+
 msgid "Data Imported"
 msgstr "数据集已导入"
 
@@ -3579,14 +3571,14 @@ msgid ""
 "the original query."
 msgstr "无法从结果后端检索数据。您需要重新运行原始查询。"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Data for %s"
-msgstr "给JS的额外数据"
+msgstr "给JS的额外数据 %s"
 
 msgid "Data preview"
 msgstr "数据预览"
 
-#, fuzzy
+
 msgid "Data refreshed"
 msgstr "已刷新数据"
 
@@ -3602,14 +3594,14 @@ msgstr "数据帧（DataFrame）必须包含时间列"
 msgid "Database"
 msgstr "数据库"
 
-#, fuzzy
+
 msgid "Database Connections"
 msgstr "数据库连接"
 
 msgid "Database Creation Error"
 msgstr "数据库创建错误"
 
-#, fuzzy
+
 msgid "Database connected"
 msgstr "数据库已连接"
 
@@ -3658,26 +3650,26 @@ msgstr "数据库没有找到"
 msgid "Database parameters are invalid."
 msgstr "数据库参数无效"
 
-#, fuzzy
+
 msgid "Database passwords"
 msgstr "数据库密码"
 
 msgid "Database port"
 msgstr "数据库端口"
 
-#, fuzzy
+
 msgid "Database schema is not allowed for csv uploads."
 msgstr "允许使用CSV上传的模式"
 
-#, fuzzy
+
 msgid "Database settings updated"
 msgstr "数据库设置已更新"
 
-#, fuzzy
+
 msgid "Database type does not support file uploads."
 msgstr "数据库不支持子查询"
 
-#, fuzzy
+
 msgid "Database upload file failed"
 msgstr "选择将要上传文件的数据库"
 
@@ -3690,11 +3682,11 @@ msgstr "数据库"
 msgid "Dataset"
 msgstr "数据集"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Dataset %(table)s already exists"
-msgstr "数据集 %(name)s 已存在"
+msgstr "数据集 %(table)s 已存在"
 
-#, fuzzy
+
 msgid "Dataset Name"
 msgstr "数据集名称"
 
@@ -3707,7 +3699,7 @@ msgstr "数据集行未找到。"
 msgid "Dataset could not be created."
 msgstr "无法创建数据集。"
 
-#, fuzzy
+
 msgid "Dataset could not be duplicated."
 msgstr "数据集无法复制。"
 
@@ -3717,7 +3709,7 @@ msgstr "无法更新数据集。"
 msgid "Dataset does not exist"
 msgstr "数据集不存在"
 
-#, fuzzy
+
 msgid "Dataset imported"
 msgstr "数据集已导入"
 
@@ -3755,7 +3747,7 @@ msgid ""
 "datetime column."
 msgstr "数据集可以有一个主时间列（main_dttm_col），但也可以有辅助时间列。当此属性为 true 时，每当辅助列被过滤时，相同的过滤器将应用于主日期时间列。"
 
-#, fuzzy
+
 msgid "Datasets could not be deleted."
 msgstr "无法删除数据集"
 
@@ -3768,7 +3760,7 @@ msgstr "数据源"
 msgid "Datasource & Chart Type"
 msgstr "数据源 & 图表类型"
 
-#, fuzzy
+
 msgid "Datasource does not exist"
 msgstr "数据集不存在"
 
@@ -3784,7 +3776,7 @@ msgstr "时间格式"
 msgid "Date format"
 msgstr "日期格式化"
 
-#, fuzzy
+
 msgid "Date format string"
 msgstr "日期格式字符串"
 
@@ -3815,7 +3807,7 @@ msgstr "%s天"
 msgid "Db engine did not return all queried columns"
 msgstr "数据库引擎未返回所有查询的列"
 
-#, fuzzy
+
 msgid "Deactivate"
 msgstr "禁用"
 
@@ -3840,14 +3832,14 @@ msgstr "Deck.gl - 3D六角曲面"
 msgid "Deck.gl - Arc"
 msgstr "Deck.gl - 弧度"
 
-#, fuzzy
+
 msgid "Deck.gl - Contour"
 msgstr "Deck.gl - 等高线"
 
 msgid "Deck.gl - GeoJSON"
 msgstr "Deck.gl - GeoJSON"
 
-#, fuzzy
+
 msgid "Deck.gl - Heatmap"
 msgstr "Deck.gl - 热力图"
 
@@ -3866,18 +3858,18 @@ msgstr "Deck.gl - 散点图"
 msgid "Deck.gl - Screen Grid"
 msgstr "Deck.gl - 屏幕网格"
 
-#, fuzzy
+
 msgid "Decrease"
 msgstr "减少"
 
-#, fuzzy
+
 msgid "Default Catalog"
 msgstr "缺省值"
 
 msgid "Default Endpoint"
 msgstr "默认端点"
 
-#, fuzzy
+
 msgid "Default Schema"
 msgstr "选择方案"
 
@@ -3890,7 +3882,7 @@ msgstr "从数据集列表页访问时重定向到的默认URL"
 msgid "Default Value"
 msgstr "缺省值"
 
-#, fuzzy
+
 msgid "Default datetime"
 msgstr "默认时间"
 
@@ -3911,11 +3903,11 @@ msgstr "需要默认值"
 msgid "Default value must be set when \"Filter has default value\" is checked"
 msgstr "选中筛选器具有默认值时，必须设置默认值"
 
-#, fuzzy
+
 msgid "Default value must be set when \"Filter value is required\" is checked"
 msgstr "当\"必填项\"被选中时默认值必须被设置"
 
-#, fuzzy
+
 msgid ""
 "Default value set automatically when \"Select first filter value by "
 "default\" is checked"
@@ -3960,7 +3952,7 @@ msgstr "定义每个序列是如何被分解的"
 msgid "Defines the grid size in pixels"
 msgstr "定义网格大小（像素）"
 
-#, fuzzy
+
 msgid ""
 "Defines the grouping of entities. Each series is represented by a "
 "specific color in the chart."
@@ -4038,7 +4030,7 @@ msgstr "删除模板"
 msgid "Delete this container and save to remove this message."
 msgstr "删除此容器并保存以移除此消息。"
 
-#, fuzzy
+
 msgid "Deleted"
 msgstr "删除"
 
@@ -4077,7 +4069,7 @@ msgid "Deleted %(num)d report schedule"
 msgid_plural "Deleted %(num)d report schedules"
 msgstr[0] "删除了 %(num)d 个报告计划"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Deleted %(num)d rules"
 msgid_plural "Deleted %(num)d rules"
 msgstr[0] "删除了 %(num)d 个规则"
@@ -4087,7 +4079,7 @@ msgid "Deleted %(num)d saved query"
 msgid_plural "Deleted %(num)d saved queries"
 msgstr[0] "删除 %(num)d 个保存的查询"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Deleted %s"
 msgstr "已删除：%s"
 
@@ -4115,7 +4107,7 @@ msgstr "人口统计"
 msgid "Density"
 msgstr "密度"
 
-#, fuzzy
+
 msgid "Dependent on"
 msgstr "取决于"
 
@@ -4137,7 +4129,7 @@ msgstr "在大数字下面显示描述文本"
 msgid "Deselect all"
 msgstr "反选所有"
 
-#, fuzzy
+
 msgid "Details"
 msgstr "详细信息"
 
@@ -4161,11 +4153,11 @@ msgstr "您的意思是："
 msgid "Difference"
 msgstr "差异"
 
-#, fuzzy
+
 msgid "Dim Gray"
 msgstr "深灰色"
 
-#, fuzzy
+
 msgid "Dimension"
 msgstr "维度"
 
@@ -4175,7 +4167,7 @@ msgstr "用于 X 轴的维度。"
 msgid "Dimension to use on y-axis."
 msgstr "用于 Y 轴的维度。"
 
-#, fuzzy
+
 msgid "Dimensions"
 msgstr "维度"
 
@@ -4200,7 +4192,7 @@ msgid ""
 "tables."
 msgstr "在 SQL 工具箱中获取表的元数据时禁用数据预览。当使用具有非常宽表的数据库时，这样做有助于避免浏览器性能问题。"
 
-#, fuzzy
+
 msgid "Disable drill to detail"
 msgstr "钻取详情"
 
@@ -4210,26 +4202,26 @@ msgstr "禁用嵌入吗？"
 msgid "Disabled"
 msgstr "禁用"
 
-#, fuzzy
+
 msgid "Disables the drill to detail feature for this database."
 msgstr "这个数据集没有返回预览数据"
 
-#, fuzzy
+
 msgid "Discard"
 msgstr "取消"
 
-#, fuzzy
+
 msgid "Display"
 msgstr "显示"
 
 msgid "Display Name"
 msgstr "显示名称"
 
-#, fuzzy
+
 msgid "Display all"
 msgstr "显示名称"
 
-#, fuzzy
+
 msgid "Display column level subtotal"
 msgstr "显示列级别小计"
 
@@ -4250,14 +4242,14 @@ msgid ""
 "the funnel."
 msgstr "在标签和工具提示中将百分比显示为总值的百分比、漏斗第一步的百分比或漏斗中上一步的百分比。"
 
-#, fuzzy
+
 msgid "Display row level subtotal"
 msgstr "显示行级小计"
 
 msgid "Display row level total"
 msgstr "显示行级合计"
 
-#, fuzzy
+
 msgid "Display settings"
 msgstr "显示配置"
 
@@ -4292,15 +4284,15 @@ msgstr "主域"
 msgid "Donut"
 msgstr "圆环圈"
 
-#, fuzzy
+
 msgid "Dotted"
 msgstr "点线"
 
-#, fuzzy
+
 msgid "Download"
 msgstr "下载"
 
-#, fuzzy
+
 msgid "Download as Image"
 msgstr "下载为图片"
 
@@ -4328,7 +4320,7 @@ msgstr "在曲线下绘制区域。仅适用于线型。"
 msgid "Draw line from Pie to label when labels outside?"
 msgstr "当标签在外侧时，是否在饼图到标签之间连线？"
 
-#, fuzzy
+
 msgid "Draw split lines for minor axis ticks"
 msgstr "绘制次要Y轴刻度的分割线"
 
@@ -4344,7 +4336,7 @@ msgstr "此数据点无法钻取"
 msgid "Drill by is not yet supported for this chart type"
 msgstr "此图表类型还不支持钻取"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Drill by: %s"
 msgstr "钻取：%s"
 
@@ -4372,24 +4364,24 @@ msgstr ""
 msgid "Drill to detail: %s"
 msgstr "钻取详情：%s"
 
-#, fuzzy
+
 msgid "Drop a column here or click"
 msgid_plural "Drop columns here or click"
 msgstr[0] "将列拖放到此处或单击"
 
-#, fuzzy
+
 msgid "Drop a column/metric here or click"
 msgid_plural "Drop columns/metrics here or click"
 msgstr[0] "将列/指标放在此处或单击"
 
-#, fuzzy
+
 msgid "Drop a temporal column here or click"
 msgstr "将时间列拖放到此处或单击"
 
 msgid "Drop columns/metrics here or click"
 msgstr "将列/指标拖放到此处或单击"
 
-#, fuzzy
+
 msgid "Duplicate"
 msgstr "复制"
 
@@ -4403,7 +4395,7 @@ msgid ""
 "and metrics have a unique label."
 msgstr "重复的列/指标标签：%(labels)s。请确保所有列和指标都有唯一的标签。"
 
-#, fuzzy
+
 msgid "Duplicate dataset"
 msgstr "复制数据集"
 
@@ -4413,7 +4405,7 @@ msgstr "复制选项卡"
 msgid "Duration"
 msgstr "时长"
 
-#, fuzzy
+
 msgid ""
 "Duration (in seconds) of the caching timeout for charts of this database."
 " A timeout of 0 indicates that the cache never expires, and -1 bypasses "
@@ -4431,7 +4423,7 @@ msgid ""
 "defaults to the datasource/table timeout if undefined."
 msgstr "此图表的缓存超时持续时间(单位为秒)。如果未定义，该设置将默认使用数据源/数据库表的超时设置。"
 
-#, fuzzy
+
 msgid ""
 "Duration (in seconds) of the caching timeout for this chart. Set to -1 to"
 " bypass the cache. Note this defaults to the dataset's timeout if "
@@ -4457,14 +4449,14 @@ msgstr "此数据库表的元数据缓存超时时长（单位为秒）。如果
 msgid "Duration in ms (1.40008 => 1ms 400µs 80ns)"
 msgstr "时长(毫秒)(1.40008 => 1ms 400µs 80ns)"
 
-#, fuzzy
+
 msgid "Duration in ms (100.40008 => 100ms 400µs 80ns)"
 msgstr "时长(毫秒)(1.40008 => 1ms 400µs 80ns)"
 
 msgid "Duration in ms (66000 => 1m 6s)"
 msgstr "时长(毫秒)(66000 => 1m 6s)"
 
-#, fuzzy
+
 msgid "Dynamic Aggregation Function"
 msgstr "动态聚合函数"
 
@@ -4474,14 +4466,14 @@ msgstr "动态搜索所有的过滤器值"
 msgid "ECharts"
 msgstr "ECharts图表"
 
-#, fuzzy
+
 msgid "EMAIL_REPORTS_CTA"
 msgstr "激活邮件报告"
 
 msgid "END (EXCLUSIVE)"
 msgstr "结束"
 
-#, fuzzy
+
 msgid "ERROR"
 msgstr "错误"
 
@@ -4516,7 +4508,7 @@ msgstr "编辑CSS模板属性"
 msgid "Edit Chart"
 msgstr "编辑图表"
 
-#, fuzzy
+
 msgid "Edit Chart Properties"
 msgstr "编辑图表属性"
 
@@ -4544,14 +4536,14 @@ msgstr "编辑插件"
 msgid "Edit Report"
 msgstr "编辑报告"
 
-#, fuzzy
+
 msgid "Edit Rule"
 msgstr "编辑规则"
 
 msgid "Edit Table"
 msgstr "编辑表"
 
-#, fuzzy
+
 msgid "Edit Tag"
 msgstr "编辑标签"
 
@@ -4564,7 +4556,7 @@ msgstr "添加注释层"
 msgid "Edit annotation layer properties"
 msgstr "编辑注释图层属性"
 
-#, fuzzy
+
 msgid "Edit chart"
 msgstr "编辑图表"
 
@@ -4598,7 +4590,7 @@ msgstr "编辑模板"
 msgid "Edit template parameters"
 msgstr "编辑模板参数"
 
-#, fuzzy
+
 msgid "Edit the dashboard"
 msgstr "编辑看板"
 
@@ -4627,7 +4619,7 @@ msgstr "用户名\"%(username)s\"、密码或数据库名称\"%(database)s\"不�
 msgid "Either the username or the password is wrong."
 msgstr "用户名或密码错误。"
 
-#, fuzzy
+
 msgid "Elevation"
 msgstr "执行时间"
 
@@ -4637,21 +4629,21 @@ msgstr "激活邮件报告"
 msgid "Email subject name (optional)"
 msgstr "电子邮件主题（可选）"
 
-#, fuzzy
+
 msgid "Embed"
 msgstr "嵌入"
 
 msgid "Embed code"
 msgstr "嵌入代码"
 
-#, fuzzy
+
 msgid "Embed dashboard"
 msgstr "嵌入看板"
 
 msgid "Embedding deactivated."
 msgstr "解除嵌入。"
 
-#, fuzzy
+
 msgid "Emit Filter Events"
 msgstr "发送过滤器事件"
 
@@ -4667,11 +4659,11 @@ msgstr "空心圆"
 msgid "Empty collection"
 msgstr "空集合"
 
-#, fuzzy
+
 msgid "Empty column"
 msgstr "空的列"
 
-#, fuzzy
+
 msgid "Empty query result"
 msgstr "空的查询结果"
 
@@ -4687,14 +4679,14 @@ msgstr "在数据库设置中启用“允许上传文件到数据库”"
 msgid "Enable Filter Select"
 msgstr "启用过滤器选择"
 
-#, fuzzy
+
 msgid "Enable cross-filtering"
 msgstr "启用交叉筛选"
 
 msgid "Enable data zooming controls"
 msgstr "启用数据缩放控件"
 
-#, fuzzy
+
 msgid "Enable embedding"
 msgstr "启用嵌入"
 
@@ -4728,18 +4720,18 @@ msgstr "遇到无效的为 NULL 的空间条目，请考虑将其过滤掉"
 msgid "End"
 msgstr "结束"
 
-#, fuzzy
+
 msgid "End (Longitude, Latitude): "
 msgstr "终点（经度/纬度）"
 
-#, fuzzy
+
 msgid "End Longitude & Latitude"
 msgstr "终点的经度/纬度"
 
 msgid "End angle"
 msgstr "结束角度"
 
-#, fuzzy
+
 msgid "End date"
 msgstr "结束时间"
 
@@ -4764,7 +4756,7 @@ msgstr "引擎\"InvalidEngine\"不支持通过单独的参数进行配置。"
 msgid "Enter CA_BUNDLE"
 msgstr "进入CA_BUNDLE"
 
-#, fuzzy
+
 msgid "Enter Primary Credentials"
 msgstr "上传主凭据"
 
@@ -4774,7 +4766,7 @@ msgstr "输入此工作表的名称"
 msgid "Enter a new title for the tab"
 msgstr "输入选项卡的新标题"
 
-#, fuzzy
+
 msgid "Enter alert name"
 msgstr "告警名称"
 
@@ -4784,7 +4776,7 @@ msgstr "输入间隔时间(秒)"
 msgid "Enter fullscreen"
 msgstr "全屏"
 
-#, fuzzy
+
 msgid "Enter report name"
 msgstr "报告名称"
 
@@ -4807,7 +4799,7 @@ msgstr "等于（=）"
 msgid "Error"
 msgstr "错误"
 
-#, fuzzy
+
 msgid "Error Fetching Tagged Objects"
 msgstr "获取标签对象错误"
 
@@ -4833,19 +4825,19 @@ msgstr "加载图表数据源时出错。过滤器可能无法正常工作。"
 msgid "Error message"
 msgstr "错误信息"
 
-#, fuzzy
+
 msgid "Error reading CSV file"
 msgstr "保存数据集时发生错误"
 
-#, fuzzy
+
 msgid "Error reading Columnar file"
 msgstr "上传列式文件"
 
-#, fuzzy
+
 msgid "Error reading Excel file"
 msgstr "上传Excel"
 
-#, fuzzy
+
 msgid "Error saving dataset"
 msgstr "保存数据集时发生错误"
 
@@ -4868,7 +4860,7 @@ msgstr "错误：%(error)s"
 msgid "Error: %(msg)s"
 msgstr "错误：%(msg)s"
 
-#, fuzzy
+
 msgid "Error: permalink state not found"
 msgstr "错误：永久链接状态未找到"
 
@@ -4881,7 +4873,7 @@ msgstr "对所选的查询进行成本估算"
 msgid "Estimate the cost before running a query"
 msgstr "在运行查询之前计算成本估算"
 
-#, fuzzy
+
 msgid "Event"
 msgstr "事件"
 
@@ -4915,7 +4907,7 @@ msgstr "例子"
 msgid "Examples"
 msgstr "示例"
 
-#, fuzzy
+
 msgid "Excel Upload"
 msgstr "CSV上传"
 
@@ -4925,7 +4917,7 @@ msgstr "无法确定 Excel 文件格式"
 msgid "Exclude selected values"
 msgstr "排除选定的值"
 
-#, fuzzy
+
 msgid "Excluded roles"
 msgstr "排除角色"
 
@@ -4941,14 +4933,14 @@ msgstr "执行ID"
 msgid "Execution log"
 msgstr "执行日志"
 
-#, fuzzy
+
 msgid "Existing dataset"
 msgstr "存在的数据集"
 
 msgid "Exit fullscreen"
 msgstr "退出全屏"
 
-#, fuzzy
+
 msgid "Expand"
 msgstr "展开"
 
@@ -4958,7 +4950,7 @@ msgstr "全部展开"
 msgid "Expand data panel"
 msgstr "展开数据面板"
 
-#, fuzzy
+
 msgid "Expand row"
 msgstr "标题行"
 
@@ -4998,23 +4990,23 @@ msgstr "导出看板?"
 msgid "Export query"
 msgstr "导出查询"
 
-#, fuzzy
+
 msgid "Export to .CSV"
 msgstr "导出为CSV"
 
-#, fuzzy
+
 msgid "Export to .JSON"
 msgstr "导出为JSON"
 
-#, fuzzy
+
 msgid "Export to Excel"
 msgstr "导出为Excel"
 
-#, fuzzy
+
 msgid "Export to PDF"
 msgstr "导出为PDF"
 
-#, fuzzy
+
 msgid "Export to Pivoted .CSV"
 msgstr "导出为透视表形式的CSV"
 
@@ -5024,11 +5016,11 @@ msgstr "导出为YAML"
 msgid "Export to YAML?"
 msgstr "导出到YAML？"
 
-#, fuzzy
+
 msgid "Export to full .CSV"
 msgstr "导出全量CSV"
 
-#, fuzzy
+
 msgid "Export to full Excel"
 msgstr "导出全量Excel"
 
@@ -5087,7 +5079,7 @@ msgstr "用于jinja模板化查询的额外参数"
 msgid "Extra url parameters for use in Jinja templated queries"
 msgstr "用于jinja模板化查询的额外url"
 
-#, fuzzy
+
 msgid "Extruded"
 msgstr "拉伸"
 
@@ -5132,18 +5124,18 @@ msgstr "加载图表数据失败。"
 msgid "Failed to load dimensions for drill by"
 msgstr "加载下钻维度失败"
 
-#, fuzzy
+
 msgid "Failed to retrieve advanced type"
 msgstr "检索高级类型失败"
 
-#, fuzzy
+
 msgid "Failed to save cross-filter scoping"
 msgstr "保存交叉筛选作用域失败"
 
 msgid "Failed to start remote query on a worker."
 msgstr "无法启动远程查询"
 
-#, fuzzy
+
 msgid "Failed to tag items"
 msgstr "给对象打标签失败"
 
@@ -5176,7 +5168,7 @@ msgstr "获取数据预览"
 msgid "Fetched %s"
 msgstr "刷新于 %s"
 
-#, fuzzy
+
 msgid "Fetching"
 msgstr "抓取中"
 
@@ -5194,7 +5186,7 @@ msgstr "字段是必需的"
 msgid "File"
 msgstr "文件"
 
-#, fuzzy
+
 msgid "File Settings"
 msgstr "过滤器设置"
 
@@ -5204,11 +5196,11 @@ msgstr "不允许该文件扩展名。"
 msgid "File size exceeds the maximum allowed size."
 msgstr "文件大小超过允许的最大大小。"
 
-#, fuzzy
+
 msgid "File upload"
 msgstr "上传"
 
-#, fuzzy
+
 msgid "Fill Color"
 msgstr "填充颜色"
 
@@ -5218,35 +5210,35 @@ msgstr "填写所有必填字段以启用默认值"
 msgid "Fill method"
 msgstr "填充方式"
 
-#, fuzzy
+
 msgid "Filled"
 msgstr "填充"
 
 msgid "Filter"
 msgstr "过滤器"
 
-#, fuzzy
+
 msgid "Filter Configuration"
 msgstr "过滤配置"
 
 msgid "Filter List"
 msgstr "过滤列表"
 
-#, fuzzy
+
 msgid "Filter Settings"
 msgstr "过滤器设置"
 
 msgid "Filter Type"
 msgstr "过滤类型"
 
-#, fuzzy
+
 msgid "Filter charts"
 msgstr "过滤您的图表"
 
 msgid "Filter has default value"
 msgstr "过滤器默认值"
 
-#, fuzzy
+
 msgid "Filter menu"
 msgstr "过滤器菜单"
 
@@ -5265,7 +5257,7 @@ msgstr "过滤类型"
 msgid "Filter value (case sensitive)"
 msgstr "过滤值（区分大小写）"
 
-#, fuzzy
+
 msgid "Filter value is required"
 msgstr "过滤器制是必须的"
 
@@ -5309,7 +5301,7 @@ msgstr ""
 "'region')，filter子句将应用过滤 (department = 'Finance' OR department = "
 "'Marketing') 和 (region = 'Europe')"
 
-#, fuzzy
+
 msgid "Find"
 msgstr "查找"
 
@@ -5336,7 +5328,7 @@ msgstr "固定颜色"
 msgid "Fixed color"
 msgstr "固定颜色"
 
-#, fuzzy
+
 msgid "Fixed point radius"
 msgstr "固定点半径"
 
@@ -5387,18 +5379,18 @@ msgid ""
 "CTAS or CVAS in SQL Lab."
 msgstr "在SQL工具箱中点击CTAS或CVAS强制创建所有数据表或视图"
 
-#, fuzzy
+
 msgid "Force categorical"
 msgstr "强制分类"
 
-#, fuzzy
+
 msgid "Force date format"
 msgstr "强制日期格式化"
 
 msgid "Force refresh"
 msgstr "强制刷新"
 
-#, fuzzy
+
 msgid "Force refresh catalog list"
 msgstr "强制刷新表列表"
 
@@ -5414,7 +5406,7 @@ msgstr "预测期"
 msgid "Foreign key"
 msgstr "外键"
 
-#, fuzzy
+
 msgid "Forest Green"
 msgstr "森林绿"
 
@@ -5424,7 +5416,7 @@ msgstr "在缓存中找不到表单数据，恢复为图表元数据。"
 msgid "Form data not found in cache, reverting to dataset metadata."
 msgstr "在缓存中找不到表单数据，恢复为数据集元数据。"
 
-#, fuzzy
+
 msgid "Format SQL"
 msgstr "格式化SQL"
 
@@ -5437,23 +5429,23 @@ msgstr "格式化数据标签。使用变量：{name}、{value}、{percent}。\n
 msgid "Formatted CSV attached in email"
 msgstr "邮件中附上格式化好的CSV"
 
-#, fuzzy
+
 msgid "Formatted date"
 msgstr "格式日期"
 
-#, fuzzy
+
 msgid "Formatted value"
 msgstr "格式化值"
 
-#, fuzzy
+
 msgid "Formatting"
 msgstr "自动匹配格式化"
 
-#, fuzzy
+
 msgid "Formula"
 msgstr "公式"
 
-#, fuzzy
+
 msgid "Forward values"
 msgstr "向前数值"
 
@@ -5478,7 +5470,7 @@ msgstr "星期五"
 msgid "From date cannot be larger than to date"
 msgstr "起始日期不能晚于结束日期"
 
-#, fuzzy
+
 msgid "Full name"
 msgstr "完整名称"
 
@@ -5491,7 +5483,7 @@ msgstr "进一步自定义如何显示每列"
 msgid "Further customize how to display each metric"
 msgstr "进一步定制如何显示每个指标"
 
-#, fuzzy
+
 msgid "GROUP BY"
 msgstr "分组"
 
@@ -5501,25 +5493,25 @@ msgstr "仪表图"
 msgid "General"
 msgstr "一般"
 
-#, fuzzy
+
 msgid "General information"
 msgstr "附加信息"
 
 msgid "Generating link, please wait.."
 msgstr "生成链接，请稍等..."
 
-#, fuzzy
+
 msgid "Generic Chart"
 msgstr "通用图表"
 
 msgid "Geo"
 msgstr "地理位置"
 
-#, fuzzy
+
 msgid "GeoJson Column"
 msgstr "GeoJSON列"
 
-#, fuzzy
+
 msgid "GeoJson Settings"
 msgstr "GeoJSON设置"
 
@@ -5556,22 +5548,22 @@ msgstr "图表布局"
 msgid "Gravity"
 msgstr "重力"
 
-#, fuzzy
+
 msgid "Greater or equal (>=)"
 msgstr "大于等于(>=)"
 
-#, fuzzy
+
 msgid "Greater than (>)"
 msgstr "大于（>）"
 
 msgid "Green for increase, red for decrease"
 msgstr "增加为绿色，减少为红色"
 
-#, fuzzy
+
 msgid "Grid"
 msgstr "网格"
 
-#, fuzzy
+
 msgid "Grid Size"
 msgstr "网格大小"
 
@@ -5581,7 +5573,7 @@ msgstr "分组"
 msgid "Group By, Metrics or Percentage Metrics must have a value"
 msgstr "分组、指标或百分比指标必须具有值"
 
-#, fuzzy
+
 msgid "Group Key"
 msgstr "分组"
 
@@ -5594,14 +5586,14 @@ msgstr "可分组"
 msgid "Guest user cannot modify chart payload"
 msgstr "访客用户无法修改图表有效载荷"
 
-#, fuzzy
+
 msgid "HOUR"
 msgstr "小时"
 
 msgid "Handlebars"
 msgstr "Handlebars"
 
-#, fuzzy
+
 msgid "Handlebars Template"
 msgstr "Handlebars模板"
 
@@ -5613,7 +5605,7 @@ msgid ""
 "when the normalization is applied against the whole heatmap."
 msgstr "应用于颜色编码的硬值边界。只有当对整个热图应用标准化时才是相关的和应用的。"
 
-#, fuzzy
+
 msgid "Has created by"
 msgstr "已创建"
 
@@ -5623,7 +5615,7 @@ msgstr "标题行"
 msgid "Header Row"
 msgstr "标题行"
 
-#, fuzzy
+
 msgid "Header row"
 msgstr "标题行"
 
@@ -5639,29 +5631,29 @@ msgstr "热图选项"
 msgid "Height"
 msgstr "高度"
 
-#, fuzzy
+
 msgid "Height of the sparkline"
 msgstr "迷你图的高度"
 
-#, fuzzy
+
 msgid "Hide Line"
 msgstr "隐藏线"
 
-#, fuzzy
+
 msgid "Hide chart description"
 msgstr "隐藏图表说明"
 
 msgid "Hide layer"
 msgstr "隐藏Layer"
 
-#, fuzzy
+
 msgid "Hide password."
 msgstr "隐藏密码"
 
 msgid "Hide tool bar"
 msgstr "隐藏工具栏"
 
-#, fuzzy
+
 msgid "Hides the Line for the time series"
 msgstr "隐藏时间系列的线"
 
@@ -5671,7 +5663,7 @@ msgstr "层次"
 msgid "Histogram"
 msgstr "直方图"
 
-#, fuzzy
+
 msgid "Histogram (legacy)"
 msgstr "热力图（传统）"
 
@@ -5684,11 +5676,11 @@ msgstr "横向图表"
 msgid "Horizon Charts"
 msgstr "水平图表"
 
-#, fuzzy
+
 msgid "Horizontal"
 msgstr "横向"
 
-#, fuzzy
+
 msgid "Horizontal (Top)"
 msgstr "横向（顶部对齐）"
 
@@ -5762,7 +5754,7 @@ msgstr ""
 "如果使用Presto，SQL 工具箱中的所有查询都将被当前登录的用户执行，并且这些用户必须拥有运行它们的权限。<br/>如果启用 Hive "
 "和hive.server2.enable.doAs，将作为服务帐户运行查询，但会根据hive.server2.proxy.user的属性伪装当前登录用户。"
 
-#, fuzzy
+
 msgid "If Table Already Exists"
 msgstr "如果表已存在"
 
@@ -5777,7 +5769,7 @@ msgstr "如果启用，此控件将结果/值按降序排序，否则按升序�
 msgid "If selected, please set the schemas allowed for csv upload in Extra."
 msgstr "如果选择，请额外设置csv上传允许的模式。"
 
-#, fuzzy
+
 msgid "Ignore cache when generating report"
 msgstr "生成报告时忽略缓存"
 
@@ -5847,7 +5839,7 @@ msgid ""
 "else there is no guarantee that all events for each entity are returned."
 msgstr "很重要！如果表尚未按实体ID排序，则选择此项，否则无法保证返回每个实体的所有事件。"
 
-#, fuzzy
+
 msgid "In"
 msgstr "在"
 
@@ -5857,9 +5849,9 @@ msgstr "包含系列"
 msgid "Include a description that will be sent with your report"
 msgstr "描述要发送给你的报告"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Include description to be sent with %s"
-msgstr "描述要发送给你的报告"
+msgstr "描述要发送给你的报告 %s"
 
 msgid "Include series name as an axis"
 msgstr "包括系列名称作为轴"
@@ -5867,22 +5859,22 @@ msgstr "包括系列名称作为轴"
 msgid "Include time"
 msgstr "包含时间"
 
-#, fuzzy
+
 msgid "Increase"
 msgstr "增加"
 
-#, fuzzy
+
 msgid "Index"
 msgstr "索引"
 
 msgid "Index Column"
 msgstr "索引字段"
 
-#, fuzzy
+
 msgid "Index Label"
 msgstr "范围标签"
 
-#, fuzzy
+
 msgid "Index label"
 msgstr "范围标签"
 
@@ -5907,7 +5899,7 @@ msgstr "输入字段支持自定义。例如，30代表30°"
 msgid "Intensity"
 msgstr "强度"
 
-#, fuzzy
+
 msgid "Intensity Radius"
 msgstr "强度半径"
 
@@ -5917,7 +5909,7 @@ msgstr "强度半径是指权重分布的半径"
 msgid "Intensity is the value multiplied by the weight to obtain the final weight"
 msgstr "强度是值乘以权重以获得最终权重"
 
-#, fuzzy
+
 msgid "Interval"
 msgstr "间隔"
 
@@ -5936,11 +5928,11 @@ msgstr "间隔开始列"
 msgid "Intervals"
 msgstr "间隔"
 
-#, fuzzy
+
 msgid "Intesity"
 msgstr "强度"
 
-#, fuzzy
+
 msgid ""
 "Invalid Connection String: Expecting String of the form "
 "'ocient://user:pass@host:port/database'."
@@ -5949,14 +5941,14 @@ msgstr "连接字符串无效，有效字符串通常如下：ocient://user:pass
 msgid "Invalid JSON"
 msgstr "无效的JSON"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Invalid advanced data type: %(advanced_data_type)s"
 msgstr "无效的高级数据类型：%(advanced_data_type)s"
 
 msgid "Invalid certificate"
 msgstr "无效认证"
 
-#, fuzzy
+
 msgid ""
 "Invalid connection string, a valid string usually follows: "
 "backend+driver://user:password@database-host/database-name"
@@ -6005,7 +5997,7 @@ msgstr "错误的经纬度配置。"
 msgid "Invalid longitude/latitude"
 msgstr "无效的经度/纬度"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Invalid metric object: %(metric)s"
 msgstr "无效的指标对象"
 
@@ -6032,11 +6024,11 @@ msgstr "无效的结果类型：%(result_type)s"
 msgid "Invalid rolling_type: %(type)s"
 msgstr "无效的滚动类型：%(type)s"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Invalid spatial point encountered: %(latlong)s"
 msgstr "遇到无效的空间点：%(latlong)s"
 
-#, fuzzy
+
 msgid "Invalid state."
 msgstr "无效状态。"
 
@@ -6047,21 +6039,21 @@ msgstr "无效的标签页 ID：%s(tab_ids)"
 msgid "Inverse selection"
 msgstr "反选"
 
-#, fuzzy
+
 msgid "Invert current page"
 msgstr "反转当前页"
 
 msgid "Is certified"
 msgstr "已认证"
 
-#, fuzzy
+
 msgid "Is custom tag"
 msgstr "自定义标签"
 
 msgid "Is dimension"
 msgstr "维度"
 
-#, fuzzy
+
 msgid "Is false"
 msgstr "禁用"
 
@@ -6071,11 +6063,11 @@ msgstr "收藏"
 msgid "Is filterable"
 msgstr "可被过滤"
 
-#, fuzzy
+
 msgid "Is not null"
 msgstr "非空"
 
-#, fuzzy
+
 msgid "Is null"
 msgstr "是空"
 
@@ -6088,11 +6080,11 @@ msgstr "时间条件"
 msgid "Is true"
 msgstr "为真"
 
-#, fuzzy
+
 msgid "Isoband"
 msgstr "等值带"
 
-#, fuzzy
+
 msgid "Isoline"
 msgstr "等值线"
 
@@ -6102,7 +6094,7 @@ msgstr "Issue 1000 - 数据集太大，无法进行查询。"
 msgid "Issue 1001 - The database is under an unusual load."
 msgstr "Issue 1001 - 数据库负载异常。"
 
-#, fuzzy
+
 msgid "It’s not recommended to truncate axis in Bar chart."
 msgstr "不建议截断柱状图中的y轴。"
 
@@ -6118,7 +6110,7 @@ msgstr "JSON 元数据"
 msgid "JSON metadata"
 msgstr "JSON 元数据"
 
-#, fuzzy
+
 msgid "JSON metadata is invalid!"
 msgstr "无效 JSON"
 
@@ -6147,7 +6139,7 @@ msgstr "JavaScript onClick 链接"
 msgid "JavaScript tooltip generator"
 msgstr "JS提示生成器"
 
-#, fuzzy
+
 msgid "Jinja templating"
 msgstr "Jinja模板"
 
@@ -6166,7 +6158,7 @@ msgstr "保留控制设置？"
 msgid "Keep editing"
 msgstr "继续编辑"
 
-#, fuzzy
+
 msgid "Key"
 msgstr "键"
 
@@ -6176,32 +6168,32 @@ msgstr "键盘快捷键"
 msgid "Keys for table"
 msgstr "表的键"
 
-#, fuzzy
+
 msgid "Kilometers"
 msgstr "千米"
 
-#, fuzzy
+
 msgid "LIMIT"
 msgstr "行限制"
 
 msgid "Label"
 msgstr "标签"
 
-#, fuzzy
+
 msgid "Label Contents"
 msgstr "标签内容"
 
 msgid "Label Line"
 msgstr "标签线"
 
-#, fuzzy
+
 msgid "Label Template"
 msgstr "删除模板"
 
 msgid "Label Type"
 msgstr "标签类型"
 
-#, fuzzy
+
 msgid "Label already exists"
 msgstr "标签已存在"
 
@@ -6248,7 +6240,7 @@ msgstr "最后修改"
 msgid "Last Updated %s"
 msgstr "最后更新 %s"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Last Updated %s by %s"
 msgstr "最后由 %s 更新 %s"
 
@@ -6256,29 +6248,29 @@ msgstr "最后由 %s 更新 %s"
 msgid "Last available value seen on %s"
 msgstr "到 %s 最后一个可用值"
 
-#, fuzzy
+
 msgid "Last day"
 msgstr "昨天"
 
 msgid "Last modified"
 msgstr "最后修改"
 
-#, fuzzy
+
 msgid "Last month"
 msgstr "上一月"
 
-#, fuzzy
+
 msgid "Last quarter"
 msgstr "上一季度"
 
 msgid "Last run"
 msgstr "上次执行"
 
-#, fuzzy
+
 msgid "Last week"
 msgstr "上一周"
 
-#, fuzzy
+
 msgid "Last year"
 msgstr "上一年"
 
@@ -6332,26 +6324,26 @@ msgstr "传统"
 msgid "Legend"
 msgstr "图例"
 
-#, fuzzy
+
 msgid "Legend Format"
 msgstr "图例格式"
 
-#, fuzzy
+
 msgid "Legend Orientation"
 msgstr "图例方向"
 
-#, fuzzy
+
 msgid "Legend Position"
 msgstr "图例位置"
 
-#, fuzzy
+
 msgid "Legend Type"
 msgstr "图例类型"
 
 msgid "Legend type"
 msgstr "图例类型"
 
-#, fuzzy
+
 msgid "Less or equal (<=)"
 msgstr "小于等于 (<=)"
 
@@ -6361,7 +6353,7 @@ msgstr "小于（<）"
 msgid "Lift percent precision"
 msgstr "提升百分比精度"
 
-#, fuzzy
+
 msgid "Light"
 msgstr "明亮"
 
@@ -6371,11 +6363,11 @@ msgstr "明亮模式"
 msgid "Like"
 msgstr "包含"
 
-#, fuzzy
+
 msgid "Like (case insensitive)"
 msgstr "Like（区分大小写）"
 
-#, fuzzy
+
 msgid "Limit type"
 msgstr "限制类型"
 
@@ -6384,7 +6376,7 @@ msgid ""
 "Consider filtering or grouping source/target names instead."
 msgstr "限制行数可能导致不完整的数据和误导性的图表。可以考虑过滤或分组源/目标名称。"
 
-#, fuzzy
+
 msgid "Limits the number of cells that get retrieved."
 msgstr "限制检索的单元格数量。"
 
@@ -6413,7 +6405,7 @@ msgstr "折线图"
 msgid "Line Style"
 msgstr "线条样式"
 
-#, fuzzy
+
 msgid ""
 "Line chart is used to visualize measurements taken over a given category."
 " Line chart is a type of chart which displays information as a series of "
@@ -6427,7 +6419,7 @@ msgstr "由 d3.js 定义的线插值"
 msgid "Line width"
 msgstr "线宽"
 
-#, fuzzy
+
 msgid "Line width unit"
 msgstr "线宽单位"
 
@@ -6440,18 +6432,18 @@ msgstr "线性颜色方案"
 msgid "Linear interpolation"
 msgstr "线性插值"
 
-#, fuzzy
+
 msgid "Lines column"
 msgstr "线段列"
 
-#, fuzzy
+
 msgid "Lines encoding"
 msgstr "线段编码"
 
 msgid "Link Copied!"
 msgstr "链接已复制！"
 
-#, fuzzy
+
 msgid "List Unique Values"
 msgstr "列出唯一值"
 
@@ -6461,7 +6453,7 @@ msgstr "在JavaScript函数中可用的额外列列表"
 msgid "List of n+1 values for bucketing metric into n buckets."
 msgstr "用于将指标分桶为 n 个存储桶的 n+1 个值的列表。"
 
-#, fuzzy
+
 msgid "List of the column names that should be read"
 msgstr "应当读取的列名的 Json 列表"
 
@@ -6471,7 +6463,7 @@ msgstr "要用直线标记的值列表"
 msgid "List of values to mark with triangles"
 msgstr "要用三角形标记的值列表"
 
-#, fuzzy
+
 msgid "List updated"
 msgstr "列表已更新"
 
@@ -6490,14 +6482,14 @@ msgstr "加载的数据已缓存"
 msgid "Loaded from cache"
 msgstr "从缓存中加载"
 
-#, fuzzy
+
 msgid "Loading"
 msgstr "加载中..."
 
 msgid "Loading..."
 msgstr "加载中..."
 
-#, fuzzy
+
 msgid "Locate the chart"
 msgstr "定位到图表"
 
@@ -6507,7 +6499,7 @@ msgstr "对数尺度"
 msgid "Log retention"
 msgstr "日志保留"
 
-#, fuzzy
+
 msgid "Logarithmic axis"
 msgstr "对数轴"
 
@@ -6517,7 +6509,7 @@ msgstr "对数刻度在主y轴上"
 msgid "Logarithmic scale on secondary y-axis"
 msgstr "二次y轴上的对数刻度"
 
-#, fuzzy
+
 msgid "Logarithmic x-axis"
 msgstr "对数轴"
 
@@ -6527,7 +6519,7 @@ msgstr "对数轴"
 msgid "Login"
 msgstr "登录"
 
-#, fuzzy
+
 msgid "Login with"
 msgstr "登录方式"
 
@@ -6543,21 +6535,21 @@ msgstr "长虚线"
 msgid "Longitude"
 msgstr "经度"
 
-#, fuzzy
+
 msgid "Longitude & Latitude"
 msgstr "经纬度字段"
 
 msgid "Longitude & Latitude columns"
 msgstr "经纬度字段"
 
-#, fuzzy
+
 msgid "Longitude and Latitude"
 msgstr "经度/纬度"
 
 msgid "Longitude of default viewport"
 msgstr "默认视口经度"
 
-#, fuzzy
+
 msgid "Lower Threshold"
 msgstr "阈值下限"
 
@@ -6570,21 +6562,21 @@ msgstr "三月"
 msgid "MAY"
 msgstr "五月"
 
-#, fuzzy
+
 msgid "MINUTE"
 msgstr "分"
 
 msgid "MON"
 msgstr "星期一"
 
-#, fuzzy
+
 msgid "Main"
 msgstr "最小值"
 
 msgid "Main Datetime Column"
 msgstr "主日期列"
 
-#, fuzzy
+
 msgid ""
 "Make sure that the controls are configured properly and the datasource "
 "contains data for the selected time range"
@@ -6601,7 +6593,7 @@ msgstr "格式错误的请求。需要使用 slice_id 或 table_name 和 db_name
 msgid "Manage"
 msgstr "管理"
 
-#, fuzzy
+
 msgid "Manage email report"
 msgstr "管理邮件报告"
 
@@ -6611,7 +6603,7 @@ msgstr "管理你的数据库"
 msgid "Mandatory"
 msgstr "必填参数"
 
-#, fuzzy
+
 msgid "Manually set min/max values for the y-axis."
 msgstr "手工设置Y轴最大最小值"
 
@@ -6683,7 +6675,7 @@ msgid ""
 "this insures that the circle respects this maximum radius."
 msgstr "圆的最大半径尺寸，以像素为单位。随着缩放级别的变化，这确保圆始终保持这一最大半径。"
 
-#, fuzzy
+
 msgid "Maximum value"
 msgstr "最大值"
 
@@ -6696,7 +6688,7 @@ msgstr "五月"
 msgid "Mean of values over specified period"
 msgstr "特定时期内的平均值"
 
-#, fuzzy
+
 msgid "Mean values"
 msgstr "平均值"
 
@@ -6713,7 +6705,7 @@ msgid ""
 "smallest"
 msgstr "节点大小中位数，最大的节点将比最小的节点大4倍"
 
-#, fuzzy
+
 msgid "Median values"
 msgstr "中位数值"
 
@@ -6745,7 +6737,7 @@ msgstr "指标"
 msgid "Metric '%(metric)s' does not exist"
 msgstr "指标 '%(metric)s' 不存在"
 
-#, fuzzy
+
 msgid "Metric Key"
 msgstr "指标"
 
@@ -6777,7 +6769,7 @@ msgstr "指标因子从 `since` 到 `until` 的变化"
 msgid "Metric for node values"
 msgstr "节点值的指标"
 
-#, fuzzy
+
 msgid "Metric name"
 msgstr "指标名称"
 
@@ -6803,7 +6795,7 @@ msgstr "用来计算气泡大小的指标"
 msgid "Metric used to control height"
 msgstr "用于控制高度的指标"
 
-#, fuzzy
+
 msgid ""
 "Metric used to define how the top series are sorted if a series or cell "
 "limit is present. If undefined reverts to the first metric (where "
@@ -6816,7 +6808,7 @@ msgid ""
 "appropriate)."
 msgstr "如果存在序列或行限制，则用于定义顶部序列的排序方式的度量。如果未定义，则返回第一个度量（如果适用）。"
 
-#, fuzzy
+
 msgid ""
 "Metric used to order the limit if a series limit is present. If undefined"
 " reverts to the first metric (where appropriate)."
@@ -6825,14 +6817,14 @@ msgstr "如果存在序列或行限制，则用于定义顶部序列的排序方
 msgid "Metrics"
 msgstr "指标"
 
-#, fuzzy
+
 msgid "Middle"
 msgstr "中间"
 
 msgid "Midnight"
 msgstr "凌晨（当天）"
 
-#, fuzzy
+
 msgid "Miles"
 msgstr "英里"
 
@@ -6860,7 +6852,7 @@ msgstr "最小"
 msgid "Minimum Font Size"
 msgstr "最小字体大小"
 
-#, fuzzy
+
 msgid "Minimum Radius"
 msgstr "最小半径"
 
@@ -6875,7 +6867,7 @@ msgstr "圆圈的最小半径大小（以像素为单位）。随着缩放级别
 msgid "Minimum threshold in percentage points for showing labels."
 msgstr "标签显示百分比最小阈值"
 
-#, fuzzy
+
 msgid "Minimum value"
 msgstr "最小值"
 
@@ -6888,7 +6880,7 @@ msgstr "量规轴上的最小值"
 msgid "Minor Split Line"
 msgstr "次级分隔线"
 
-#, fuzzy
+
 msgid "Minor ticks"
 msgstr "次级刻度"
 
@@ -6899,18 +6891,18 @@ msgstr "分钟"
 msgid "Minutes %s"
 msgstr "%s分钟"
 
-#, fuzzy
+
 msgid "Minutes value"
 msgstr "最小值"
 
-#, fuzzy
+
 msgid "Missing URL parameters"
 msgstr "缺失URL参数"
 
 msgid "Missing dataset"
 msgstr "丢失数据集"
 
-#, fuzzy
+
 msgid "Mixed Chart"
 msgstr "混合图表"
 
@@ -6924,7 +6916,7 @@ msgstr "最后修改 %s"
 msgid "Modified by"
 msgstr "修改人"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Modified by: %s"
 msgstr "上次修改人 %s"
 
@@ -6942,11 +6934,11 @@ msgstr "月"
 msgid "Months %s"
 msgstr "%s月"
 
-#, fuzzy
+
 msgid "More"
 msgstr "查看更多"
 
-#, fuzzy
+
 msgid "More filters"
 msgstr "更多过滤器"
 
@@ -6974,7 +6966,7 @@ msgstr "多元"
 msgid "Multiple"
 msgstr "多选"
 
-#, fuzzy
+
 msgid "Multiple filtering"
 msgstr "多重过滤"
 
@@ -6983,14 +6975,14 @@ msgid ""
 "details"
 msgstr "接受多种格式，查看geopy.points库以获取更多细节"
 
-#, fuzzy
+
 msgid "Multiplier"
 msgstr "倍数"
 
 msgid "Must be unique"
 msgstr "需要唯一"
 
-#, fuzzy
+
 msgid "Must choose either a chart or a dashboard"
 msgstr "选择图表或看板，不能都全部选择"
 
@@ -7018,7 +7010,7 @@ msgstr "我的指标"
 msgid "N/A"
 msgstr "N/A"
 
-#, fuzzy
+
 msgid "NOT GROUPED BY"
 msgstr "需要进行分组的一列或多列"
 
@@ -7028,7 +7020,7 @@ msgstr "十一月"
 msgid "NOW"
 msgstr "现在"
 
-#, fuzzy
+
 msgid "NUMERIC"
 msgstr "数字"
 
@@ -7041,7 +7033,7 @@ msgstr "需要名称"
 msgid "Name must be unique"
 msgstr "名称必须是唯一的"
 
-#, fuzzy
+
 msgid "Name of table to be created"
 msgstr "从CSV数据将创建的表的名称。"
 
@@ -7060,7 +7052,7 @@ msgstr "源数据库中存在的表名称"
 msgid "Name of the target nodes"
 msgstr "目标节点名称"
 
-#, fuzzy
+
 msgid "Name of your tag"
 msgstr "标签的名称"
 
@@ -7073,7 +7065,7 @@ msgstr "需要帮助？学习如何连接到数据库"
 msgid "Need help? Learn more about"
 msgstr "需要帮助？请看"
 
-#, fuzzy
+
 msgid "Network error"
 msgstr "网络异常。"
 
@@ -7087,15 +7079,15 @@ msgstr "新增图表"
 msgid "New columns added: %s"
 msgstr "新增的列：%s"
 
-#, fuzzy
+
 msgid "New dataset"
 msgstr "新数据集"
 
-#, fuzzy
+
 msgid "New dataset name"
 msgstr "数据集名称"
 
-#, fuzzy
+
 msgid "New header"
 msgstr "子标题"
 
@@ -7111,7 +7103,7 @@ msgstr "新建选项卡 (Ctrl + t)"
 msgid "Next"
 msgstr "下一个"
 
-#, fuzzy
+
 msgid "Nightingale"
 msgstr "南丁格尔玫瑰图"
 
@@ -7131,15 +7123,15 @@ msgstr "没有数据"
 msgid "No Results"
 msgstr "无结果"
 
-#, fuzzy
+
 msgid "No Rules yet"
 msgstr "还没有规则"
 
-#, fuzzy
+
 msgid "No Tags created"
 msgstr "还没创建标签"
 
-#, fuzzy
+
 msgid "No annotation layers"
 msgstr "没有注释层"
 
@@ -7149,41 +7141,41 @@ msgstr "还没有注释层"
 msgid "No annotation yet"
 msgstr "没有注释"
 
-#, fuzzy
+
 msgid "No applied filters"
 msgstr "没有应用过滤器"
 
-#, fuzzy
+
 msgid "No available filters."
 msgstr "没有有效的过滤器"
 
 msgid "No charts"
 msgstr "没有图表"
 
-#, fuzzy
+
 msgid "No charts yet"
 msgstr "还没有图表"
 
-#, fuzzy
+
 msgid "No columns found"
 msgstr "找不到列"
 
-#, fuzzy
+
 msgid "No compatible catalog found"
 msgstr "找不到兼容的数据库"
 
 msgid "No compatible columns found"
 msgstr "找不到兼容的列"
 
-#, fuzzy
+
 msgid "No compatible datasets found"
 msgstr "找不到兼容的数据库"
 
-#, fuzzy
+
 msgid "No compatible schema found"
 msgstr "找不到兼容的模式"
 
-#, fuzzy
+
 msgid "No dashboards yet"
 msgstr "还没有看板"
 
@@ -7211,11 +7203,11 @@ msgstr "无筛选"
 msgid "No filter is selected."
 msgstr "未选择过滤条件。"
 
-#, fuzzy
+
 msgid "No filters"
 msgstr "无筛选"
 
-#, fuzzy
+
 msgid "No filters are currently added to this dashboard."
 msgstr "此看板中没有过滤条件。"
 
@@ -7225,21 +7217,21 @@ msgstr "未保留任何表单设置"
 msgid "No global filters are currently added"
 msgstr "当前没有已添加的全局过滤器"
 
-#, fuzzy
+
 msgid "No matching records found"
 msgstr "没有找到任何记录"
 
 msgid "No of Bins"
 msgstr "直方图容器数"
 
-#, fuzzy
+
 msgid "No recents yet"
 msgstr "还没有记录"
 
 msgid "No records found"
 msgstr "没有找到任何记录"
 
-#, fuzzy
+
 msgid "No results"
 msgstr "无结果"
 
@@ -7261,19 +7253,19 @@ msgstr "此查询没有返回任何结果。如果希望返回结果，请确保
 msgid "No rows were returned for this dataset"
 msgstr "这个数据集没有返回任何行"
 
-#, fuzzy
+
 msgid "No samples were returned for this dataset"
 msgstr "这个数据集没有返回预览数据"
 
-#, fuzzy
+
 msgid "No saved expressions found"
 msgstr "没有已保存的表达式"
 
-#, fuzzy
+
 msgid "No saved metrics found"
 msgstr "没有已保存的指标"
 
-#, fuzzy
+
 msgid "No saved queries yet"
 msgstr "还没保存查询"
 
@@ -7283,11 +7275,11 @@ msgstr "找不到存储的结果，需要重新运行查询"
 msgid "No such column found. To filter on a metric, try the Custom SQL tab."
 msgstr "没有发现这样的列。若要在度量值上筛选，请尝试自定义SQL选项卡。"
 
-#, fuzzy
+
 msgid "No table columns"
 msgstr "没有列"
 
-#, fuzzy
+
 msgid "No temporal columns found"
 msgstr "没有找到时间列"
 
@@ -7297,7 +7289,7 @@ msgstr "没有时间列"
 msgid "No validator found (configured for the engine)"
 msgstr "未找到验证器（为引擎配置）"
 
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "No validator named %(validator_name)s found (configured for the "
 "%(engine_spec)s engine)"
@@ -7324,14 +7316,14 @@ msgstr "无->无"
 msgid "Normal"
 msgstr "正常"
 
-#, fuzzy
+
 msgid "Normalize"
 msgstr "标准化"
 
 msgid "Normalize Across"
 msgstr "标准化"
 
-#, fuzzy
+
 msgid "Normalize column names"
 msgstr "标准化列名称"
 
@@ -7341,30 +7333,30 @@ msgstr "标准化"
 msgid "Not Time Series"
 msgstr "没有时间系列"
 
-#, fuzzy
+
 msgid "Not a valid ZIP file"
 msgstr "没有应用过滤器"
 
-#, fuzzy
+
 msgid "Not added to any dashboard"
 msgstr "没有添加到任何看板"
 
 msgid "Not all required fields are complete. Please provide the following:"
 msgstr "并非所有必填字段都已完成。请提供以下内容："
 
-#, fuzzy
+
 msgid "Not available"
 msgstr "没有可用信息"
 
-#, fuzzy
+
 msgid "Not defined"
 msgstr "未定义"
 
-#, fuzzy
+
 msgid "Not equal to (≠)"
 msgstr "不等于（≠）"
 
-#, fuzzy
+
 msgid "Not in"
 msgstr "Not In"
 
@@ -7380,7 +7372,7 @@ msgstr "不是最新的"
 msgid "Nothing triggered"
 msgstr "无触发"
 
-#, fuzzy
+
 msgid "Notification Method"
 msgstr "通知方式"
 
@@ -7393,11 +7385,11 @@ msgstr "十一月"
 msgid "Now"
 msgstr "现在"
 
-#, fuzzy
+
 msgid "Null Values"
 msgstr "空值"
 
-#, fuzzy
+
 msgid "Null imputation"
 msgstr "空值填补"
 
@@ -7417,11 +7409,11 @@ msgstr "用于从红色到蓝色颜色编码的数字边界。反转数字以获
 msgid "Number format"
 msgstr "数字格式化"
 
-#, fuzzy
+
 msgid "Number format string"
 msgstr "数字格式化"
 
-#, fuzzy
+
 msgid "Number formatting"
 msgstr "数字格式化"
 
@@ -7442,11 +7434,11 @@ msgid ""
 "compare from the beginning of the time range."
 msgstr "要比较的周期数。您可以使用负数从时间范围的开始进行比较。"
 
-#, fuzzy
+
 msgid "Number of periods to ratio against"
 msgstr "根据粒度、要比较的时间阶段"
 
-#, fuzzy
+
 msgid "Number of rows of file to read. Leave empty (default) to read all rows"
 msgstr "要读取的文件行数。"
 
@@ -7462,7 +7454,7 @@ msgstr "显示 X 刻度时，在刻度之间表示的步骤数"
 msgid "Number of steps to take between ticks when displaying the Y scale"
 msgstr "显示 Y 刻度时，在刻度之间表示的步骤数"
 
-#, fuzzy
+
 msgid "Numeric column used to calculate the histogram."
 msgstr "选择数值列来绘制直方图"
 
@@ -7490,7 +7482,7 @@ msgstr "偏移"
 msgid "On Grace"
 msgstr "在宽限期内"
 
-#, fuzzy
+
 msgid "On dashboards"
 msgstr "看板"
 
@@ -7532,7 +7524,7 @@ msgstr "一个或多个指标不存在"
 msgid "One or more parameters needed to configure a database are missing."
 msgstr "数据库配置缺少所需的一个或多个参数。"
 
-#, fuzzy
+
 msgid "One or more parameters specified in the query are malformed."
 msgstr "查询中指定的一个或多个参数的格式不正确。"
 
@@ -7568,7 +7560,7 @@ msgstr "仅在堆叠图上显示合计值，而不在所选类别上显示"
 msgid "Only single queries supported"
 msgstr "仅支持单个查询"
 
-#, fuzzy
+
 msgid "Oops! An error occurred!"
 msgstr "发生了一个错误"
 
@@ -7618,11 +7610,11 @@ msgid ""
 " certain database engines."
 msgstr "用于验证HTTPS请求的可选 CA_BUNDLE 内容。仅在某些数据库引擎上可用。"
 
-#, fuzzy
+
 msgid "Optional d3 date format string"
 msgstr "条件格式设置"
 
-#, fuzzy
+
 msgid "Optional d3 number format string"
 msgstr "条件格式设置"
 
@@ -7648,15 +7640,15 @@ msgstr "按选定列对结果进行排序"
 msgid "Ordering"
 msgstr "排序"
 
-#, fuzzy
+
 msgid "Orientation"
 msgstr "方向"
 
-#, fuzzy
+
 msgid "Orientation of bar chart"
 msgstr "条形图的方向"
 
-#, fuzzy
+
 msgid "Orientation of filter bar"
 msgstr "过滤器栏的方向"
 
@@ -7678,7 +7670,7 @@ msgstr "正交化"
 msgid "Other"
 msgstr "其他"
 
-#, fuzzy
+
 msgid "Other color palettes"
 msgstr "色彩 \"Steps\" 数字"
 
@@ -7700,14 +7692,14 @@ msgid ""
 "weeks, 365 days). Free text is supported."
 msgstr "从相对时间段覆盖一个或多个时间序列。期望自然语言中的相对时间增量（例如：24小时、7天、56周、365天）"
 
-#, fuzzy
+
 msgid ""
 "Overlay one or more timeseries from a relative time period. Expects "
 "relative time deltas in natural language (example: 24 hours, 7 days, 52 "
 "weeks, 365 days). Free text is supported."
 msgstr "从相对时间段覆盖一个或多个时间序列。期望自然语言中的相对时间增量（例如：24小时、7天、56周、365天）"
 
-#, fuzzy
+
 msgid ""
 "Overlay results from a relative time period. Expects relative time deltas"
 " in natural language (example:  24 hours, 7 days, 52 weeks, 365 days). "
@@ -7721,11 +7713,11 @@ msgid ""
 "boundary of each cell."
 msgstr "在地图上叠加六边形网格，并在每个单元格的边界内聚合数据。"
 
-#, fuzzy
+
 msgid "Override time grain"
 msgstr "显示Druid原始时间"
 
-#, fuzzy
+
 msgid "Override time range"
 msgstr "编辑时间范围"
 
@@ -7739,7 +7731,7 @@ msgstr "覆写和浏览"
 msgid "Overwrite Dashboard [%s]"
 msgstr "覆盖看板 [%s]"
 
-#, fuzzy
+
 msgid "Overwrite existing"
 msgstr "覆盖已存在的"
 
@@ -7796,7 +7788,7 @@ msgstr "与地图上的视图和透视相关的参数"
 msgid "Parent"
 msgstr "父类"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Parsing error: %(error)s"
 msgstr "错误：%(error)s"
 
@@ -7826,14 +7818,14 @@ msgstr "密码"
 msgid "Paste Private Key here"
 msgstr "在此处粘贴私钥"
 
-#, fuzzy
+
 msgid "Paste content of service credentials JSON file here"
 msgstr "复制服务帐户的json文件复制并粘贴到此处"
 
 msgid "Paste the shareable Google Sheet URL here"
 msgstr "将可共享的Google Sheet URL粘贴到此处"
 
-#, fuzzy
+
 msgid "Paste your access token here"
 msgstr "把您的代码放在这里"
 
@@ -7843,19 +7835,19 @@ msgstr "样式"
 msgid "Percent Change"
 msgstr "百分比变化"
 
-#, fuzzy
+
 msgid "Percent Difference format"
 msgstr "强制日期格式化"
 
-#, fuzzy
+
 msgid "Percent of total"
 msgstr "总数的百分比"
 
-#, fuzzy
+
 msgid "Percentage"
 msgstr "百分比"
 
-#, fuzzy
+
 msgid "Percentage change"
 msgstr "百分比变化"
 
@@ -7880,7 +7872,7 @@ msgstr "周期平均值"
 msgid "Periods"
 msgstr "周期"
 
-#, fuzzy
+
 msgid "Periods must be a whole number"
 msgstr "周期必须是整数值"
 
@@ -7914,7 +7906,7 @@ msgstr "选择一个指标来显示"
 msgid "Pick a name to help you identify this database."
 msgstr "选择一个名称来帮助您识别这个数据库。"
 
-#, fuzzy
+
 msgid "Pick a nickname for how the database will display in Superset."
 msgstr "为这个数据库选择一个昵称以在Superset中显示"
 
@@ -7944,7 +7936,7 @@ msgstr "选择您最爱的 Markup 语言"
 msgid "Pie Chart"
 msgstr "饼图"
 
-#, fuzzy
+
 msgid "Pie Chart (legacy)"
 msgstr "饼图（传统）"
 
@@ -7999,14 +7991,14 @@ msgid ""
 "Then, try running your query again."
 msgstr "请检查查询中\"%(server_error)s\"附近的语法错误然后，再次尝试运行查询"
 
-#, fuzzy
+
 msgid ""
 "Please check your template parameters for syntax errors and make sure "
 "they match across your SQL query and Set Parameters. Then, try running "
 "your query again."
 msgstr "请检查您的模板参数是否有语法错误，并确保它们在您的 SQL 查询和设置参数中保持一致。然后，再次尝试运行您的查询。"
 
-#, fuzzy
+
 msgid "Please choose at least one groupby"
 msgstr "请至少选择一个分组字段 "
 
@@ -8028,7 +8020,7 @@ msgstr "请重新输入密码。"
 msgid "Please re-export your file and try importing again"
 msgstr "请重新导出您的文件并再次尝试导入"
 
-#, fuzzy
+
 msgid "Please reach out to the Chart Owner for assistance."
 msgid_plural "Please reach out to the Chart Owners for assistance."
 msgstr[0] "请联系图表所有者寻求帮助。"
@@ -8066,25 +8058,25 @@ msgstr "垂直地绘制数据中每一行的单个指标，并将它们链接成
 msgid "Plugins"
 msgstr "插件"
 
-#, fuzzy
+
 msgid "Point Color"
 msgstr "点颜色"
 
 msgid "Point Radius"
 msgstr "点半径"
 
-#, fuzzy
+
 msgid "Point Radius Scale"
 msgstr "点半径比例尺"
 
 msgid "Point Radius Unit"
 msgstr "点半径单位"
 
-#, fuzzy
+
 msgid "Point Size"
 msgstr "字体大小"
 
-#, fuzzy
+
 msgid "Point Unit"
 msgstr "点单位"
 
@@ -8097,15 +8089,15 @@ msgstr "点配置"
 msgid "Points and clusters will update as the viewport is being changed"
 msgstr "点和聚合群将随着视图改变而更新。"
 
-#, fuzzy
+
 msgid "Polygon Column"
 msgstr "多边形列"
 
-#, fuzzy
+
 msgid "Polygon Encoding"
 msgstr "多边形编码"
 
-#, fuzzy
+
 msgid "Polygon Settings"
 msgstr "多边形设置"
 
@@ -8118,7 +8110,7 @@ msgstr "填充 \"Default value\" 以启用此控件"
 msgid "Population age data"
 msgstr "人口年龄数据"
 
-#, fuzzy
+
 msgid "Port"
 msgstr "端口"
 
@@ -8138,7 +8130,7 @@ msgstr "子节点标签在树上的位置"
 msgid "Position of column level subtotal"
 msgstr "列级小计的位置"
 
-#, fuzzy
+
 msgid "Position of intermediate node label on tree"
 msgstr "中间节点标签在树中的位置"
 
@@ -8178,7 +8170,7 @@ msgstr "前缀或者后缀"
 msgid "Preview"
 msgstr "预览"
 
-#, fuzzy
+
 msgid "Preview uploaded file"
 msgstr "上传Excel"
 
@@ -8189,7 +8181,7 @@ msgstr "预览 %s"
 msgid "Previous"
 msgstr "前一个"
 
-#, fuzzy
+
 msgid "Previous Line"
 msgstr "前一个"
 
@@ -8199,14 +8191,14 @@ msgstr "主要"
 msgid "Primary Metric"
 msgstr "主计量指标"
 
-#, fuzzy
+
 msgid "Primary key"
 msgstr "主键"
 
 msgid "Primary or secondary y-axis"
 msgstr "主或次Y轴"
 
-#, fuzzy
+
 msgid "Primary y-axis Bounds"
 msgstr "主Y轴界限"
 
@@ -8222,11 +8214,11 @@ msgstr "私钥"
 msgid "Private Key & Password"
 msgstr "私钥和密码"
 
-#, fuzzy
+
 msgid "Private Key Password"
 msgstr "私钥密码"
 
-#, fuzzy
+
 msgid "Proceed"
 msgstr "继续"
 
@@ -8251,7 +8243,7 @@ msgstr "仅公开共享表"
 msgid "Published"
 msgstr "已发布"
 
-#, fuzzy
+
 msgid "Purple"
 msgstr "紫色"
 
@@ -8261,7 +8253,7 @@ msgstr "外侧显示标签"
 msgid "Put positive values and valid minute and second value less than 60"
 msgstr "输入正值以及小于 60 的有效分钟和秒值"
 
-#, fuzzy
+
 msgid "Put some positive value greater than 0"
 msgstr "`行偏移量` 必须大于或等于0"
 
@@ -8287,7 +8279,7 @@ msgstr "季度"
 msgid "Quarters %s"
 msgstr " %s 季度"
 
-#, fuzzy
+
 msgid "Queries"
 msgstr "查询"
 
@@ -8307,14 +8299,14 @@ msgstr "查询 B"
 msgid "Query History"
 msgstr "历史查询"
 
-#, fuzzy
+
 msgid "Query does not exist"
 msgstr "查询不存在"
 
 msgid "Query history"
 msgstr "历史查询"
 
-#, fuzzy
+
 msgid "Query imported"
 msgstr "查询已导入"
 
@@ -8345,11 +8337,11 @@ msgstr "范围类型"
 msgid "RGB Color"
 msgstr "RGB颜色"
 
-#, fuzzy
+
 msgid "RLS Rule not found."
 msgstr "找不到RLS规则。"
 
-#, fuzzy
+
 msgid "RLS rules could not be deleted."
 msgstr "RLS规则无法删除。"
 
@@ -8365,14 +8357,14 @@ msgstr "雷达渲染类型，是否显示圆形"
 msgid "Radial"
 msgstr "径向"
 
-#, fuzzy
+
 msgid "Radius"
 msgstr "单元格半径"
 
 msgid "Radius in kilometers"
 msgstr "半径（千米）"
 
-#, fuzzy
+
 msgid "Radius in meters"
 msgstr "半径（米）"
 
@@ -8477,26 +8469,26 @@ msgstr "刷新频率"
 msgid "Refresh interval"
 msgstr "刷新间隔"
 
-#, fuzzy
+
 msgid "Refresh interval saved"
 msgstr "刷新间隔已保存"
 
 msgid "Refresh the default values"
 msgstr "刷新默认值"
 
-#, fuzzy
+
 msgid "Refreshing charts"
 msgstr "刷新图表"
 
-#, fuzzy
+
 msgid "Refreshing columns"
 msgstr "刷新列"
 
-#, fuzzy
+
 msgid "Regular"
 msgstr "常规"
 
-#, fuzzy
+
 msgid ""
 "Regular filters add where clauses to queries if a user belongs to a role "
 "referenced in the filter, base filters apply filters to all queries "
@@ -8519,14 +8511,14 @@ msgstr "相对期"
 msgid "Relative quantity"
 msgstr "相对量"
 
-#, fuzzy
+
 msgid "Reload"
 msgstr "重新加载"
 
 msgid "Remove"
 msgstr "删除"
 
-#, fuzzy
+
 msgid "Remove cross-filter"
 msgstr "删除交叉筛选"
 
@@ -8564,7 +8556,7 @@ msgstr "替换"
 msgid "Report"
 msgstr "报表"
 
-#, fuzzy
+
 msgid "Report Name"
 msgstr "报告名称"
 
@@ -8583,7 +8575,7 @@ msgstr "在生成 CSV 文件时，报告计划执行失败。"
 msgid "Report Schedule execution failed when generating a dataframe."
 msgstr "在生成数据框时，报告计划执行失败。"
 
-#, fuzzy
+
 msgid "Report Schedule execution failed when generating a pdf."
 msgstr "在生成 CSV 文件时，报告计划执行失败。"
 
@@ -8614,25 +8606,25 @@ msgstr "未找到报表计划状态"
 msgid "Report a bug"
 msgstr "报告bug"
 
-#, fuzzy
+
 msgid "Report contents"
 msgstr "已发送报告"
 
 msgid "Report failed"
 msgstr "报告失败"
 
-#, fuzzy
+
 msgid "Report is active"
 msgstr "激活邮件报告"
 
 msgid "Report name"
 msgstr "报告名称"
 
-#, fuzzy
+
 msgid "Report schedule client error"
 msgstr "报告计划任务客户端错误"
 
-#, fuzzy
+
 msgid "Report schedule system error"
 msgstr "报告计划任务系统错误"
 
@@ -8645,7 +8637,7 @@ msgstr "报告发送"
 msgid "Report sent"
 msgstr "已发送报告"
 
-#, fuzzy
+
 msgid "Report updated"
 msgstr "报告已更新"
 
@@ -8668,7 +8660,7 @@ msgstr "请求不是JSON"
 msgid "Request missing data field."
 msgstr "请求丢失的数据字段。"
 
-#, fuzzy
+
 msgid "Request timed out"
 msgstr "请求超时"
 
@@ -8681,15 +8673,15 @@ msgstr "必需的控件值已被移除"
 msgid "Resample"
 msgstr "重新采样"
 
-#, fuzzy
+
 msgid "Resample method should be in "
 msgstr "重采样方法应该有"
 
-#, fuzzy
+
 msgid "Resample operation requires DatetimeIndex"
 msgstr "重采样操作需要DatetimeIndex"
 
-#, fuzzy
+
 msgid "Reset"
 msgstr "重置"
 
@@ -8699,7 +8691,7 @@ msgstr "状态重置"
 msgid "Resource already has an attached report."
 msgstr "资源已有附加的报告。"
 
-#, fuzzy
+
 msgid "Resource was not found."
 msgstr "资源没有找到"
 
@@ -8709,7 +8701,7 @@ msgstr "还原过滤条件"
 msgid "Results"
 msgstr "结果"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Results %s"
 msgstr "结果 %s"
 
@@ -8722,7 +8714,7 @@ msgstr "后端未配置异步查询所需的结果"
 msgid "Return to specific datetime."
 msgstr "返回指定的日期时间。"
 
-#, fuzzy
+
 msgid "Reverse Lat & Long"
 msgstr "经纬度互换"
 
@@ -8762,14 +8754,14 @@ msgstr "角色"
 msgid "Roles"
 msgstr "角色"
 
-#, fuzzy
+
 msgid ""
 "Roles is a list which defines access to the dashboard. Granting a role "
 "access to a dashboard will bypass dataset level checks. If no roles are "
 "defined, regular access permissions apply."
 msgstr "角色是一个定义对看板访问权限的列表。授予角色对看板的访问权限将绕过数据集级别的检查。如果未定义角色，则看板对所有角色都可用。"
 
-#, fuzzy
+
 msgid ""
 "Roles is a list which defines access to the dashboard. Granting a role "
 "access to a dashboard will bypass dataset level checks.If no roles are "
@@ -8794,14 +8786,14 @@ msgstr "根证书"
 msgid "Root node id"
 msgstr "根节点id"
 
-#, fuzzy
+
 msgid "Rose Type"
 msgstr "每阶类型"
 
 msgid "Rotate x axis label"
 msgstr "旋转X轴标签"
 
-#, fuzzy
+
 msgid "Rotate y axis label"
 msgstr "旋转Y轴标签"
 
@@ -8817,7 +8809,7 @@ msgstr "行"
 msgid "Row Level Security"
 msgstr "行级安全"
 
-#, fuzzy
+
 msgid ""
 "Row containing the headers to use as column names (0 is first line of "
 "data)."
@@ -8838,14 +8830,14 @@ msgstr "行小计的位置"
 msgid "Rows to Read"
 msgstr "读取的行"
 
-#, fuzzy
+
 msgid "Rows to read"
 msgstr "读取的行"
 
 msgid "Rule"
 msgstr "规则"
 
-#, fuzzy
+
 msgid "Rule Name"
 msgstr "规则名称"
 
@@ -8855,15 +8847,15 @@ msgstr "规则已添加"
 msgid "Run"
 msgstr "执行"
 
-#, fuzzy
+
 msgid "Run a query to display query history"
 msgstr "运行一个查询，在此会显示结果"
 
-#, fuzzy
+
 msgid "Run a query to display results"
 msgstr "运行一个查询，在此会显示结果"
 
-#, fuzzy
+
 msgid "Run current query"
 msgstr "运行查询"
 
@@ -8892,7 +8884,7 @@ msgstr "正在运行语句 %(statement_num)s/%(statement_count)s"
 msgid "SAT"
 msgstr "星期六"
 
-#, fuzzy
+
 msgid "SECOND"
 msgstr "秒"
 
@@ -8947,7 +8939,7 @@ msgstr "SQLAlchemy URI"
 msgid "SSH Host"
 msgstr "SSH主机"
 
-#, fuzzy
+
 msgid "SSH Password"
 msgstr "SSH密码"
 
@@ -8960,19 +8952,19 @@ msgstr "SSH隧道"
 msgid "SSH Tunnel configuration parameters"
 msgstr "SSH隧道参数配置"
 
-#, fuzzy
+
 msgid "SSH Tunnel could not be deleted."
 msgstr "SSH隧道无法被删除。"
 
-#, fuzzy
+
 msgid "SSH Tunnel could not be updated."
 msgstr "SSH隧道无法更新。"
 
-#, fuzzy
+
 msgid "SSH Tunnel not found."
 msgstr "SSH隧道未找到"
 
-#, fuzzy
+
 msgid "SSH Tunnel parameters are invalid."
 msgstr "SSH隧道参数无效。"
 
@@ -8989,47 +8981,47 @@ msgstr "开始 (包含)"
 msgid "STEP %(stepCurr)s OF %(stepLast)s"
 msgstr "第 %(stepCurr)s 步，共 %(stepLast)s 步"
 
-#, fuzzy
+
 msgid "STRING"
 msgstr "字符串"
 
 msgid "SUN"
 msgstr "星期日"
 
-#, fuzzy
+
 msgid "Sample Standard Deviation"
 msgstr "样本标准差"
 
 msgid "Sample Variance"
 msgstr "样本方差"
 
-#, fuzzy
+
 msgid "Samples"
 msgstr "数据预览"
 
-#, fuzzy
+
 msgid "Samples for dataset could not be retrieved."
 msgstr "无法预览此数据集"
 
-#, fuzzy
+
 msgid "Samples for datasource could not be retrieved."
 msgstr "无法预览此数据源"
 
 msgid "Sankey"
 msgstr "蛇形图"
 
-#, fuzzy
+
 msgid "Sankey Chart"
 msgstr "图表保存"
 
-#, fuzzy
+
 msgid "Sankey Diagram (legacy)"
 msgstr "桑基图"
 
 msgid "Sankey Diagram with Loops"
 msgstr "桑基图"
 
-#, fuzzy
+
 msgid "Satellite"
 msgstr "卫星"
 
@@ -9054,25 +9046,25 @@ msgstr "保存（覆盖）"
 msgid "Save as"
 msgstr "另存为"
 
-#, fuzzy
+
 msgid "Save as Dataset"
 msgstr "保存为数据集"
 
-#, fuzzy
+
 msgid "Save as dataset"
 msgstr "保存为数据集"
 
 msgid "Save as new"
 msgstr "保存为新的"
 
-#, fuzzy
+
 msgid "Save as..."
 msgstr "另存为 ..."
 
 msgid "Save as:"
 msgstr "另存为："
 
-#, fuzzy
+
 msgid "Save changes"
 msgstr "保存更改"
 
@@ -9082,7 +9074,7 @@ msgstr "图表保存"
 msgid "Save dashboard"
 msgstr "保存看板"
 
-#, fuzzy
+
 msgid "Save dataset"
 msgstr "保存数据集"
 
@@ -9137,7 +9129,7 @@ msgstr "散点"
 msgid "Scatter Plot"
 msgstr "散点图"
 
-#, fuzzy
+
 msgid ""
 "Scatter Plot has the horizontal axis in linear units, and the points are "
 "connected in order. It shows a statistical relationship between two "
@@ -9147,7 +9139,7 @@ msgstr "时间序列散点图在水平轴上以线性单位表示时间，点按
 msgid "Schedule"
 msgstr "调度"
 
-#, fuzzy
+
 msgid "Schedule a new email report"
 msgstr "计划一个新的电子邮件报告"
 
@@ -9160,7 +9152,7 @@ msgstr "计划查询"
 msgid "Schedule the query periodically"
 msgstr "定期调度查询"
 
-#, fuzzy
+
 msgid "Schedule type"
 msgstr "计划查询"
 
@@ -9170,7 +9162,7 @@ msgstr "已按计划执行"
 msgid "Scheduled at (UTC)"
 msgstr "计划时间"
 
-#, fuzzy
+
 msgid "Scheduled task executor not found"
 msgstr "未找到计划任务执行器"
 
@@ -9183,11 +9175,11 @@ msgstr "模式缓存超时"
 msgid "Schema, as used only in some databases like Postgres, Redshift and DB2"
 msgstr "模式，只在一些数据库中使用，比如Postgres、Redshift和DB2"
 
-#, fuzzy
+
 msgid "Schemas allowed for File upload"
 msgstr "允许使用CSV上传的模式"
 
-#, fuzzy
+
 msgid "Scope"
 msgstr "范围"
 
@@ -9210,9 +9202,9 @@ msgstr "滚动到底部以启用覆盖更改。"
 msgid "Search"
 msgstr "搜索"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Search %s records"
-msgstr "原始记录"
+msgstr "搜索 %s 记录"
 
 msgid "Search / Filter"
 msgstr "搜索 / 过滤"
@@ -9229,11 +9221,11 @@ msgstr "搜索框"
 msgid "Search by query text"
 msgstr "按查询文本搜索"
 
-#, fuzzy
+
 msgid "Search columns"
 msgstr "使用列"
 
-#, fuzzy
+
 msgid "Search in filters"
 msgstr "搜索 / 过滤"
 
@@ -9249,11 +9241,11 @@ msgstr "次要"
 msgid "Secondary Metric"
 msgstr "次计量指标"
 
-#, fuzzy
+
 msgid "Secondary currency format"
 msgstr "次级货币格式"
 
-#, fuzzy
+
 msgid "Secondary y-axis Bounds"
 msgstr "次级Y轴界限"
 
@@ -9267,7 +9259,7 @@ msgstr "次级Y轴标题"
 msgid "Seconds %s"
 msgstr "%s 秒"
 
-#, fuzzy
+
 msgid "Seconds value"
 msgstr "秒"
 
@@ -9290,7 +9282,7 @@ msgstr "查看更少"
 msgid "See more"
 msgstr "查看更多"
 
-#, fuzzy
+
 msgid "See query details"
 msgstr "查看查询详情"
 
@@ -9306,7 +9298,7 @@ msgstr "选择 ..."
 msgid "Select Delivery Method"
 msgstr "添加通知方法"
 
-#, fuzzy
+
 msgid "Select Tags"
 msgstr "选择标签"
 
@@ -9319,41 +9311,41 @@ msgstr "选择列"
 msgid "Select a dashboard"
 msgstr "选择看板"
 
-#, fuzzy
+
 msgid "Select a database"
 msgstr "删除数据库"
 
-#, fuzzy
+
 msgid "Select a database table and create dataset"
 msgstr "选择数据库表并创建数据集"
 
-#, fuzzy
+
 msgid "Select a database table."
 msgstr "选择数据库表"
 
 msgid "Select a database to connect"
 msgstr "选择将要连接的数据库"
 
-#, fuzzy
+
 msgid "Select a database to upload the file to"
 msgstr "选择将要上传文件的数据库"
 
 msgid "Select a database to write a query"
 msgstr "选择要进行查询的数据库"
 
-#, fuzzy
+
 msgid "Select a dataset"
 msgstr "选择数据集"
 
-#, fuzzy
+
 msgid "Select a delimiter for this data"
 msgstr "请输入此数据的分隔符"
 
-#, fuzzy
+
 msgid "Select a dimension"
 msgstr "选择维度"
 
-#, fuzzy
+
 msgid "Select a metric to display on the right axis"
 msgstr "为右轴选择一个指标"
 
@@ -9362,15 +9354,15 @@ msgid ""
 "column or write custom SQL to create a metric."
 msgstr "选择一个要展示的指标。您可以使用聚合函数对列进行操作，或编写自定义SQL来创建一个指标。"
 
-#, fuzzy
+
 msgid "Select a schema"
 msgstr "选择方案"
 
-#, fuzzy
+
 msgid "Select a schema if the database supports this"
 msgstr "指定一个模式(需要数据库支持)"
 
-#, fuzzy
+
 msgid "Select a sheet name from the uploaded file"
 msgstr "选择将要上传文件的数据库"
 
@@ -9386,30 +9378,30 @@ msgstr "选择一个可视化类型"
 msgid "Select aggregate options"
 msgstr "选择聚合选项"
 
-#, fuzzy
+
 msgid "Select all data"
 msgstr "选择所有数据"
 
-#, fuzzy
+
 msgid "Select all items"
 msgstr "选择所有项"
 
 msgid "Select any columns for metadata inspection"
 msgstr "选择任意列进行元数据巡检"
 
-#, fuzzy
+
 msgid "Select catalog or type to search catalogs"
 msgstr "选择表或输入表名来搜索"
 
-#, fuzzy
+
 msgid "Select channels"
 msgstr "选择图表"
 
-#, fuzzy
+
 msgid "Select chart"
 msgstr "选择图表"
 
-#, fuzzy
+
 msgid "Select chart to use"
 msgstr "选择图表"
 
@@ -9428,31 +9420,31 @@ msgid ""
 msgstr ""
 "选择将在表格中显示的列。您可以多选列。"
 
-#, fuzzy
+
 msgid "Select content type"
 msgstr "选择当前页"
 
-#, fuzzy
+
 msgid "Select current page"
 msgstr "选择当前页"
 
-#, fuzzy
+
 msgid "Select dashboard"
 msgstr "选择看板"
 
-#, fuzzy
+
 msgid "Select dashboard to use"
 msgstr "选择看板"
 
-#, fuzzy
+
 msgid "Select dashboards"
 msgstr "选择看板"
 
-#, fuzzy
+
 msgid "Select database"
 msgstr "删除数据库"
 
-#, fuzzy
+
 msgid "Select database or type to search databases"
 msgstr "选择数据库或输入名称来搜索"
 
@@ -9462,11 +9454,11 @@ msgid ""
 "requirements your databases has "
 msgstr "选择数据库需要在高级选项中完成额外的字段才能成功连接数据库。了解您的数据库需要什么："
 
-#, fuzzy
+
 msgid "Select dataset source"
 msgstr "选择数据源"
 
-#, fuzzy
+
 msgid "Select file"
 msgstr "选择文件"
 
@@ -9479,7 +9471,7 @@ msgstr "使用AntD的选择过滤器插件"
 msgid "Select first filter value by default"
 msgstr "默认选择首个过滤器值"
 
-#, fuzzy
+
 msgid "Select format"
 msgstr "数值格式"
 
@@ -9498,18 +9490,18 @@ msgstr "选择一个或多个要展示的指标。您可以对某个列使用聚
 msgid "Select operator"
 msgstr "选择操作符"
 
-#, fuzzy
+
 msgid "Select or type a custom value..."
 msgstr "选择或输入一个值"
 
 msgid "Select or type a value"
 msgstr "选择或输入一个值"
 
-#, fuzzy
+
 msgid "Select or type currency symbol"
 msgstr "选择或输入货币符号"
 
-#, fuzzy
+
 msgid "Select or type dataset name"
 msgstr "选择表或输入数据集名称"
 
@@ -9519,11 +9511,11 @@ msgstr "选择所有者"
 msgid "Select saved metrics"
 msgstr "选择已保存指标"
 
-#, fuzzy
+
 msgid "Select saved queries"
 msgstr "选择已保存查询"
 
-#, fuzzy
+
 msgid "Select schema or type to search schemas"
 msgstr "选择模式或输入模式名称来搜索"
 
@@ -9533,11 +9525,11 @@ msgstr "选择方案"
 msgid "Select subject"
 msgstr "选择主题"
 
-#, fuzzy
+
 msgid "Select table or type to search tables"
 msgstr "选择表或输入表名来搜索"
 
-#, fuzzy
+
 msgid "Select the Annotation Layer you would like to use."
 msgstr "选择您想使用的注释层"
 
@@ -9556,7 +9548,7 @@ msgid ""
 "column name in the dashboard."
 msgstr "选择您希望在与此图表交互时应用交叉筛选的图表。您可以选择“所有图表”，以对使用相同数据集或在仪表板中包含相同列名的所有图表应用筛选器。"
 
-#, fuzzy
+
 msgid "Select the geojson column"
 msgstr "选择GeoJSON列"
 
@@ -9572,14 +9564,14 @@ msgid ""
 "query by clicking on the %s button."
 msgstr "在控制面板中的突出显示字段中选择值。然后点击 %s 按钮来运行查询。"
 
-#, fuzzy
+
 msgid "Selecting a database is required"
 msgstr "选择要进行查询的数据库"
 
 msgid "Send as CSV"
 msgstr "发送为CSV"
 
-#, fuzzy
+
 msgid "Send as PDF"
 msgstr "发送PNG"
 
@@ -9604,15 +9596,15 @@ msgstr "系列"
 msgid "Series Height"
 msgstr "系列高度"
 
-#, fuzzy
+
 msgid "Series Limit Sort By"
 msgstr "系列限制排序依据"
 
-#, fuzzy
+
 msgid "Series Limit Sort Descending"
 msgstr "系列限制降序排列"
 
-#, fuzzy
+
 msgid "Series Order"
 msgstr "系列顺序"
 
@@ -9622,7 +9614,7 @@ msgstr "系列样式"
 msgid "Series chart type (line, bar etc)"
 msgstr "系列图表类型(折线，柱状图等)"
 
-#, fuzzy
+
 msgid "Series colors"
 msgstr "系列颜色"
 
@@ -9650,7 +9642,7 @@ msgstr "设置过滤映射"
 msgid "Set header rows and the number of rows to read or skip."
 msgstr "设置标题行以及要读取或跳过的行数。"
 
-#, fuzzy
+
 msgid "Set up an email report"
 msgstr "设置邮件报告"
 
@@ -9675,25 +9667,25 @@ msgstr "分享"
 msgid "Share chart by email"
 msgstr "通过电子邮件分享图表"
 
-#, fuzzy
+
 msgid "Share permalink by email"
 msgstr "通过电子邮件分享链接"
 
 msgid "Shared query"
 msgstr "已分享的查询"
 
-#, fuzzy
+
 msgid "Shared query fields"
 msgstr "共享查询字段"
 
-#, fuzzy
+
 msgid "Sheet name"
 msgstr "Sheet名称"
 
 msgid "Shift + Click to sort by multiple columns"
 msgstr "Shift + 点击以按多列排序"
 
-#, fuzzy
+
 msgid "Shift start date"
 msgstr "开始时间"
 
@@ -9718,9 +9710,9 @@ msgstr "是否应用年度季节性。一个整数值将指定季节性的傅里
 msgid "Show"
 msgstr "显示"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Show %s entries"
-msgstr "显示指标"
+msgstr "显示 %s 指标"
 
 msgid "Show Bubbles"
 msgstr "显示气泡"
@@ -9728,7 +9720,7 @@ msgstr "显示气泡"
 msgid "Show CREATE VIEW statement"
 msgstr "显示 CREATE VIEW 语句"
 
-#, fuzzy
+
 msgid "Show Cell bars"
 msgstr "显示单元格的柱"
 
@@ -9768,11 +9760,11 @@ msgstr "显示表"
 msgid "Show Timestamp"
 msgstr "显示时间戳"
 
-#, fuzzy
+
 msgid "Show Tooltip Labels"
 msgstr "显示提示标签"
 
-#, fuzzy
+
 msgid "Show Total"
 msgstr "显示总计"
 
@@ -9808,11 +9800,11 @@ msgstr "显示轴线刻度"
 msgid "Show cell bars"
 msgstr "显示单元格的柱"
 
-#, fuzzy
+
 msgid "Show chart description"
 msgstr "显示图表说明"
 
-#, fuzzy
+
 msgid "Show columns subtotal"
 msgstr "显示列小计"
 
@@ -9822,11 +9814,11 @@ msgstr "显示列总计"
 msgid "Show data points as circle markers on the lines"
 msgstr "将数据点显示为线条上的圆形标记"
 
-#, fuzzy
+
 msgid "Show empty columns"
 msgstr "显示空列"
 
-#, fuzzy
+
 msgid ""
 "Show hierarchical relationships of data, with the value represented by "
 "area, showing proportion and contribution to the whole."
@@ -9850,14 +9842,14 @@ msgstr "显示较少的列"
 msgid "Show less..."
 msgstr "显示更少..."
 
-#, fuzzy
+
 msgid "Show minor ticks on axes."
 msgstr "在坐标轴上显示次级刻度。"
 
 msgid "Show only my charts"
 msgstr "只显示我的图表"
 
-#, fuzzy
+
 msgid "Show password."
 msgstr "显示密码"
 
@@ -9870,7 +9862,7 @@ msgstr "显示指示器"
 msgid "Show progress"
 msgstr "显示进度"
 
-#, fuzzy
+
 msgid "Show rows subtotal"
 msgstr "显示行小计"
 
@@ -9883,7 +9875,7 @@ msgstr "在图表上显示系列值"
 msgid "Show split lines"
 msgstr "显示分割线"
 
-#, fuzzy
+
 msgid "Show summary"
 msgstr "显示标记"
 
@@ -9969,15 +9961,15 @@ msgstr "工具尺寸"
 msgid "Skip Rows"
 msgstr "跳过行"
 
-#, fuzzy
+
 msgid "Skip blank lines rather than interpreting them as Not A Number values"
 msgstr "跳过空白行而不是把它们解释为NaN值。"
 
-#, fuzzy
+
 msgid "Skip rows"
 msgstr "跳过行"
 
-#, fuzzy
+
 msgid "Skip spaces after delimiter"
 msgstr "在分隔符之后跳过空格。"
 
@@ -9993,7 +9985,7 @@ msgstr "数字格式化"
 msgid "Smooth Line"
 msgstr "平滑线"
 
-#, fuzzy
+
 msgid ""
 "Smooth-line is a variation of the line chart. Without angles and hard "
 "edges, Smooth-line sometimes looks smarter and more professional."
@@ -10011,7 +10003,7 @@ msgid ""
 msgstr ""
 "嵌入式身份验证出现问题。请检查开发控制台以获取详细信息。"
 
-#, fuzzy
+
 msgid "Something went wrong."
 msgstr "抱歉，出了点问题。请稍后再试。"
 
@@ -10025,23 +10017,23 @@ msgstr "抱歉，这个看板在获取图表时发生错误："
 msgid "Sorry, An error occurred"
 msgstr "抱歉，发生错误"
 
-#, fuzzy
+
 msgid "Sorry, an error occurred"
 msgstr "抱歉，发生错误"
 
-#, fuzzy
+
 msgid "Sorry, an unknown error occurred"
 msgstr "抱歉，发生错误"
 
-#, fuzzy
+
 msgid "Sorry, an unknown error occurred."
 msgstr "抱歉，发生错误"
 
-#, fuzzy
+
 msgid "Sorry, something went wrong. Embedding could not be deactivated."
 msgstr "抱歉，出了点问题。请稍后再试。"
 
-#, fuzzy
+
 msgid "Sorry, something went wrong. Please try again."
 msgstr "抱歉，出了点问题。请稍后再试。"
 
@@ -10051,7 +10043,7 @@ msgstr "抱歉，出了点问题。请稍后再试。"
 msgid "Sorry, there appears to be no data"
 msgstr "抱歉，似乎没有数据"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Sorry, there was an error saving this %s: %s"
 msgstr "抱歉，保存  %s 时发生错误：%s"
 
@@ -10077,11 +10069,11 @@ msgstr "降序"
 msgid "Sort Metric"
 msgstr "排序指标"
 
-#, fuzzy
+
 msgid "Sort Series Ascending"
 msgstr "升序排序"
 
-#, fuzzy
+
 msgid "Sort Series By"
 msgstr "排序 "
 
@@ -10143,7 +10135,7 @@ msgstr "源 SQL"
 msgid "Source category"
 msgstr "源分类"
 
-#, fuzzy
+
 msgid "Sparkline"
 msgstr "标记线"
 
@@ -10159,7 +10151,7 @@ msgstr "指定在 public 模式中 CREATE TABLE AS 的名称"
 msgid "Specify name to CREATE VIEW AS schema in: public"
 msgstr "指定在 public 模式中 CREATE VIEW AS 的名称"
 
-#, fuzzy
+
 msgid ""
 "Specify the database version. This is used with Presto for query cost "
 "estimation, and Dremio for syntax changes, among others."
@@ -10168,19 +10160,19 @@ msgstr "指定数据库版本。这在Presto中用于查询成本估算，在Dre
 msgid "Split number"
 msgstr "数字"
 
-#, fuzzy
+
 msgid "Square kilometers"
 msgstr "平方千米"
 
-#, fuzzy
+
 msgid "Square meters"
 msgstr "平方米"
 
-#, fuzzy
+
 msgid "Square miles"
 msgstr "平方英里"
 
-#, fuzzy
+
 msgid "Stack"
 msgstr "堆叠"
 
@@ -10211,11 +10203,11 @@ msgstr "标准时间序列"
 msgid "Start"
 msgstr "开始"
 
-#, fuzzy
+
 msgid "Start (Longitude, Latitude): "
 msgstr "起始经度/纬度"
 
-#, fuzzy
+
 msgid "Start Longitude & Latitude"
 msgstr "起始经度/纬度"
 
@@ -10225,7 +10217,7 @@ msgstr "开始角度"
 msgid "Start at (UTC)"
 msgstr "开始于（UTC）"
 
-#, fuzzy
+
 msgid "Start date"
 msgstr "开始时间"
 
@@ -10240,7 +10232,7 @@ msgid ""
 "data."
 msgstr "从零开始Y轴。取消选中以从数据中的最小值开始Y轴 "
 
-#, fuzzy
+
 msgid "Started"
 msgstr "开始了"
 
@@ -10269,11 +10261,11 @@ msgstr "阶梯 - 开始"
 msgid "Step type"
 msgstr "每阶类型"
 
-#, fuzzy
+
 msgid "Stepped Line"
 msgstr "时间序列阶梯图"
 
-#, fuzzy
+
 msgid ""
 "Stepped-line graph (also called step chart) is a variation of line chart "
 "but with the line forming a series of steps between data points. A step "
@@ -10287,7 +10279,7 @@ msgstr "停止"
 msgid "Stop query"
 msgstr "停止查询"
 
-#, fuzzy
+
 msgid "Stop running (Ctrl + e)"
 msgstr "停止运行 (Ctrl + x)"
 
@@ -10297,11 +10289,11 @@ msgstr "停止运行 (Ctrl + x)"
 msgid "Stopped an unsafe database connection"
 msgstr "已停止不安全的数据库连接"
 
-#, fuzzy
+
 msgid "Stream"
 msgstr "直方图"
 
-#, fuzzy
+
 msgid "Streets"
 msgstr "街道"
 
@@ -10311,15 +10303,15 @@ msgstr "将图形拉向中心"
 msgid "Stretched style"
 msgstr "拉伸样式"
 
-#, fuzzy
+
 msgid "Stroke Color"
 msgstr "边线颜色"
 
-#, fuzzy
+
 msgid "Stroke Width"
 msgstr "线宽"
 
-#, fuzzy
+
 msgid "Stroked"
 msgstr "描边"
 
@@ -10350,7 +10342,7 @@ msgstr "小计"
 msgid "Success"
 msgstr "成功"
 
-#, fuzzy
+
 msgid "Successfully changed dataset!"
 msgstr "修改数据集成功！"
 
@@ -10375,11 +10367,11 @@ msgstr "值总和的分数占比"
 msgid "Sum of values over specified period"
 msgstr "指定期间内的值总和"
 
-#, fuzzy
+
 msgid "Sum values"
 msgstr "值求和"
 
-#, fuzzy
+
 msgid "Summary"
 msgstr "星期日"
 
@@ -10413,14 +10405,14 @@ msgstr "已支持数据库"
 msgid "Survey Responses"
 msgstr "调查结果"
 
-#, fuzzy
+
 msgid "Swap dataset"
 msgstr "交换数据集"
 
 msgid "Swap rows and columns"
 msgstr "交换组和列"
 
-#, fuzzy
+
 msgid ""
 "Swiss army knife for visualizing data. Choose between step, line, "
 "scatter, and bar charts. This viz type has many customization options as "
@@ -10449,11 +10441,11 @@ msgstr "语法错误：%(qualifier)s 输入 \"%(input)s\" 期望 \"%(expected)s\
 msgid "TABLES"
 msgstr "表"
 
-#, fuzzy
+
 msgid "TEMPORAL X-AXIS"
 msgstr "时间X轴"
 
-#, fuzzy
+
 msgid "TEMPORAL_RANGE"
 msgstr "时间范围"
 
@@ -10483,11 +10475,11 @@ msgstr "在数据库 %(db)s 中找不到表 %(table)s"
 msgid "Table Name"
 msgstr "表名"
 
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Table [%(table)s] could not be found, please double check your database "
 "connection, schema, and table name"
-msgstr "找不到 [%(table_name)s] 表，请仔细检查您的数据库连接、Schema 和 表名"
+msgstr "找不到 [%(table)s] 表，请仔细检查您的数据库连接、Schema 和 表名"
 
 msgid ""
 "Table already exists. You can change your 'if table already exists' "
@@ -10497,14 +10489,14 @@ msgstr "表已存在。您可以将\"如果表已存在\"策略更改为追加�
 msgid "Table cache timeout"
 msgstr "数据库表缓存超时"
 
-#, fuzzy
+
 msgid "Table columns"
 msgstr "表的列"
 
 msgid "Table name undefined"
 msgstr "表名未定义"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Table or View \"%(table)s\" does not exist."
 msgstr "表或视图 '%(table)s' 不存在"
 
@@ -10525,38 +10517,38 @@ msgstr "表格"
 msgid "Tag"
 msgstr "标签"
 
-#, fuzzy
+
 msgid "Tag could not be created."
 msgstr "无法创建标签。"
 
-#, fuzzy
+
 msgid "Tag could not be deleted."
 msgstr "无法删除标签"
 
-#, fuzzy
+
 msgid "Tag could not be found."
 msgstr "没有找到标签"
 
-#, fuzzy
+
 msgid "Tag could not be updated."
 msgstr "无法更新标签。"
 
-#, fuzzy
+
 msgid "Tag created"
 msgstr "标签已创建"
 
-#, fuzzy
+
 msgid "Tag name"
 msgstr "标签名字"
 
 msgid "Tag name is invalid (cannot contain ':')"
 msgstr "标签名称无效（不能包含冒号）"
 
-#, fuzzy
+
 msgid "Tag parameters are invalid."
 msgstr "标签参数无效。"
 
-#, fuzzy
+
 msgid "Tag updated"
 msgstr "标签已更新"
 
@@ -10564,7 +10556,7 @@ msgstr "标签已更新"
 msgid "Tagged %s %ss"
 msgstr "%s %ss 做了标签"
 
-#, fuzzy
+
 msgid "Tagged Object could not be deleted."
 msgstr "无法删除标签对象"
 
@@ -10579,7 +10571,7 @@ msgstr "获取数据点，并将其分组，以查看信息最密集的区域"
 msgid "Target"
 msgstr "目标"
 
-#, fuzzy
+
 msgid "Target Color"
 msgstr "目标颜色"
 
@@ -10589,7 +10581,7 @@ msgstr "目标类别"
 msgid "Target value"
 msgstr "目标值"
 
-#, fuzzy
+
 msgid "Template"
 msgstr "css模板"
 
@@ -10684,14 +10676,14 @@ msgid ""
 "associated with more than one category, only the first will be used."
 msgstr "用于分配颜色的源节点类别。如果一个节点与多个类别关联，则只使用第一个类别"
 
-#, fuzzy
+
 msgid "The chart datasource does not exist"
 msgstr "图表不存在"
 
 msgid "The chart does not exist"
 msgstr "图表不存在"
 
-#, fuzzy
+
 msgid "The chart query context does not exist"
 msgstr "图表不存在"
 
@@ -10708,24 +10700,24 @@ msgstr "经典的,很好地展示了每个投资者获得了多少公司，“�
 msgid "The color for points and clusters in RGB"
 msgstr "点和聚合群的颜色（RGB）"
 
-#, fuzzy
+
 msgid "The color of the isoband"
 msgstr "等值带的颜色"
 
-#, fuzzy
+
 msgid "The color of the isoline"
 msgstr "等值线的颜色"
 
 msgid "The color scheme for rendering chart"
 msgstr "绘制图表的配色方案"
 
-#, fuzzy
+
 msgid ""
 "The color scheme is determined by the related dashboard.\n"
 "        Edit the color scheme in the dashboard properties."
 msgstr "配色方案由相关的看板决定。在看板属性中编辑配色方案"
 
-#, fuzzy
+
 msgid "The column header label"
 msgstr "列的标题"
 
@@ -10764,11 +10756,11 @@ msgstr ""
 "数据库 %s 已经关联了 %s 图表和 %s 看板，并且用户在该数据库上打开了 %s 个 SQL "
 "编辑器选项卡。确定要继续吗？删除数据库将破坏这些对象。"
 
-#, fuzzy
+
 msgid "The database columns that contains lines information"
 msgstr "包含线段信息的数据库列"
 
-#, fuzzy
+
 msgid "The database could not be found"
 msgstr "数据库没有找到"
 
@@ -10786,7 +10778,7 @@ msgstr "找不到此查询中引用的数据库。请与管理员联系以获得
 msgid "The database returned an unexpected error."
 msgstr "数据库返回意外错误。"
 
-#, fuzzy
+
 msgid "The database that was used to generate this query could not be found"
 msgstr "数据库没有找到"
 
@@ -10846,13 +10838,13 @@ msgstr "作为为小部件标题可以在看板视图中显示的描述，支持
 msgid "The distance between cells, in pixels"
 msgstr "单元格之间的距离，以像素为单位"
 
-#, fuzzy
+
 msgid ""
 "The duration of time in seconds before the cache is invalidated. Set to "
 "-1 to bypass the cache."
 msgstr "缓存失效前的持续时间（以秒为单位）"
 
-#, fuzzy
+
 msgid "The encoding format of the lines"
 msgstr "线条的编码格式"
 
@@ -10960,14 +10952,14 @@ msgstr ""
 "显示值所需的滚动周期的最小值。例如，如果您想累积 7 天的总额，您可能希望您的“最小周期”为 7，以便显示的所有数据点都是 7 "
 "个区间的总和。这将隐藏掉前 7 个阶段的“加速”效果"
 
-#, fuzzy
+
 msgid "The name of the rule must be unique"
 msgstr "名称必须是唯一的"
 
 msgid "The number color \"steps\""
 msgstr "色彩 \"Steps\" 数字"
 
-#, fuzzy
+
 msgid "The number of bins for the histogram"
 msgstr "选择直方图的分箱数量"
 
@@ -10994,7 +10986,7 @@ msgstr ""
 "显示的结果数量被限制为最多 %(rows)d 条。若需查看更多的行数（上限为 %(limit)d 条），请添加额外的限制/过滤条件、下载 CSV "
 "文件或联系管理员。"
 
-#, fuzzy, python-format
+#, python-format
 msgid "The number of rows displayed is limited to %(rows)d by the dropdown."
 msgstr "下拉菜单限制了显示的行数为 %(rows)d。"
 
@@ -11070,7 +11062,7 @@ msgstr ""
 "需要以下数据库的密码才能将其与图表一起导入。请注意，数据库配置的 \"Secure Extra\" 和 \"Certificate\" "
 "部分不在导出文件中，如果需要，应在导入后手动添加。"
 
-#, fuzzy
+
 msgid ""
 "The passwords for the databases below are needed in order to import them."
 " Please note that the \"Secure Extra\" and \"Certificate\" sections of "
@@ -11108,7 +11100,7 @@ msgstr "端口值无效"
 msgid "The primary metric is used to define the arc segment sizes"
 msgstr "主计量指标用于定义弧段大小。"
 
-#, fuzzy
+
 msgid "The provided table was not found in the provided database"
 msgstr "该表在数据库中不存在"
 
@@ -11126,7 +11118,7 @@ msgstr "该查询包含一个或多个格式不正确的模板参数。"
 msgid "The query couldn't be loaded"
 msgstr "这个查询无法被加载"
 
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "The query estimation was killed after %(sqllab_timeout)s seconds. It "
 "might be too complex, or the database might be under heavy load."
@@ -11159,7 +11151,7 @@ msgstr "单个点的半径（不在聚合群中的点）。一个数值列或“
 msgid "The report has been created"
 msgstr "报告已创建"
 
-#, fuzzy
+
 msgid "The report will be sent to your email at"
 msgstr "计划的报告将作为PNG发送到您的电子邮件"
 
@@ -11212,14 +11204,14 @@ msgstr "正在生成截图。请不要离开页面。"
 msgid "The screenshot is now being downloaded."
 msgstr "截图正在下载中。"
 
-#, fuzzy
+
 msgid "The size of each cell in meters"
 msgstr "每个单元的大小，以米为单位"
 
 msgid "The size of the square cell, in pixels"
 msgstr "平方单元的大小，以像素为单位"
 
-#, fuzzy
+
 msgid "The submitted payload failed validation."
 msgstr "提交的有效负载的模式不正确。"
 
@@ -11260,7 +11252,7 @@ msgid ""
 "use simple natural language as in `10 seconds`, `1 day` or `56 weeks`"
 msgstr "可视化的时间粒度。请注意，您可以输入和使用简单的日期表达方式，如 `10 seconds`, `1 day` or `56 weeks`"
 
-#, fuzzy
+
 msgid ""
 "The time granularity for the visualization. Note that you can type and "
 "use simple natural language as in `10 seconds`,`1 day` or `56 weeks`"
@@ -11318,22 +11310,22 @@ msgstr "连接到数据库时提供的用户名无效。"
 msgid "The way the ticks are laid out on the X-axis"
 msgstr "X轴刻度的布局方式"
 
-#, fuzzy
+
 msgid "The width of the Isoline in pixels"
 msgstr "等值线的宽度（以像素为单位）"
 
-#, fuzzy
+
 msgid "The width of the lines"
 msgstr "线条的宽度"
 
 msgid "There are associated alerts or reports"
 msgstr "存在关联的警报或报告"
 
-#, fuzzy, python-format
+#, python-format
 msgid "There are associated alerts or reports: %(report_names)s"
 msgstr "存在关联的警报或报告：%(report_names)s"
 
-#, fuzzy
+
 msgid "There are no charts added to this dashboard"
 msgstr "此看板中没有添加图表。"
 
@@ -11364,11 +11356,11 @@ msgid ""
 "or increasing the destination width."
 msgstr "此组件没有足够的空间。请尝试减小其宽度，或增加目标宽度。"
 
-#, fuzzy
+
 msgid "There was an error fetching dataset"
 msgstr "抱歉，获取数据库信息时出错：%s"
 
-#, fuzzy
+
 msgid "There was an error fetching dataset's related objects"
 msgstr "抱歉，获取数据库信息时出错：%s"
 
@@ -11376,19 +11368,19 @@ msgstr "抱歉，获取数据库信息时出错：%s"
 msgid "There was an error fetching the favorite status: %s"
 msgstr "获取此看板的收藏夹状态时出现问题：%s。"
 
-#, fuzzy
+
 msgid "There was an error fetching the filtered charts and dashboards:"
 msgstr "获取此看板的收藏夹状态时出现问题：%s。"
 
-#, fuzzy
+
 msgid "There was an error loading the catalogs"
 msgstr "您的请求有错误"
 
-#, fuzzy
+
 msgid "There was an error loading the chart data"
 msgstr "抱歉，这个看板在获取图表时发生错误："
 
-#, fuzzy
+
 msgid "There was an error loading the dataset metadata"
 msgstr "您的请求有错误"
 
@@ -11409,7 +11401,7 @@ msgstr "您的请求有错误"
 msgid "There was an issue deleting %s: %s"
 msgstr "删除 %s 时出现问题：%s"
 
-#, fuzzy, python-format
+#, python-format
 msgid "There was an issue deleting rules: %s"
 msgstr "删除规则时出现问题：%s"
 
@@ -11448,11 +11440,11 @@ msgstr "删除所选模板时出现问题：%s"
 msgid "There was an issue deleting: %s"
 msgstr "删除时出现问题：%s"
 
-#, fuzzy
+
 msgid "There was an issue duplicating the dataset."
 msgstr "删除选定的数据集时出现问题：%s"
 
-#, fuzzy, python-format
+#, python-format
 msgid "There was an issue duplicating the selected datasets: %s"
 msgstr "删除选定的数据集时出现问题：%s"
 
@@ -11465,11 +11457,11 @@ msgstr "获取此看板的收藏夹状态时出现问题。"
 msgid "There was an issue fetching the favorite status of this dashboard."
 msgstr "获取此看板的收藏夹状态时出现问题。"
 
-#, fuzzy, python-format
+#, python-format
 msgid "There was an issue fetching your chart: %s"
 msgstr "获取您的图表时出现问题：%s"
 
-#, fuzzy, python-format
+#, python-format
 msgid "There was an issue fetching your dashboards: %s"
 msgstr "获取您的看板时出现问题：%s"
 
@@ -11477,7 +11469,7 @@ msgstr "获取您的看板时出现问题：%s"
 msgid "There was an issue fetching your recent activity: %s"
 msgstr "获取您最近的活动时出错：%s"
 
-#, fuzzy, python-format
+#, python-format
 msgid "There was an issue fetching your saved queries: %s"
 msgstr "删除已保存查询时出现问题：%s"
 
@@ -11494,7 +11486,7 @@ msgid ""
 "link: {}"
 msgstr "您的桑基图中存在循环，请提供一棵树。这是一个错误的链接：{}"
 
-#, fuzzy
+
 msgid "These are the datasets this filter will be applied to."
 msgstr "这些是将应用此过滤的表。"
 
@@ -11548,7 +11540,7 @@ msgid ""
 "source. "
 msgstr "使用未保存的查询作为图表源时不支持此图表类型。"
 
-#, fuzzy
+
 msgid ""
 "This color scheme is being overridden by custom label colors.\n"
 "    Check the JSON metadata in the Advanced settings"
@@ -11556,7 +11548,7 @@ msgstr ""
 "此配色方案正被自定义标签颜色覆盖。\n"
 "请在高级设置中检查 JSON 元数据。"
 
-#, fuzzy
+
 msgid "This column might be incompatible with current dataset"
 msgstr "此图表可能与过滤器不兼容(数据集不匹配)"
 
@@ -11657,7 +11649,7 @@ msgid ""
 "against this string as a subquery."
 msgstr "这个字段执行Superset视图时，意味着Superset将以子查询的形式对字符串运行查询。"
 
-#, fuzzy
+
 msgid "This filter might be incompatible with current dataset"
 msgstr "此图表可能与过滤器不兼容(数据集不匹配)"
 
@@ -11689,14 +11681,14 @@ msgstr "此 markdown 组件有错误。请还原最近的更改。"
 msgid "This may be triggered by:"
 msgstr "这可能由以下因素触发："
 
-#, fuzzy
+
 msgid ""
 "This metric is used to define row selection criteria (how the rows are "
 "sorted) if a series or row limit is present. If not defined, it reverts "
 "to the first metric (where appropriate)."
 msgstr "如果存在序列或行限制，则用于定义顶部序列的排序方式的度量。如果未定义，则返回第一个度量（如果适用）。"
 
-#, fuzzy
+
 msgid "This metric might be incompatible with current dataset"
 msgstr "此图表可能与过滤器不兼容(数据集不匹配)"
 
@@ -11708,7 +11700,7 @@ msgid ""
 " is not the case."
 msgstr "此页面旨在嵌入到 iframe 中，但看起来情况并非如此。"
 
-#, fuzzy
+
 msgid ""
 "This section allows you to configure how to use the slice\n"
 "              to generate annotations."
@@ -11742,14 +11734,14 @@ msgstr "这个值应该大于左边的目标值"
 msgid "This value should be smaller than the right target value"
 msgstr "这个值应该小于正确的目标值"
 
-#, fuzzy
+
 msgid "This visualization type does not support cross-filtering."
 msgstr "可视化类型不支持交叉筛选"
 
 msgid "This visualization type is not supported."
 msgstr "可视化类型不支持"
 
-#, fuzzy
+
 msgid "This was triggered by:"
 msgid_plural "This may be triggered by:"
 msgstr[0] "这是由以下因素引发的："
@@ -11763,14 +11755,14 @@ msgstr "这将应用于整个表格。主列将添加箭头（↑ 和 ↓）以�
 msgid "This will remove your current embed configuration."
 msgstr "这会移除当前的嵌入配置。"
 
-#, fuzzy
+
 msgid "Threshold"
 msgstr "阈值"
 
 msgid "Threshold alpha level for determining significance"
 msgstr "确定重要性的阈值α水平"
 
-#, fuzzy
+
 msgid "Threshold: "
 msgstr "阈值"
 
@@ -11795,21 +11787,21 @@ msgstr "时间格式"
 msgid "Time Grain"
 msgstr "时间粒度（Grain）"
 
-#, fuzzy
+
 msgid "Time Grain must be specified when using Time Shift."
 msgstr "使用时间比较时，必须指定封闭的时间范围（有开始和结束）。"
 
 msgid "Time Granularity"
 msgstr "时间粒度（Granularity）"
 
-#, fuzzy
+
 msgid "Time Lag"
 msgstr "时间范围"
 
 msgid "Time Range"
 msgstr "时间范围"
 
-#, fuzzy
+
 msgid "Time Ratio"
 msgstr "时间粒度（grain）"
 
@@ -11897,21 +11889,21 @@ msgstr "时间粒度（granularity）"
 msgid "Time in seconds"
 msgstr "时间（秒）"
 
-#, fuzzy
+
 msgid "Time lag"
 msgstr "时间范围"
 
 msgid "Time range"
 msgstr "时间范围"
 
-#, fuzzy
+
 msgid "Time ratio"
 msgstr "时间粒度（grain）"
 
 msgid "Time related form attributes"
 msgstr "时间相关的表单属性"
 
-#, fuzzy
+
 msgid "Time series"
 msgstr "时间序列"
 
@@ -11927,11 +11919,11 @@ msgid ""
 "[%(human_readable)s later]."
 msgstr "时间字符串不明确。请指定为 [%(human_readable)s 前] 还是 [%(human_readable)s 后]。"
 
-#, fuzzy
+
 msgid "Time-series Area Chart (legacy)"
 msgstr "面积图（传统）"
 
-#, fuzzy
+
 msgid "Time-series Bar Chart (legacy)"
 msgstr "时间序列-条形图（传统）"
 
@@ -11986,7 +11978,7 @@ msgstr "为看板生成一个可读的 URL"
 msgid "Tooltip"
 msgstr "提示"
 
-#, fuzzy
+
 msgid "Tooltip Contents"
 msgstr "提示内容"
 
@@ -11999,18 +11991,18 @@ msgstr "提示的时间格式"
 msgid "Top"
 msgstr "顶部"
 
-#, fuzzy
+
 msgid "Top left"
 msgstr "上左"
 
-#, fuzzy
+
 msgid "Top right"
 msgstr "上右"
 
 msgid "Top to Bottom"
 msgstr "自上而下"
 
-#, fuzzy
+
 msgid "Total"
 msgstr "总计"
 
@@ -12022,11 +12014,11 @@ msgstr "总计 (%(aggfunc)s)"
 msgid "Total (%(aggregatorName)s)"
 msgstr "总计 (%(aggregatorName)s)"
 
-#, fuzzy
+
 msgid "Total value"
 msgstr "总计值"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Total: %s"
 msgstr "总计: %s"
 
@@ -12066,23 +12058,23 @@ msgstr "三角形"
 msgid "Trigger Alert If..."
 msgstr "达到以下条件触发警报："
 
-#, fuzzy
+
 msgid "Truncate Axis"
 msgstr "截断轴"
 
-#, fuzzy
+
 msgid "Truncate Cells"
 msgstr "截断单元格"
 
-#, fuzzy
+
 msgid "Truncate Metric"
 msgstr "截断指标"
 
-#, fuzzy
+
 msgid "Truncate X Axis"
 msgstr "截断X轴"
 
-#, fuzzy
+
 msgid ""
 "Truncate X Axis. Can be overridden by specifying a min or max bound. Only"
 " applicable for numerical X axis."
@@ -12109,7 +12101,7 @@ msgstr "尝试不同的条件来显示结果。"
 msgid "Tuesday"
 msgstr "星期二"
 
-#, fuzzy
+
 msgid "Tukey"
 msgstr "Tukey"
 
@@ -12120,7 +12112,7 @@ msgstr "类型"
 msgid "Type \"%s\" to confirm"
 msgstr "键入 \"%s\" 来确认"
 
-#, fuzzy
+
 msgid "Type a number"
 msgstr "请输入值"
 
@@ -12191,7 +12183,7 @@ msgid ""
 msgstr ""
 "无法加载所选表的列。请选择其他表。"
 
-#, fuzzy
+
 msgid "Unable to load dashboard"
 msgstr "添加到看板"
 
@@ -12219,7 +12211,7 @@ msgstr "未命名"
 msgid "Undefined window for rolling operation"
 msgstr "未定义滚动操作窗口"
 
-#, fuzzy
+
 msgid "Undo the action"
 msgstr "撤销这个动作"
 
@@ -12235,18 +12227,18 @@ msgstr "发生意外错误，请检查日志以了解详细信息"
 msgid "Unexpected error: "
 msgstr "意外错误。"
 
-#, fuzzy
+
 msgid "Unexpected no file extension found"
 msgstr "没有已保存的表达式"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Unexpected time range: %(error)s"
 msgstr "意外时间范围：%(error)s"
 
 msgid "Unknown"
 msgstr "未知"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Unknown Doris server host \"%(hostname)s\"."
 msgstr "未知Doris服务器主机 \"%(hostname)s\"."
 
@@ -12254,7 +12246,7 @@ msgstr "未知Doris服务器主机 \"%(hostname)s\"."
 msgid "Unknown MySQL server host \"%(hostname)s\"."
 msgstr "未知MySQL服务器主机 \"%(hostname)s\"."
 
-#, fuzzy, python-format
+#, python-format
 msgid "Unknown OceanBase server host \"%(hostname)s\"."
 msgstr "未知Doris服务器主机 \"%(hostname)s\"."
 
@@ -12274,7 +12266,7 @@ msgstr "未知错误"
 msgid "Unknown input format"
 msgstr "未知输入格式"
 
-#, fuzzy
+
 msgid "Unknown type"
 msgstr "未知错误"
 
@@ -12309,11 +12301,11 @@ msgstr "键的模板值不受支持 %(key)s"
 msgid "Unsupported time grain: %(time_grain)s"
 msgstr "不支持的时间粒度：%(time_grain)s"
 
-#, fuzzy
+
 msgid "Untitled Dataset"
 msgstr "未命名的数据集"
 
-#, fuzzy
+
 msgid "Untitled Query"
 msgstr "未命名的查询"
 
@@ -12323,7 +12315,7 @@ msgstr "未命名的查询"
 msgid "Update"
 msgstr "更新"
 
-#, fuzzy
+
 msgid "Update chart"
 msgstr "图表保存"
 
@@ -12339,11 +12331,11 @@ msgstr "上传CSV"
 msgid "Upload CSV to database"
 msgstr "上传CSV文件"
 
-#, fuzzy
+
 msgid "Upload Columnar"
 msgstr "上传列式文件"
 
-#, fuzzy
+
 msgid "Upload Columnar file to database"
 msgstr "上传列式文件到数据库"
 
@@ -12353,18 +12345,18 @@ msgstr "上传凭据"
 msgid "Upload Enabled"
 msgstr "已启用上传"
 
-#, fuzzy
+
 msgid "Upload Excel"
 msgstr "上传Excel"
 
-#, fuzzy
+
 msgid "Upload Excel to database"
 msgstr "上传Excel"
 
 msgid "Upload JSON file"
 msgstr "上传JSON文件"
 
-#, fuzzy
+
 msgid "Upload a file to a database."
 msgstr "上传文件到数据库"
 
@@ -12375,23 +12367,23 @@ msgstr "上传具有有效扩展名的文件。有效：[%s]"
 msgid "Upload file to database"
 msgstr "上传文件到数据库"
 
-#, fuzzy
+
 msgid "Upload file to preview columns"
 msgstr "上传文件到数据库"
 
-#, fuzzy
+
 msgid "Uploading a file is required"
 msgstr "需要名称"
 
-#, fuzzy
+
 msgid "Upper Threshold"
 msgstr "阈值上限"
 
-#, fuzzy
+
 msgid "Upper threshold must be greater than lower threshold"
 msgstr "阈值上限必须大于阈值下限"
 
-#, fuzzy
+
 msgid "Usage"
 msgstr "用途"
 
@@ -12399,7 +12391,7 @@ msgstr "用途"
 msgid "Use \"%(menuName)s\" menu instead."
 msgstr "请使用 \"%(menuName)s\" 菜单。"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Use %s to open in a new tab."
 msgstr "使用 %s 打开新的选项卡。"
 
@@ -12418,7 +12410,7 @@ msgstr "Y轴上使用对数刻度"
 msgid "Use an encrypted connection to the database"
 msgstr "使用到数据库的加密连接"
 
-#, fuzzy
+
 msgid "Use an ssh tunnel connection to the database"
 msgstr "使用SSH隧道连接到数据库"
 
@@ -12448,7 +12440,7 @@ msgid ""
 " account."
 msgstr "使用您在创建服务帐户时自动下载的JSON文件"
 
-#, fuzzy
+
 msgid "Use the edit button to change this field"
 msgstr "使用编辑按钮更改此字段"
 
@@ -12488,7 +12480,7 @@ msgstr "用户查询"
 msgid "Username"
 msgstr "用户名"
 
-#, fuzzy
+
 msgid "Users are not allowed to set a search path for security reasons."
 msgstr "出于安全考虑，不允许用户设置搜索路径。"
 
@@ -12519,7 +12511,7 @@ msgstr "值域"
 msgid "Value Format"
 msgstr "数值格式"
 
-#, fuzzy
+
 msgid "Value and Percentage"
 msgstr "值和百分比"
 
@@ -12539,7 +12531,7 @@ msgstr "数值格式"
 msgid "Value is required"
 msgstr "需要值"
 
-#, fuzzy
+
 msgid "Value must be 0 or greater"
 msgstr "`行偏移量` 必须大于或等于0"
 
@@ -12549,7 +12541,7 @@ msgstr "`行偏移量` 必须大于或等于0"
 msgid "Values are dependent on other filters"
 msgstr "这些值依赖于其他过滤器"
 
-#, fuzzy
+
 msgid "Values dependent on"
 msgstr "值依赖于"
 
@@ -12574,29 +12566,29 @@ msgstr "版本"
 msgid "Vertical"
 msgstr "纵向"
 
-#, fuzzy
+
 msgid "Vertical (Left)"
 msgstr "纵向（左对齐）"
 
 msgid "Video game consoles"
 msgstr "控制台"
 
-#, fuzzy
+
 msgid "View"
 msgstr "预览"
 
 msgid "View All »"
 msgstr "查看所有 »"
 
-#, fuzzy
+
 msgid "View Dataset"
 msgstr "查看数据集"
 
-#, fuzzy
+
 msgid "View all charts"
 msgstr "查看所有图表"
 
-#, fuzzy
+
 msgid "View as table"
 msgstr "查看样例"
 
@@ -12620,7 +12612,7 @@ msgstr "已查看 %s"
 msgid "Viewport"
 msgstr "视口"
 
-#, fuzzy
+
 msgid "Virtual"
 msgstr "虚拟"
 
@@ -12642,7 +12634,7 @@ msgstr "虚拟数据集查询必须是只读的"
 msgid "Visual Tweaks"
 msgstr "视觉调整"
 
-#, fuzzy
+
 msgid "Visual formatting"
 msgstr "自动匹配格式化"
 
@@ -12677,7 +12669,7 @@ msgid ""
 "structure."
 msgstr "使用熟悉的树状结构可视化多层次结构。"
 
-#, fuzzy
+
 msgid ""
 "Visualize two different series using the same x-axis. Note that both "
 "series can be visualized with a different chart type (e.g. 1 using bars "
@@ -12705,7 +12697,7 @@ msgid ""
 "linear color scheme is used to encode the magnitude of each day's value."
 msgstr "使用色标和日历视图可视化指标在一段时间内的变化情况。灰色值用于指示缺少的值，线性配色方案用于编码每天值的大小。"
 
-#, fuzzy
+
 msgid ""
 "Visualizes how a single metric varies across a country's principal "
 "subdivisions (states, provinces, etc) on a choropleth map. Each "
@@ -12740,11 +12732,11 @@ msgstr "可视化类型"
 msgid "WED"
 msgstr "星期三"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Waiting on %s"
-msgstr "显示 %s个 总计 %s个"
+msgstr "等待中 %s"
 
-#, fuzzy
+
 msgid "Waiting on database..."
 msgstr "管理你的数据库"
 
@@ -12765,18 +12757,18 @@ msgid ""
 "not exist."
 msgstr "警告！如果元数据不存在，更改数据集可能会破坏图表。"
 
-#, fuzzy
+
 msgid "Was unable to check your query"
 msgstr "无法检查你的查询语句"
 
-#, fuzzy
+
 msgid "Waterfall Chart"
 msgstr "瀑布图"
 
 msgid ""
 "We are unable to connect to your database. Click \"See more\" for "
 "database-provided information that may help troubleshoot the issue."
-msgstr "无法连接到数据库。点击“查看更多”来获取数据库提供的信息以解决问题。"
+msgstr "无法连接到数据库。点击\"查看更多\"来获取数据库提供的信息以解决问题。"
 
 #, python-format
 msgid "We can't seem to resolve column \"%(column)s\" at line %(location)s."
@@ -12823,7 +12815,7 @@ msgstr "周"
 msgid "Week ending Saturday"
 msgstr "周一为一周结束"
 
-#, fuzzy
+
 msgid "Week ending Sunday"
 msgstr "周一为一周结束"
 
@@ -12833,7 +12825,7 @@ msgstr "周一为一周开始"
 msgid "Week starting Sunday"
 msgstr "周日为一周开始"
 
-#, fuzzy
+
 msgid "Weekly Report"
 msgstr "周报"
 
@@ -12848,11 +12840,11 @@ msgstr "周度季节性"
 msgid "Weeks %s"
 msgstr "周 %s"
 
-#, fuzzy
+
 msgid "Weight"
 msgstr "权重"
 
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "We’re having trouble loading these results. Queries are set to timeout "
 "after %s second."
@@ -12861,7 +12853,7 @@ msgid_plural ""
 "after %s seconds."
 msgstr[0] "加载结果时遇到问题。查询设置为 %s 秒后超时。"
 
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "We’re having trouble loading this visualization. Queries are set to "
 "timeout after %s second."
@@ -12870,18 +12862,18 @@ msgid_plural ""
 "timeout after %s seconds."
 msgstr[0] "加载此可视化效果时遇到问题。查询设置为 %s 秒后超时。"
 
-#, fuzzy
+
 msgid "What should be shown as the label"
 msgstr "标签上需要显示的内容"
 
-#, fuzzy
+
 msgid "What should be shown as the tooltip label"
 msgstr "标签上需要显示的内容"
 
 msgid "What should be shown on the label?"
 msgstr "标签上需要显示的内容"
 
-#, fuzzy
+
 msgid "What should happen if the table already exists"
 msgstr "表已存在时将会发生"
 
@@ -12934,7 +12926,7 @@ msgstr "当使用“Group by”时，只限于使用单个度量。"
 msgid "When using other than adaptive formatting, labels may overlap"
 msgstr "使用非自适应格式时，标签可能会重叠"
 
-#, fuzzy
+
 msgid "When using this option, default value can’t be set"
 msgstr "默认选择第一项(使用此选项时，不能“设置默认值”)"
 
@@ -12966,14 +12958,14 @@ msgstr "是以动画形式显示进度和值，还是仅显示它们"
 msgid "Whether to apply a normal distribution based on rank on the color scale"
 msgstr "是否应用基于色标等级的正态分布"
 
-#, fuzzy
+
 msgid "Whether to apply filter when items are clicked"
 msgstr "数据项被点击的时候是否应用过滤器"
 
 msgid "Whether to colorize numeric values by if they are positive or negative"
 msgstr "根据数值是正数还是负数来为其上色"
 
-#, fuzzy
+
 msgid ""
 "Whether to colorize numeric values by whether they are positive or "
 "negative"
@@ -12988,7 +12980,7 @@ msgstr "是否显示图表的图例（色块分布）"
 msgid "Whether to display bubbles on top of countries"
 msgstr "是否在国家之上展示气泡"
 
-#, fuzzy
+
 msgid "Whether to display the aggregate count"
 msgstr "是否显示聚合计数"
 
@@ -12998,7 +12990,7 @@ msgstr "是否显示交互式数据表格"
 msgid "Whether to display the labels."
 msgstr "是否显示标签。"
 
-#, fuzzy
+
 msgid ""
 "Whether to display the labels. Note that the label only displays when the"
 " 5% threshold."
@@ -13019,7 +13011,7 @@ msgstr "是否显示Y轴的最小值和最大值"
 msgid "Whether to display the numerical values within the cells"
 msgstr "是否在单元格内显示数值"
 
-#, fuzzy
+
 msgid "Whether to display the stroke"
 msgstr "是否显示边框"
 
@@ -13029,7 +13021,7 @@ msgstr "是否显示时间范围交互选择器"
 msgid "Whether to display the timestamp"
 msgstr "是否显示时间戳"
 
-#, fuzzy
+
 msgid "Whether to display the tooltip labels."
 msgstr "是否显示标签。"
 
@@ -13042,11 +13034,11 @@ msgstr "是否启用更改图形位置和缩放。"
 msgid "Whether to enable node dragging in force layout mode."
 msgstr "是否在强制布局模式下启用节点拖动。"
 
-#, fuzzy
+
 msgid "Whether to fill the objects"
 msgstr "是否填充对象"
 
-#, fuzzy
+
 msgid "Whether to ignore locations that are null"
 msgstr "是否忽略空位置"
 
@@ -13059,7 +13051,7 @@ msgstr "是否在工具提示中包含百分比"
 msgid "Whether to include the time granularity as defined in the time section"
 msgstr "是否包含时间段中定义的时间粒度"
 
-#, fuzzy
+
 msgid "Whether to make the grid 3D"
 msgstr "是否将网格变为3D"
 
@@ -13083,7 +13075,7 @@ msgid ""
 "fly"
 msgstr "是否在浏览视图的过滤器部分中填充过滤器的下拉列表，并提供从后端获取的不同值的列表"
 
-#, fuzzy
+
 msgid "Whether to show as Nightingale chart."
 msgstr "是否显示量规图进度"
 
@@ -13104,14 +13096,14 @@ msgstr "是否显示量规图进度"
 msgid "Whether to show the split lines on the axis"
 msgstr "是否显示Y轴的最小值和最大值"
 
-#, fuzzy
+
 msgid "Whether to sort ascending or descending on the base Axis."
 msgstr "确定是按升序还是降序对基轴进行排序。"
 
 msgid "Whether to sort descending or ascending"
 msgstr "是降序还是升序排序"
 
-#, fuzzy
+
 msgid "Whether to sort descending or ascending if a series limit is present"
 msgstr "是降序还是升序排序"
 
@@ -13121,7 +13113,7 @@ msgstr "是否按所选指标按降序对结果进行排序。"
 msgid "Whether to sort tooltip by the selected metric in descending order."
 msgstr "是否按所选指标按降序对结果进行排序。"
 
-#, fuzzy
+
 msgid "Whether to truncate metrics"
 msgstr "是否截断指标"
 
@@ -13182,7 +13174,7 @@ msgstr "X 轴标题边距"
 msgid "X Axis"
 msgstr "X 轴"
 
-#, fuzzy
+
 msgid "X Axis Bounds"
 msgstr "X 轴界限"
 
@@ -13204,14 +13196,14 @@ msgstr "X 轴刻度图层"
 msgid "X bounds"
 msgstr "X 界限"
 
-#, fuzzy
+
 msgid "X-Axis Sort Ascending"
 msgstr "X 轴升序排序"
 
 msgid "X-Axis Sort By"
 msgstr "X 轴排序"
 
-#, fuzzy
+
 msgid "X-axis"
 msgstr "X 轴"
 
@@ -13245,7 +13237,7 @@ msgstr "Y 轴标题"
 msgid "Y Axis Title Margin"
 msgstr "Y 轴标题边距"
 
-#, fuzzy
+
 msgid "Y Axis Title Position"
 msgstr "Y 轴标题位置"
 
@@ -13255,22 +13247,22 @@ msgstr "Y 对数尺度"
 msgid "Y bounds"
 msgstr "Y 界限"
 
-#, fuzzy
+
 msgid "Y-Axis"
 msgstr "Y 轴"
 
-#, fuzzy
+
 msgid "Y-Axis Sort Ascending"
 msgstr "Y 轴升序排序"
 
 msgid "Y-Axis Sort By"
 msgstr "Y 轴排序"
 
-#, fuzzy
+
 msgid "Y-axis"
 msgstr "Y 轴"
 
-#, fuzzy
+
 msgid "Y-axis bounds"
 msgstr "Y 轴界限"
 
@@ -13296,7 +13288,7 @@ msgstr "是"
 msgid "Yes, cancel"
 msgstr "是的，取消"
 
-#, fuzzy
+
 msgid "Yes, overwrite changes"
 msgstr "是的，覆盖"
 
@@ -13334,7 +13326,7 @@ msgid ""
 "want to overwrite?"
 msgstr "您正在导入一个或多个已存在的查询。覆盖可能会导致您丢失一些工作。您确定要覆盖吗？"
 
-#, fuzzy
+
 msgid "You can"
 msgstr "你可以"
 
@@ -13374,7 +13366,7 @@ msgstr ""
 msgid "You cannot use 45° tick layout along with the time range filter"
 msgstr "不能将45°刻度线布局与时间范围过滤器一起使用"
 
-#, fuzzy, python-format
+#, python-format
 msgid "You do not have permission to edit this %s"
 msgstr "您没有编辑此 %s 的权限"
 
@@ -13384,29 +13376,29 @@ msgstr "您没有编辑此图表的权限"
 msgid "You do not have permission to edit this dashboard"
 msgstr "您没有编辑此看板的权限"
 
-#, fuzzy
+
 msgid "You do not have permission to read tags"
 msgstr "您没有编辑此标签的权限"
 
 msgid "You do not have permissions to edit this dashboard."
 msgstr "您没有编辑此看板的权限。"
 
-#, fuzzy
+
 msgid "You do not have sufficient permissions to edit the chart"
 msgstr "您没有编辑此图表的权限"
 
-#, fuzzy
+
 msgid "You don't have access to this chart."
 msgstr "您没有访问此图表的权限。"
 
 msgid "You don't have access to this dashboard."
 msgstr "您没有访问此看板的权限。"
 
-#, fuzzy
+
 msgid "You don't have access to this dataset."
 msgstr "您没有访问此数据集的权限。"
 
-#, fuzzy
+
 msgid "You don't have access to this embedded dashboard config."
 msgstr "您没有访问此嵌入看板的权限。"
 
@@ -13416,30 +13408,30 @@ msgstr "您还没有任何的收藏！"
 msgid "You don't have permission to modify the value."
 msgstr "您没有编辑此值的权限"
 
-#, fuzzy, python-format
+#, python-format
 msgid "You don't have the rights to alter %(resource)s"
 msgstr "您没有权利修改 %(resource)s"
 
-#, fuzzy
+
 msgid "You don't have the rights to alter this chart"
 msgstr "您没有权利修改这个图表。"
 
-#, fuzzy
+
 msgid "You don't have the rights to alter this dashboard"
 msgstr "您没有权利修改这个看板。"
 
 msgid "You don't have the rights to alter this title."
 msgstr "您没有权利修改这个标题。"
 
-#, fuzzy
+
 msgid "You don't have the rights to create a chart"
 msgstr "您没有权利创建图表"
 
-#, fuzzy
+
 msgid "You don't have the rights to create a dashboard"
 msgstr "您没有权利创建看板"
 
-#, fuzzy
+
 msgid "You don't have the rights to download as csv"
 msgstr "您没有权利创建下载csv"
 
@@ -13485,7 +13477,7 @@ msgid ""
 "match this new dataset have been retained."
 msgstr "您已更改数据集。任何与此新数据集匹配的带有数据（列、指标）的控件都已保留。"
 
-#, fuzzy
+
 msgid "Your chart is not up to date"
 msgstr "不是最新的"
 
@@ -13509,7 +13501,7 @@ msgid ""
 "Saved queries"
 msgstr "您的查询已被调度。要查看查询的详细信息，请跳转到保存查询页面查看。"
 
-#, fuzzy
+
 msgid "Your query was not properly saved"
 msgstr "您的查询没有保存"
 
@@ -13525,7 +13517,7 @@ msgstr "这个报告无法被删除"
 msgid "ZIP file contains multiple file types"
 msgstr "ZIP 文件包含多种文件类型"
 
-#, fuzzy
+
 msgid "Zero imputation"
 msgstr "零值填补"
 
@@ -13535,7 +13527,7 @@ msgstr "缩放"
 msgid "Zoom level of the map"
 msgstr "地图缩放等级"
 
-#, fuzzy
+
 msgid "[ untitled dashboard ]"
 msgstr "未命名看板"
 
@@ -13551,7 +13543,7 @@ msgstr "丢失数据集"
 msgid "[Untitled]"
 msgstr "无标题"
 
-#, fuzzy
+
 msgid "[asc]"
 msgstr "[升序]"
 
@@ -13567,7 +13559,7 @@ msgid ""
 "based on labels"
 msgstr "次计量指标用来定义颜色与主度量的比率。如果两个度量匹配，则将颜色映射到级别组"
 
-#, fuzzy
+
 msgid "[untitled]"
 msgstr "无标题"
 
@@ -13592,7 +13584,7 @@ msgstr "后处理必须指定操作类型（`operation`）"
 msgid "`prophet` package not installed"
 msgstr "未安装程序包 `prophet`"
 
-#, fuzzy
+
 msgid ""
 "`rename_columns` must have the same length as `columns` + "
 "`time_shift_columns`."
@@ -13616,18 +13608,18 @@ msgstr "合计"
 msgid "alert"
 msgstr "警报"
 
-#, fuzzy
+
 msgid "alert condition"
 msgstr "告警条件"
 
-#, fuzzy
+
 msgid "alert dark"
 msgstr "警报（暗色）"
 
 msgid "alerts"
 msgstr "警报"
 
-#, fuzzy
+
 msgid "all"
 msgstr "全部"
 
@@ -13649,7 +13641,7 @@ msgstr "按频率"
 msgid "at"
 msgstr "在"
 
-#, fuzzy
+
 msgid "auto"
 msgstr "自动"
 
@@ -13659,11 +13651,11 @@ msgstr "自动（平滑）"
 msgid "background"
 msgstr "背景"
 
-#, fuzzy
+
 msgid "basic conditional formatting"
 msgstr "条件格式设置"
 
-#, fuzzy
+
 msgid "basis"
 msgstr "基础"
 
@@ -13694,11 +13686,11 @@ msgstr "基于"
 msgid "cannot be empty"
 msgstr "不能为空"
 
-#, fuzzy
+
 msgid "cardinal"
 msgstr "径向"
 
-#, fuzzy
+
 msgid "change"
 msgstr "范围"
 
@@ -13711,7 +13703,7 @@ msgstr "图表"
 msgid "choose WHERE or HAVING..."
 msgstr "选择WHERE或HAVING子句..."
 
-#, fuzzy
+
 msgid "clear all filters"
 msgstr "清除所有过滤器"
 
@@ -13727,11 +13719,11 @@ msgstr "ISO 3166-1 alpha-3 代码 (cca3)"
 msgid "code International Olympic Committee (cioc)"
 msgstr "国际奥委会代码 (cioc)"
 
-#, fuzzy
+
 msgid "color scheme for comparison"
 msgstr "用于比较的过滤器"
 
-#, fuzzy
+
 msgid "color type"
 msgstr "颜色"
 
@@ -13742,26 +13734,26 @@ msgstr "列"
 msgid "connecting to %(dbModelName)s"
 msgstr "正在连接到 %(dbModelName)s"
 
-#, fuzzy
+
 msgid "content type"
 msgstr "每阶类型"
 
 msgid "count"
 msgstr "计数"
 
-#, fuzzy
+
 msgid "create"
 msgstr "创建"
 
-#, fuzzy
+
 msgid "create a new chart"
 msgstr "创建新图表"
 
-#, fuzzy
+
 msgid "create dataset from SQL query"
 msgstr "从SQL查询创建数据集"
 
-#, fuzzy
+
 msgid "crontab"
 msgstr "计数"
 
@@ -13789,7 +13781,7 @@ msgstr "数据库"
 msgid "dataset"
 msgstr "数据集"
 
-#, fuzzy
+
 msgid "dataset name"
 msgstr "数据集名称"
 
@@ -13805,58 +13797,58 @@ msgstr "一个月的天数"
 msgid "day of the week"
 msgstr "一周的天数"
 
-#, fuzzy
+
 msgid "deck.gl 3D Hexagon"
 msgstr "Deck.gl - 多角形"
 
 msgid "deck.gl Arc"
 msgstr "Deck.gl - 圆弧图"
 
-#, fuzzy
+
 msgid "deck.gl Contour"
 msgstr "Deck.gl - 等高线"
 
-#, fuzzy
+
 msgid "deck.gl Geojson"
 msgstr "Deck.gl - Geojson"
 
-#, fuzzy
+
 msgid "deck.gl Grid"
 msgstr "Deck.gl - 网格图"
 
-#, fuzzy
+
 msgid "deck.gl Heatmap"
 msgstr "Deck.gl - 热力图"
 
-#, fuzzy
+
 msgid "deck.gl Multiple Layers"
 msgstr "Deck.gl - 多图层"
 
-#, fuzzy
+
 msgid "deck.gl Path"
 msgstr "Deck.gl - 路径"
 
-#, fuzzy
+
 msgid "deck.gl Polygon"
 msgstr "Deck.gl - 多边形"
 
-#, fuzzy
+
 msgid "deck.gl Scatterplot"
 msgstr "Deck.gl - 散点图"
 
-#, fuzzy
+
 msgid "deck.gl Screen Grid"
 msgstr "Deck.gl - 屏幕网格"
 
-#, fuzzy
+
 msgid "deck.gl charts"
 msgstr "Deck.gl - 图表"
 
-#, fuzzy
+
 msgid "deckGL"
 msgstr "deckGL图表"
 
-#, fuzzy
+
 msgid "default"
 msgstr "默认"
 
@@ -13869,7 +13861,7 @@ msgstr "降序"
 msgid "description"
 msgstr "描述"
 
-#, fuzzy
+
 msgid "deviation"
 msgstr "偏离"
 
@@ -13900,7 +13892,7 @@ msgstr "例如：admin"
 msgid "e.g. compute_wh"
 msgstr "例如：compute_wh"
 
-#, fuzzy
+
 msgid "e.g. default"
 msgstr "默认"
 
@@ -13922,26 +13914,26 @@ msgstr "例如：xy12345.us-east-2.aws"
 msgid "e.g., a \"user id\" column"
 msgstr "例如：userid列"
 
-#, fuzzy
+
 msgid "edit mode"
 msgstr "编辑模式"
 
-#, fuzzy
+
 msgid "email subject"
 msgstr "选择主题"
 
-#, fuzzy
+
 msgid "entries"
 msgstr "序列"
 
-#, fuzzy
+
 msgid "error"
 msgstr "错误"
 
 msgid "error dark"
 msgstr "错误（暗色）"
 
-#, fuzzy
+
 msgid "error_message"
 msgstr "错误信息"
 
@@ -13963,15 +13955,15 @@ msgstr "每分钟 UTC"
 msgid "every month"
 msgstr "每个月"
 
-#, fuzzy
+
 msgid "expand"
 msgstr "展开"
 
-#, fuzzy
+
 msgid "explore"
 msgstr "探索"
 
-#, fuzzy
+
 msgid "failed"
 msgstr "失败"
 
@@ -13981,7 +13973,7 @@ msgstr "抓取中"
 msgid "ffill"
 msgstr "向前填充"
 
-#, fuzzy
+
 msgid "flat"
 msgstr "扁平"
 
@@ -13994,14 +13986,14 @@ msgstr "函数类型图标"
 msgid "geohash (square)"
 msgstr "geohash（方形）"
 
-#, fuzzy
+
 msgid "heatmap"
 msgstr "热力图"
 
 msgid "heatmap: values are normalized across the entire heatmap"
 msgstr "热力图：其中所有数值都经过了归一化"
 
-#, fuzzy
+
 msgid "here"
 msgstr "点击这里"
 
@@ -14019,11 +14011,11 @@ msgstr "处于"
 msgid "in modal"
 msgstr "（在模型中）"
 
-#, fuzzy
+
 msgid "invalid email"
 msgstr "无效状态。"
 
-#, fuzzy
+
 msgid "is expected to be a Mapbox URL"
 msgstr "应该为MapBox的URL"
 
@@ -14051,7 +14043,7 @@ msgstr "左"
 msgid "less than {min} {name}"
 msgstr "小于 {min} {name}"
 
-#, fuzzy
+
 msgid "linear"
 msgstr "线性"
 
@@ -14063,26 +14055,26 @@ msgid ""
 "than upper percentile."
 msgstr "下百分位数必须大于0且小于100。而且必须低于上百分位"
 
-#, fuzzy
+
 msgid "max"
 msgstr "最大值"
 
-#, fuzzy
+
 msgid "mean"
 msgstr "平均值"
 
 msgid "median"
 msgstr "中位数"
 
-#, fuzzy
+
 msgid "meters"
 msgstr "米"
 
-#, fuzzy
+
 msgid "metric"
 msgstr "指标"
 
-#, fuzzy
+
 msgid "min"
 msgstr "最小值"
 
@@ -14092,7 +14084,7 @@ msgstr "分"
 msgid "minute(s)"
 msgstr "分钟"
 
-#, fuzzy
+
 msgid "monotone"
 msgstr "单调性"
 
@@ -14105,15 +14097,15 @@ msgstr "大于 {max} {name}"
 msgid "must have a value"
 msgstr "必填"
 
-#, fuzzy
+
 msgid "name"
 msgstr "名称"
 
-#, fuzzy
+
 msgid "no SQL validator is configured"
 msgstr "没有配置SQL验证器"
 
-#, fuzzy, python-format
+#, python-format
 msgid "no SQL validator is configured for %(engine_spec)s"
 msgstr "没有为%(engine_spec)s配置SQL验证器"
 
@@ -14123,14 +14115,14 @@ msgstr "数值类型图标"
 msgid "nvd3"
 msgstr "nvd3"
 
-#, fuzzy
+
 msgid "offline"
 msgstr "离线"
 
 msgid "on"
 msgstr "位于"
 
-#, fuzzy
+
 msgid "or"
 msgstr "或者"
 
@@ -14140,11 +14132,11 @@ msgstr "或从右侧面板中使用已存在的对象"
 msgid "orderby column must be populated"
 msgstr "必须填充用于排序的列"
 
-#, fuzzy
+
 msgid "overall"
 msgstr "全部"
 
-#, fuzzy
+
 msgid "owners"
 msgstr "所有者"
 
@@ -14172,7 +14164,7 @@ msgstr "条记录"
 msgid "page_size.show"
 msgstr "显示"
 
-#, fuzzy
+
 msgid "pending"
 msgstr "正在处理"
 
@@ -14184,7 +14176,7 @@ msgid ""
 " first is lower than the second value"
 msgstr "百分位数必须是具有两个数值的列表或元组，其中第一个数值要小于第二个数值"
 
-#, fuzzy
+
 msgid "permalink state not found"
 msgstr "未找到持久链接状态"
 
@@ -14206,7 +14198,7 @@ msgstr "前一年"
 msgid "published"
 msgstr "已发布"
 
-#, fuzzy
+
 msgid "quarter"
 msgstr "季度"
 
@@ -14216,21 +14208,21 @@ msgstr "查询"
 msgid "query"
 msgstr "查询"
 
-#, fuzzy
+
 msgid "random"
 msgstr "随机"
 
 msgid "reboot"
 msgstr "重启"
 
-#, fuzzy
+
 msgid "recent"
 msgstr "最近"
 
 msgid "recents"
 msgstr "最近"
 
-#, fuzzy
+
 msgid "recipients"
 msgstr "最近"
 
@@ -14246,22 +14238,22 @@ msgstr "恢复缩放"
 msgid "right"
 msgstr "右"
 
-#, fuzzy
+
 msgid "rowlevelsecurity"
 msgstr "行级安全"
 
-#, fuzzy
+
 msgid "running"
 msgstr "正在执行"
 
 msgid "saved queries"
 msgstr "已保存查询"
 
-#, fuzzy
+
 msgid "seconds"
 msgstr "秒"
 
-#, fuzzy
+
 msgid "series"
 msgstr "序列"
 
@@ -14271,65 +14263,65 @@ msgid ""
 "series"
 msgstr "series：独立处理每个序列；overall：所有序列使用相同的比例；change：显示与每个序列中第一个数据点相比的更改"
 
-#, fuzzy
+
 msgid "shift start date"
 msgstr "开始时间"
 
 msgid "sql"
 msgstr "SQL"
 
-#, fuzzy
+
 msgid "square"
 msgstr "方形"
 
-#, fuzzy
+
 msgid "stack"
 msgstr "堆叠"
 
-#, fuzzy
+
 msgid "staggered"
 msgstr "错开"
 
 msgid "std"
 msgstr "标准差"
 
-#, fuzzy
+
 msgid "step-after"
 msgstr "阶梯 - 之后"
 
 msgid "step-before"
 msgstr "阶梯 - 之前"
 
-#, fuzzy
+
 msgid "stopped"
 msgstr "停止"
 
-#, fuzzy
+
 msgid "stream"
 msgstr "流式"
 
 msgid "string type icon"
 msgstr "字符类图标"
 
-#, fuzzy
+
 msgid "success"
 msgstr "成功"
 
-#, fuzzy
+
 msgid "success dark"
 msgstr "成功（暗色）"
 
 msgid "sum"
 msgstr "求和"
 
-#, fuzzy
+
 msgid "syntax."
 msgstr "语法"
 
 msgid "tag"
 msgstr "标签"
 
-#, fuzzy
+
 msgid "tags"
 msgstr "标签"
 
@@ -14339,19 +14331,19 @@ msgstr "时间类型图标"
 msgid "textarea"
 msgstr "文本区域"
 
-#, fuzzy
+
 msgid "to"
 msgstr "至"
 
-#, fuzzy
+
 msgid "top"
 msgstr "顶部"
 
-#, fuzzy
+
 msgid "undo"
 msgstr "撤销"
 
-#, fuzzy
+
 msgid "unknown type icon"
 msgstr "未知类型图标"
 
@@ -14360,7 +14352,7 @@ msgid ""
 " than lower percentile."
 msgstr "上百分位数必须大于0且小于100。而且必须高于下百分位。"
 
-#, fuzzy
+
 msgid "use latest_partition template"
 msgstr "最新分区："
 
@@ -14370,22 +14362,22 @@ msgstr "升序"
 msgid "value descending"
 msgstr "降序"
 
-#, fuzzy
+
 msgid "var"
 msgstr "变量"
 
-#, fuzzy
+
 msgid "variance"
 msgstr "方差"
 
-#, fuzzy
+
 msgid "view instructions"
 msgstr "查看指引"
 
 msgid "virtual"
 msgstr "虚拟"
 
-#, fuzzy
+
 msgid "viz type"
 msgstr "可视化类型"
 
@@ -14395,15 +14387,15 @@ msgstr "已创建"
 msgid "week"
 msgstr "周"
 
-#, fuzzy
+
 msgid "week ending Saturday"
 msgstr "周六为一周结束"
 
-#, fuzzy
+
 msgid "week starting Sunday"
 msgstr "周日为一周开始"
 
-#, fuzzy
+
 msgid "working timeout"
 msgstr "执行超时"
 

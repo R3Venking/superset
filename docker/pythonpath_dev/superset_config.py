@@ -98,8 +98,28 @@ class CeleryConfig:
 
 CELERY_CONFIG = CeleryConfig
 
-FEATURE_FLAGS = {"ALERT_REPORTS": True}
+FEATURE_FLAGS = {
+    "ALERT_REPORTS": True,
+    "EMBEDDED_SUPERSET": True,
+}
 ALERT_REPORTS_NOTIFICATION_DRY_RUN = True
+
+# 配置以允许 iframe 嵌入
+# 注意：这会影响安全性，仅在开发环境使用
+TALISMAN_ENABLED = False  # 开发环境禁用 Talisman 安全头
+
+# 覆盖默认的 Guest Token 密钥（必须与后端一致）
+GUEST_TOKEN_JWT_SECRET = "your-very-strong-secret-key-change-me"
+
+# CORS 配置 - 允许所有站点访问
+ENABLE_CORS = True
+CORS_OPTIONS = {
+    'supports_credentials': True,
+    'allow_headers': ['*'],
+    'resources': ['*'],
+    'origins': ['*']  # 允许所有源跨域访问
+}
+
 WEBDRIVER_BASEURL = "http://superset:8088/"  # When using docker compose baseurl should be http://superset_app:8088/  # noqa: E501
 # The base URL for the email report hyperlinks.
 WEBDRIVER_BASEURL_USER_FRIENDLY = WEBDRIVER_BASEURL
